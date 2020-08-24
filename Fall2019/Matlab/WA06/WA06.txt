@@ -1,0 +1,6 @@
+Option Chosen: 
+	A) There would be no change in the output.
+
+Argument in my defense: 
+	The option chosen would be correct if we were to use Functions, which I did.
+		If you dont use functions, then the output will change to all zeroes.

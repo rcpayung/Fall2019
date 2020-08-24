@@ -1,0 +1,2 @@
+Quesiton 1: It specifies how many places after the decimal to print.
+Question 2: Its an escape sequence to begin to print on the next line.
