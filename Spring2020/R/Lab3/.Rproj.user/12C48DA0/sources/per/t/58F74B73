@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581994197888.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "58F74B73",
+    "lastKnownWriteTime" : 2404477446104,
+    "last_content_update" : 1581994197888,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "D119FAAD",
+        "caption" : "Orange",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Orange&cache_key=D119FAAD",
+        "displayedObservations" : "35",
+        "environment" : "",
+        "expression" : "Orange",
+        "object" : "Orange",
+        "preview" : "0",
+        "totalObservations" : "35",
+        "variables" : "3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

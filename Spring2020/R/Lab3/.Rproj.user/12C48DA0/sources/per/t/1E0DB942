@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581995085047.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1E0DB942",
+    "lastKnownWriteTime" : 2404477446104,
+    "last_content_update" : 1581995085047,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "556fb9d88a8d4f359c8eaf883a4925dd",
+        "name" : "R",
+        "title" : "R"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

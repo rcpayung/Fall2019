@@ -1,0 +1,6 @@
+"0","df<-read.csv('Lab3data.csv',header=T)"
+"0",""
+"0","family <- df %>%"
+"0","  filter(family == 'Poaceae') %>%"
+"0","  filter(!is.na(family),!is.na(startDayOfYear))"
+"0",""
