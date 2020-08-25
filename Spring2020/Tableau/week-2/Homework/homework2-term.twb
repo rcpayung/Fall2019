@@ -1,0 +1,946 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.19.1211.1636                               -->
+<workbook original-version='18.1' source-build='2019.4.1 (20194.19.1211.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (energyShareTerm)' inline='true' name='federated.1cimzck0q6dts41bu9v3i0tjpgde' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='energyShareTerm' name='excel-direct.1cxz7p01imjf4n15xt5h50e2372i'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/rcpay/Documents/College/Spring 2020/CDS 301/week-2/Homework/energyShareTerm.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1cxz7p01imjf4n15xt5h50e2372i' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:C23:no:A1:C23:0' header='yes' outcome='2'>
+            <column datatype='string' name='Energy source' ordinal='0' />
+            <column datatype='integer' name='Billion kWh' ordinal='1' />
+            <column datatype='real' name='Share of total' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Energy source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Energy source]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Energy source</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Billion kWh</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Billion kWh]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Billion kWh</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Share of total</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Share of total]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Share of total</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C23:no:A1:C23:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Billion kWh]' role='measure' type='quantitative' />
+      <column caption='Percentage' datatype='real' name='[Calculation_1475773320381722624]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='[Share of total]*100' />
+      </column>
+      <column caption='Billion kWh--' datatype='string' name='[Calculation_1475773320384122882]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='STR([Billion kWh]) + &quot; B kWh&quot;' />
+      </column>
+      <column datatype='string' name='[Energy source]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='real' name='[Share of total]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_1475773320381722624]' derivation='Attribute' name='[attr:Calculation_1475773320381722624:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Billion kWh]' derivation='None' name='[none:Billion kWh:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1475773320381722624]' derivation='None' name='[none:Calculation_1475773320381722624:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1475773320384122882]' derivation='None' name='[none:Calculation_1475773320384122882:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Energy source]' derivation='None' name='[none:Energy source:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Billion kWh]' derivation='Sum' name='[sum:Billion kWh:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1475773320381722624]' derivation='Sum' name='[sum:Calculation_1475773320381722624:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Share of total]' derivation='Sum' name='[sum:Share of total:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.500647' measure-ordering='alphabetic' measure-percentage='0.499353' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1cimzck0q6dts41bu9v3i0tjpgde].[attr:Calculation_1475773320381722624:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1cimzck0q6dts41bu9v3i0tjpgde].[none:Billion kWh:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1cimzck0q6dts41bu9v3i0tjpgde].[none:Calculation_1475773320381722624:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1cimzck0q6dts41bu9v3i0tjpgde].[none:Calculation_1475773320384122882:nk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1cimzck0q6dts41bu9v3i0tjpgde].[sum:Billion kWh:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1cimzck0q6dts41bu9v3i0tjpgde].[sum:Calculation_1475773320381722624:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1cimzck0q6dts41bu9v3i0tjpgde].[sum:Share of total:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Energy source:nk]' palette='cyclic_10_0' type='palette'>
+            <map to='#1ba3c6'>
+              <bucket>&quot;Coal&quot;</bucket>
+            </map>
+            <map to='#28aa6f'>
+              <bucket>&quot;Landfill gas&quot;</bucket>
+            </map>
+            <map to='#2bb79f'>
+              <bucket>&quot;Hydropower&quot;</bucket>
+            </map>
+            <map to='#30b9bf'>
+              <bucket>&quot;Geothermal&quot;</bucket>
+            </map>
+            <map to='#459f3b'>
+              <bucket>&quot;Municipal solid waste (biogenic)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Biomass (total)&quot;</bucket>
+            </map>
+            <map to='#4f7cba'>
+              <bucket>&quot;Wood&quot;</bucket>
+            </map>
+            <map to='#7f72c1'>
+              <bucket>&quot;Wind&quot;</bucket>
+            </map>
+            <map to='#9eb528'>
+              <bucket>&quot;Natural Gas&quot;</bucket>
+            </map>
+            <map to='#b36cc1'>
+              <bucket>&quot;Solar thermal&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Renewables (total)&quot;</bucket>
+            </map>
+            <map to='#dabb21'>
+              <bucket>&quot;Nuclear&quot;</bucket>
+            </map>
+            <map to='#e06db9'>
+              <bucket>&quot;Solar&quot;</bucket>
+            </map>
+            <map to='#e4ba21'>
+              <bucket>&quot;Other biomass waste&quot;</bucket>
+            </map>
+            <map to='#e54422'>
+              <bucket>&quot;Petroelum coke&quot;</bucket>
+            </map>
+            <map to='#e6343b'>
+              <bucket>&quot;Petroleum (total)&quot;</bucket>
+            </map>
+            <map to='#e93645'>
+              <bucket>&quot;Petroleum liquids&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Fossil fuels (total)&quot;</bucket>
+            </map>
+            <map to='#f64c74'>
+              <bucket>&quot;Photovoltaic&quot;</bucket>
+            </map>
+            <map to='#f88113'>
+              <bucket>&quot;Other sources&quot;</bucket>
+            </map>
+            <map to='#f8ab1d'>
+              <bucket>&quot;Other gases&quot;</bucket>
+            </map>
+            <map to='#fe7caa'>
+              <bucket>&quot;Pumped storage hydropower&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Energy source' />
+        <field-sort-custom-order field='Billion kWh' />
+        <field-sort-custom-order field='Calculation_1475773320384122882' />
+        <field-sort-custom-order field='Share of total' />
+        <field-sort-custom-order field='Calculation_1475773320381722624' />
+        <field-sort-custom-order field='Calculation_1475773320385097731' />
+      </field-sort-info>
+    </datasource>
+    <datasource caption='Sheet1 (btuCO2Emissions)' inline='true' name='federated.14pdy5k10rr1zk0znpkz50nt8ex5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='btuCO2Emissions' name='excel-direct.04vgiu01mqgi3a0zmy2pi0v7y31v'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/rcpay/Documents/College/Spring 2020/CDS 301/week-2/Homework/btuCO2Emissions.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.04vgiu01mqgi3a0zmy2pi0v7y31v' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:C18:no:A1:C18:0' header='yes' outcome='6'>
+            <column datatype='string' name='Carbon Dioxide (CO2) Factors:' ordinal='0' />
+            <column datatype='real' name='Pounds CO2 in Million Btu' ordinal='1' />
+            <column datatype='real' name='Kilograms CO2 in Million Btu' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Carbon Dioxide (CO2) Factors:</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Carbon Dioxide (CO2) Factors:]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Carbon Dioxide (CO2) Factors:</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pounds CO2 in Million Btu</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pounds CO2 in Million Btu]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Pounds CO2 in Million Btu</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kilograms CO2 in Million Btu</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kilograms CO2 in Million Btu]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Kilograms CO2 in Million Btu</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C18:no:A1:C18:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='string' name='[Carbon Dioxide (CO2) Factors:]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <group caption='Coals' name='[Set 1]' name-style='unqualified' user:ui-builder='lasso-group'>
+        <groupfilter function='union'>
+          <groupfilter function='member' level='[Carbon Dioxide (CO2) Factors:]' member='&quot;Anthracite Coal&quot;' />
+          <groupfilter function='member' level='[Carbon Dioxide (CO2) Factors:]' member='&quot;Bituminous Coal&quot;' />
+          <groupfilter function='member' level='[Carbon Dioxide (CO2) Factors:]' member='&quot;Coke&quot;' />
+          <groupfilter function='member' level='[Carbon Dioxide (CO2) Factors:]' member='&quot;Lignite Coal&quot;' />
+          <groupfilter function='member' level='[Carbon Dioxide (CO2) Factors:]' member='&quot;Petroleum coke&quot;' />
+          <groupfilter function='member' level='[Carbon Dioxide (CO2) Factors:]' member='&quot;Subbituminous Coal&quot;' />
+          <groupfilter function='member' level='[Carbon Dioxide (CO2) Factors:]' member='&quot;Waste oil&quot;' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' dim-percentage='0.323056' group-percentage='0.297587' measure-ordering='alphabetic' measure-percentage='0.379357' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Electricity Generation Percentage Share by Fuel Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (energyShareTerm)' name='federated.1cimzck0q6dts41bu9v3i0tjpgde' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1cimzck0q6dts41bu9v3i0tjpgde'>
+            <column datatype='integer' name='[Billion kWh]' role='measure' type='quantitative' />
+            <column caption='Percentage' datatype='real' name='[Calculation_1475773320381722624]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='[Share of total]*100' />
+            </column>
+            <column caption='Billion kWh--' datatype='string' name='[Calculation_1475773320384122882]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([Billion kWh]) + &quot; B kWh&quot;' />
+            </column>
+            <column datatype='string' name='[Energy source]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Share of total]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1475773320381722624]' derivation='None' name='[none:Calculation_1475773320381722624:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1475773320384122882]' derivation='None' name='[none:Calculation_1475773320384122882:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Energy source]' derivation='None' name='[none:Energy source:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1475773320381722624]' derivation='Sum' name='[sum:Calculation_1475773320381722624:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1cimzck0q6dts41bu9v3i0tjpgde].[none:Energy source:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Energy source:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Energy source:nk]' member='&quot;Biomass (total)&quot;' />
+                <groupfilter function='member' level='[none:Energy source:nk]' member='&quot;Fossil fuels (total)&quot;' />
+                <groupfilter function='member' level='[none:Energy source:nk]' member='&quot;Other biomass waste&quot;' />
+                <groupfilter function='member' level='[none:Energy source:nk]' member='&quot;Petroleum (total)&quot;' />
+                <groupfilter function='member' level='[none:Energy source:nk]' member='&quot;Pumped storage hydropower&quot;' />
+                <groupfilter function='member' level='[none:Energy source:nk]' member='&quot;Renewables (total)&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1cimzck0q6dts41bu9v3i0tjpgde].[none:Energy source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1cimzck0q6dts41bu9v3i0tjpgde].[none:Energy source:nk]' />
+              <wedge-size column='[federated.1cimzck0q6dts41bu9v3i0tjpgde].[sum:Calculation_1475773320381722624:qk]' />
+              <size column='[federated.1cimzck0q6dts41bu9v3i0tjpgde].[sum:Calculation_1475773320381722624:qk]' />
+              <text column='[federated.1cimzck0q6dts41bu9v3i0tjpgde].[none:Energy source:nk]' />
+              <text column='[federated.1cimzck0q6dts41bu9v3i0tjpgde].[none:Calculation_1475773320381722624:qk]' />
+              <text column='[federated.1cimzck0q6dts41bu9v3i0tjpgde].[none:Calculation_1475773320384122882:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4E40A885-BCEC-4243-AB68-858A4D583041}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Btu CO2 Emissions by Fuel Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (btuCO2Emissions)' name='federated.14pdy5k10rr1zk0znpkz50nt8ex5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14pdy5k10rr1zk0znpkz50nt8ex5'>
+            <column datatype='string' name='[Carbon Dioxide (CO2) Factors:]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Pounds CO2 in Million Btu]' role='measure' type='quantitative' />
+            <column-instance column='[Pounds CO2 in Million Btu]' derivation='Attribute' name='[attr:Pounds CO2 in Million Btu:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Set 1]' derivation='InOut' name='[io:Set 1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Carbon Dioxide (CO2) Factors:]' derivation='None' name='[none:Carbon Dioxide (CO2) Factors::nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pounds CO2 in Million Btu]' derivation='Sum' name='[sum:Pounds CO2 in Million Btu:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[none:Carbon Dioxide (CO2) Factors::nk]' direction='ASC'>
+            <dictionary>
+              <bucket>%all%</bucket>
+              <bucket>&quot;Geothermal (average all generation)&quot;</bucket>
+              <bucket>&quot;Municipal Solid Waste&quot;</bucket>
+              <bucket>&quot;Natural Gas&quot;</bucket>
+              <bucket>&quot;Flared natural gas&quot;</bucket>
+              <bucket>&quot;Aviation Gas&quot;</bucket>
+              <bucket>&quot;Jet Fuel&quot;</bucket>
+              <bucket>&quot;Gasoline&quot;</bucket>
+              <bucket>&quot;Other petroleum &amp; miscellaneous&quot;</bucket>
+              <bucket>&quot;Residual Heating Fuel (Businesses only)&quot;</bucket>
+              <bucket>&quot;Tire-derived fuel&quot;</bucket>
+              <bucket>&quot;Bituminous Coal&quot;</bucket>
+              <bucket>&quot;Waste oil&quot;</bucket>
+              <bucket>&quot;Subbituminous Coal&quot;</bucket>
+              <bucket>&quot;Lignite Coal&quot;</bucket>
+              <bucket>&quot;Petroleum coke&quot;</bucket>
+              <bucket>&quot;Anthracite Coal&quot;</bucket>
+              <bucket>&quot;Coke&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[sum:Pounds CO2 in Million Btu:qk]' num-steps='5' palette='red_gold_10_0' type='interpolated' />
+            <encoding attr='size' field='[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[io:Set 1:nk]' field-type='nominal' max-size='1' min-size='0.472748' reverse='true' type='catsize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[sum:Pounds CO2 in Million Btu:qk]' />
+              <size column='[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[io:Set 1:nk]' />
+              <text column='[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[sum:Pounds CO2 in Million Btu:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7381578683853149' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[attr:Pounds CO2 in Million Btu:qk]</rows>
+        <cols>[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[none:Carbon Dioxide (CO2) Factors::nk]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='0' text-width='180'>
+            <formatted-text>
+              <run bold='true'>Notice that Nuclear Energy is not on this list.</run>
+              <run>Æ&#10;</run>
+              <run bold='true'>Nuclear Energy does not produce direct CO2.</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.0333333'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[none:Carbon Dioxide (CO2) Factors::nk]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>&quot;Geothermal (average all generation)&quot;</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='1.1115568022440319'>
+                  <node-reference>
+                    <axis>[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[attr:Pounds CO2 in Million Btu:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='92' y='-414' />
+          </annotation>
+          <annotation class='point' id='3' mark-position='1' pullback='0' text-width='352'>
+            <formatted-text>
+              <run bold='true' fontalignment='1'>From This Point, All Coals and Petroleum Byproducts</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.0638951'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[none:Carbon Dioxide (CO2) Factors::nk]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>&quot;Bituminous Coal&quot;</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='205.63800841514728'>
+                  <node-reference>
+                    <axis>[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[attr:Pounds CO2 in Million Btu:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='-209' y='-19' />
+          </annotation>
+          <annotation class='point' id='5' mark-position='1' pullback='0' text-width='180'>
+            <formatted-text>
+              <run bold='true'>Natural Gas: 117 Btu</run>
+              <run>Æ&#10;&#10;</run>
+              <run bold='true'>F-Natural Gas: 120.6 Btu</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.983834'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[none:Carbon Dioxide (CO2) Factors::nk]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>&quot;Natural Gas&quot;</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='117.45450210378682'>
+                  <node-reference>
+                    <axis>[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[attr:Pounds CO2 in Million Btu:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='54' y='-178' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{98D0D93E-65BD-4878-A3B5-C99F5AC73086}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='272'>
+            <card pane-specification-id='0' param='[federated.1cimzck0q6dts41bu9v3i0tjpgde].[none:Energy source:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1cimzck0q6dts41bu9v3i0tjpgde].[sum:Calculation_1475773320381722624:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1cimzck0q6dts41bu9v3i0tjpgde].[none:Energy source:nk]</field>
+                  <field>[federated.1cimzck0q6dts41bu9v3i0tjpgde].[sum:Calculation_1475773320381722624:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Pumped storage hydropower&quot;</value>
+                <value>-0.10000000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1cimzck0q6dts41bu9v3i0tjpgde].[:Measure Names]</field>
+            <field>[federated.1cimzck0q6dts41bu9v3i0tjpgde].[attr:Billion kWh:qk]</field>
+            <field>[federated.1cimzck0q6dts41bu9v3i0tjpgde].[none:Billion kWh:qk]</field>
+            <field>[federated.1cimzck0q6dts41bu9v3i0tjpgde].[none:Calculation_1475773320384122882:nk]</field>
+            <field>[federated.1cimzck0q6dts41bu9v3i0tjpgde].[none:Energy source:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{DBDA0D65-1791-4323-A7F7-D6D63BD279CA}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[sum:Pounds CO2 in Million Btu:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[io:Set 1:nk]</field>
+            <field>[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[none:Carbon Dioxide (CO2) Factors::nk]</field>
+            <field>[federated.14pdy5k10rr1zk0znpkz50nt8ex5].[sum:Pounds CO2 in Million Btu:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FDDD23F5-A441-4722-BC8E-475D32049BE4}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAYbElEQVR4nO3da3Bc533f8e9zzp69LwDiSpAUL6AkkiIpiRJt0VIkWUkVS2oaZ8ZN4uk9
+      6SUzbTNN6+m0biete5m2nslUqWc69aSd1m/qjieO3aZKbKuyIoq6kzRFkQQBXnEhCGCxiwX2
+      vmfPeZ6+ALUSSVAEAZC7wPl/3mgI7J59SJ3f+T/Pc56zjzLGGIQIKKvZDRCimSQAItAkACLQ
+      JAAi0CQAItAkACLQJAAi0CQAItAkACLQJAAi0CQAItAkACLQJAAi0CQAItAkACLQJAAi0CQA
+      ItAkACLQJAAi0CQAItAkACLQJAAi0CQAItAkACLQJAAi0CQAItAkACLQJAAi0CQAItAkACLQ
+      JAAi0CQAItAkACLQJAAi0CQAItAkACLQJAAi0CQAItBCzW6AaD35fB7LsqjX6yilaGtrw7IW
+      rpWFQoFUKtXkFq4eCYC4SbFYZGhoCNu2UUrR3t5OJpOhr6+PsbExXnrppWY3cdVIF0jcZOPG
+      jczMzJDL5ejt7aVSqbB582bS6TSO4zS7eatKyU7xIsikAohFeZ5HpVIBoFQq4boupVKJ9Xa9
+      lACIRR0+fJjR0VEAXnnlFc6ePcvhw4eZmJhocstWlwRALKpSqTA0NITrunR2djI4OEhfXx/1
+      er3ZTVtVMgYQi5qfn6dcLpNMJpmenmbLli1MTEwwMDCAUqrZzVs1EgABLPTzQ6EQlUqFaDSK
+      53kkEgkKhQKxWAzLsrAsC9/30Vpj2zZA479rlf2Nb3zjG81uhLjZzMwMr7/+Oo7jEA6HGRsb
+      I5FINAanY2NjRCIRfN9HKYXv+5TLZer1Oo7jMDg4iGVZaK0bA9dcLodt2wwPD5NIJLBtu/Ga
+      EydOMD4+ztmzZ1FKceTIER566CF++MMfUiwWqVarGGM4d+4cR44cwRjDRx99RDQapa2trcn/
+      WssnN8JalOd5aK05fvw42WyWjRs3MjExgWVZFAoF6vU6J06cwPM8du7cSalUIpPJYFkWzz77
+      LOVymVOnTlGtVpmenmbfvn2USiUAXNfl6NGjPPfcc2zbtg2AcrnMoUOHGBoaoqenh0gkgtYa
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586893711142.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F9BE6EEB",
+    "lastKnownWriteTime" : 1586890676,
+    "last_content_update" : 1586893711142,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "4E5890A8",
+        "caption" : "itemsets",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=itemsets&cache_key=4E5890A8",
+        "displayedObservations" : 12,
+        "environment" : "",
+        "expression" : "itemsets",
+        "object" : "itemsets",
+        "preview" : 0,
+        "totalObservations" : 12,
+        "variables" : 1
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

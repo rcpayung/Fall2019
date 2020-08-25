@@ -1,0 +1,2 @@
+"0","data <- dplyr::inner_join(occ,pic,by=""coreid"")"
+"0","head(data)"

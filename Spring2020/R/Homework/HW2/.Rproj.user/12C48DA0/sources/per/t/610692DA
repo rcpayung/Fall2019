@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586868782009.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4157272535",
+    "id" : "610692DA",
+    "lastKnownWriteTime" : 1586916472,
+    "last_content_update" : 1586916472784,
+    "path" : "~/College/Spring 2020/CDS 303/Homework/HW2/rpayung_homework2.rmd",
+    "project_path" : "rpayung_homework2.rmd",
+    "properties" : {
+        "cursorPosition" : "113,25",
+        "last_setup_crc32" : "",
+        "scrollLine" : "76",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

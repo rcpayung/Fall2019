@@ -1,0 +1,4 @@
+"0","test <- read.csv(file=""predict.csv"")"
+"0","test <- test %>%"
+"0","  rename(X = ""ï..X"")"
+"0","head(test)"

@@ -1,0 +1,959 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Lab2},
+  pdfauthor={Matthew Valko},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{Lab2}
+\author{Matthew Valko}
+\date{8/26/2019}
+
+\begin{document}
+\maketitle
+
+\hypertarget{introduction}{%
+\subsection{Introduction}\label{introduction}}
+
+In this lab we will look at herbarium specimen data and use dplyr to
+perform data processing. Picture data is the URL link to the herbarium
+specimens. Occ data contains information on how the specimen was
+collected. We will be using ``cuts'' or sections of this data for labs
+for the rest of the semester. Herbarium specimens are collections of
+dried plant material overtime that aid botanists in the study of
+phenology or how species differe from each other. Always print your
+output for each section of your R markdown. Only user dplyr functions
+besides loading data and packages.
+
+\hypertarget{load-data}{%
+\subsection{Load Data}\label{load-data}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{occ =}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"occdata.csv"}\NormalTok{)}
+\NormalTok{pic =}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"picdata.csv"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{load-packages}{%
+\subsection{Load Packages}\label{load-packages}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(}\StringTok{'dplyr'}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+## Attaching package: 'dplyr'
+\end{verbatim}
+
+\begin{verbatim}
+## The following objects are masked from 'package:stats':
+## 
+##     filter, lag
+\end{verbatim}
+
+\begin{verbatim}
+## The following objects are masked from 'package:base':
+## 
+##     intersect, setdiff, setequal, union
+\end{verbatim}
+
+\hypertarget{print-the-head-of-the-data-sets-and-use-the-r-base-package-to-calculate-the-number-of-rows-and-columns-in-each-data-frame}{%
+\subsection{Print the head of the data sets, and use the R base package
+to calculate the number of rows and columns in each data
+frame}\label{print-the-head-of-the-data-sets-and-use-the-r-base-package-to-calculate-the-number-of-rows-and-columns-in-each-data-frame}}
+
+\begin{verbatim}
+##   filenum  coreid institutionCode collectionCode ownerInstitutionCode
+## 1      14 6763299            GMUF         Plants                   NA
+## 2      14 6763300            GMUF         Plants                   NA
+## 3      14 6763352            GMUF         Plants                   NA
+## 4      14 6763375            GMUF         Plants                   NA
+## 5      14 6763419            GMUF         Plants                   NA
+## 6      14 6763478            GMUF         Plants                   NA
+##                           collectionID     basisOfRecord
+## 1 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 2 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 3 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 4 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 5 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 6 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+##                           occurrenceID catalogNumber otherCatalogNumbers
+## 1 56cd503f-f6c1-4a3d-9429-a238ee7bd159  GMUF-0000592                    
+## 2 a41e5e63-0374-4fa4-aa02-b817703d1407  GMUF-0000591                    
+## 3 1c5f7085-fe91-484d-a096-06afce2beb57  GMUF-0000677                    
+## 4 02ebf5fd-03aa-4e29-9ec5-e322f5d54ab9  GMUF-0000654                    
+## 5 ac299619-35ac-4d7a-a0ff-fd5af0eeaf3d  GMUF-0001343               17050
+## 6 c9d34663-d1e9-4480-9e58-c7442246ab21  GMUF-0027246                    
+##   kingdom        phylum class   order       family          scientificName
+## 1 Plantae Magnoliophyta       Fagales   Betulaceae         Alnus serrulata
+## 2 Plantae Magnoliophyta       Fagales   Betulaceae         Alnus serrulata
+## 3 Plantae Magnoliophyta       Fagales   Betulaceae          Betula pendula
+## 4 Plantae Magnoliophyta       Fagales   Betulaceae            Betula nigra
+## 5 Plantae Magnoliophyta       Rosales     Moraceae Broussonetia papyrifera
+## 6 Plantae Magnoliophyta       Fagales Juglandaceae              Carya alba
+##   taxonID scientificNameAuthorship        genus specificEpithet taxonRank
+## 1   71602           (Aiton) Willd.        Alnus       serrulata          
+## 2   71602           (Aiton) Willd.        Alnus       serrulata          
+## 3   74637                     Roth       Betula         pendula          
+## 4   74633                       L.       Betula           nigra          
+## 5   34605    (L.) L'HÃ©r. ex Vent. Broussonetia      papyrifera          
+## 6   57046                    Nutt.        Carya            alba          
+##   infraspecificEpithet identifiedBy dateIdentified identificationReferences
+## 1                                                                        NA
+## 2                                                                        NA
+## 3                                                                        NA
+## 4                                                                        NA
+## 5                                                                        NA
+## 6                                                                        NA
+##   identificationRemarks taxonRemarks identificationQualifier typeStatus
+## 1                    NA                                   NA         NA
+## 2                    NA                                   NA         NA
+## 3                    NA                                   NA         NA
+## 4                    NA                                   NA         NA
+## 5                    NA                                   NA         NA
+## 6                    NA                                   NA         NA
+##                      recordedBy recordNumber  eventDate year month day
+## 1 Gary P. Fleming, Allen Belden        11740 1996-06-12 1996     6  12
+## 2                    Cliff Hupp           98 1972-08-20 1972     8  20
+## 3                   Ted Bradley       11691C 1977-03-18 1977     3  18
+## 4     Ted Bradley, Andrykovitch        18227 1982-07-05 1982     7   5
+## 5                   Ted Bradley        19838 1983-08-11 1983     8  11
+## 6         Ted Bradley, Ian Ward        23782 1990-07-07 1990     7   7
+##   startDayOfYear endDayOfYear verbatimEventDate occurrenceRemarks
+## 1            164           NA      12 June 1996                  
+## 2            233           NA    20 August 1972                  
+## 3             77           NA     18 March 1977                  
+## 4            186           NA       5 July 1982                  
+## 5            223           NA                                    
+## 6            188           NA       7 July 1990                  
+##                                                                                        habitat
+## 1 On hummocks under bald cypress and tupelo along north shore of the Northwest River; Frequent
+## 2                                                                                   Streamside
+## 3                                                                                    Roadside.
+## 4                                                                                             
+## 5                                                                                             
+## 6                                                                    roadside. Fruit separate.
+##   fieldNumber informationWithheld dataGeneralizations dynamicProperties
+## 1          NA                  NA                  NA                NA
+## 2          NA                  NA                  NA                NA
+## 3          NA                  NA                  NA                NA
+## 4          NA                  NA                  NA                NA
+## 5          NA                  NA                  NA                NA
+## 6          NA                  NA                  NA                NA
+##   associatedTaxa reproductiveCondition establishmentMeans lifeStage sex
+## 1                                                      NA        NA  NA
+## 2                                                      NA        NA  NA
+## 3                                                      NA        NA  NA
+## 4                                                      NA        NA  NA
+## 5                                                      NA        NA  NA
+## 6                                                      NA        NA  NA
+##   individualCount preparations       country stateProvince          county
+## 1              NA           NA United States      Virginia Chesapeake City
+## 2              NA           NA United States      Virginia       Frederick
+## 3              NA           NA United States      Virginia         Fairfax
+## 4              NA           NA United States      Virginia         Madison
+## 5              NA           NA United States      Virginia        Accomack
+## 6              NA           NA United States      Virginia    Westmoreland
+##   municipality
+## 1           NA
+## 2           NA
+## 3           NA
+## 4           NA
+## 5           NA
+## 6           NA
+##                                                                                          locality
+## 1                         Along north shore of the Northwest River, ca. 1.0 mile NW of Northwest.
+## 2                                                                                Pembrook Springs
+## 3 S. side of Va. 123 between Potomac School Rd. and Ballantrae Lane. Most western, road entrance.
+## 4                                        Near jct. of U.S. 29 and Rte. 636 at the Robinson River.
+## 5                                                                                     In Onancock
+## 6                                                2 mi. ne. of rte. 626 on rte. 612, se. of Hague.
+##   locationRemarks decimalLatitude decimalLongitude geodeticDatum
+## 1              NA              NA               NA            NA
+## 2              NA              NA               NA            NA
+## 3              NA              NA               NA            NA
+## 4              NA              NA               NA            NA
+## 5              NA              NA               NA            NA
+## 6              NA              NA               NA            NA
+##   coordinateUncertaintyInMeters verbatimCoordinates georeferencedBy
+## 1                            NA                                  NA
+## 2                            NA                                  NA
+## 3                            NA                                  NA
+## 4                            NA                                  NA
+## 5                            NA                                  NA
+## 6                            NA                                  NA
+##   georeferenceProtocol georeferenceSources georeferenceVerificationStatus
+## 1                   NA                                                 NA
+## 2                   NA                                                 NA
+## 3                   NA                                                 NA
+## 4                   NA                                                 NA
+## 5                   NA                                                 NA
+## 6                   NA                                                 NA
+##   georeferenceRemarks minimumElevationInMeters maximumElevationInMeters
+## 1                  NA                       NA                       NA
+## 2                  NA                       NA                       NA
+## 3                  NA                       NA                       NA
+## 4                  NA                       NA                       NA
+## 5                  NA                       NA                       NA
+## 6                  NA                       NA                       NA
+##   minimumDepthInMeters maximumDepthInMeters verbatimDepth verbatimElevation
+## 1                   NA                   NA            NA                  
+## 2                   NA                   NA            NA                  
+## 3                   NA                   NA            NA                  
+## 4                   NA                   NA            NA                  
+## 5                   NA                   NA            NA                  
+## 6                   NA                   NA            NA                  
+##   disposition language recordEnteredBy            modified
+## 1          NA                          2017-09-28 14:51:10
+## 2          NA                          2017-09-28 14:51:10
+## 3          NA                          2017-11-14 14:36:22
+## 4          NA                          2017-11-14 14:36:22
+## 5          NA                          2017-06-02 18:00:36
+## 6          NA                          2017-09-28 14:51:10
+##                                           rights rightsHolder accessRights
+## 1 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 2 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 3 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 4 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 5 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 6 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+##                                        recordId
+## 1 urn:uuid:56cd503f-f6c1-4a3d-9429-a238ee7bd159
+## 2 urn:uuid:a41e5e63-0374-4fa4-aa02-b817703d1407
+## 3 urn:uuid:1c5f7085-fe91-484d-a096-06afce2beb57
+## 4 urn:uuid:02ebf5fd-03aa-4e29-9ec5-e322f5d54ab9
+## 5 urn:uuid:ac299619-35ac-4d7a-a0ff-fd5af0eeaf3d
+## 6 urn:uuid:c9d34663-d1e9-4480-9e58-c7442246ab21
+##                                                                          references
+## 1 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763299
+## 2 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763300
+## 3 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763352
+## 4 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763375
+## 5 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763419
+## 6 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763478
+\end{verbatim}
+
+\begin{verbatim}
+##   id  coreid
+## 1 15 7453510
+## 2 15 7962893
+## 3 15 7941303
+## 4 15 6816246
+## 5 15 8065784
+## 6 15 7973098
+##                                                                                         identifier
+## 1 https://bisque.cyverse.org/image_service/image/00-8tykgWK6GN9fT46DGNt5Dc/resize:4000/format:jpeg
+## 2 https://bisque.cyverse.org/image_service/image/00-u5LwfKSyndwuidQCcerqcF/resize:4000/format:jpeg
+## 3 https://bisque.cyverse.org/image_service/image/00-tXKGkeigRmYhxTMtfWKYii/resize:4000/format:jpeg
+## 4 https://bisque.cyverse.org/image_service/image/00-FrS2eY25s8xWbhYeAN2x6d/resize:4000/format:jpeg
+## 5 https://bisque.cyverse.org/image_service/image/00-TXHCg6bqvJv3CkAXRRqzr5/resize:4000/format:jpeg
+## 6 https://bisque.cyverse.org/image_service/image/00-rJjKZfChefSxciE6MRTMCo/resize:4000/format:jpeg
+##                                                                                          accessURI
+## 1 https://bisque.cyverse.org/image_service/image/00-8tykgWK6GN9fT46DGNt5Dc/resize:4000/format:jpeg
+## 2 https://bisque.cyverse.org/image_service/image/00-u5LwfKSyndwuidQCcerqcF/resize:4000/format:jpeg
+## 3 https://bisque.cyverse.org/image_service/image/00-tXKGkeigRmYhxTMtfWKYii/resize:4000/format:jpeg
+## 4 https://bisque.cyverse.org/image_service/image/00-FrS2eY25s8xWbhYeAN2x6d/resize:4000/format:jpeg
+## 5 https://bisque.cyverse.org/image_service/image/00-TXHCg6bqvJv3CkAXRRqzr5/resize:4000/format:jpeg
+## 6 https://bisque.cyverse.org/image_service/image/00-rJjKZfChefSxciE6MRTMCo/resize:4000/format:jpeg
+##                                                                           thumbnailAccessURI
+## 1 https://bisque.cyverse.org/image_service/image/00-8tykgWK6GN9fT46DGNt5Dc/thumbnail:200,200
+## 2 https://bisque.cyverse.org/image_service/image/00-u5LwfKSyndwuidQCcerqcF/thumbnail:200,200
+## 3 https://bisque.cyverse.org/image_service/image/00-tXKGkeigRmYhxTMtfWKYii/thumbnail:200,200
+## 4 https://bisque.cyverse.org/image_service/image/00-FrS2eY25s8xWbhYeAN2x6d/thumbnail:200,200
+## 5 https://bisque.cyverse.org/image_service/image/00-TXHCg6bqvJv3CkAXRRqzr5/thumbnail:200,200
+## 6 https://bisque.cyverse.org/image_service/image/00-rJjKZfChefSxciE6MRTMCo/thumbnail:200,200
+##                                                                               goodQualityAccessURI
+## 1 https://bisque.cyverse.org/image_service/image/00-8tykgWK6GN9fT46DGNt5Dc/resize:1250/format:jpeg
+## 2 https://bisque.cyverse.org/image_service/image/00-u5LwfKSyndwuidQCcerqcF/resize:1250/format:jpeg
+## 3 https://bisque.cyverse.org/image_service/image/00-tXKGkeigRmYhxTMtfWKYii/resize:1250/format:jpeg
+## 4 https://bisque.cyverse.org/image_service/image/00-FrS2eY25s8xWbhYeAN2x6d/resize:1250/format:jpeg
+## 5 https://bisque.cyverse.org/image_service/image/00-TXHCg6bqvJv3CkAXRRqzr5/resize:1250/format:jpeg
+## 6 https://bisque.cyverse.org/image_service/image/00-rJjKZfChefSxciE6MRTMCo/resize:1250/format:jpeg
+##   rights                                                           Owner
+## 1     NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 2     NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 3     NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 4     NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 5     NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 6     NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+##                              UsageTerms
+## 1 CC BY-NC (Attribution-Non-Commercial)
+## 2 CC BY-NC (Attribution-Non-Commercial)
+## 3 CC BY-NC (Attribution-Non-Commercial)
+## 4 CC BY-NC (Attribution-Non-Commercial)
+## 5 CC BY-NC (Attribution-Non-Commercial)
+## 6 CC BY-NC (Attribution-Non-Commercial)
+##                                     WebStatement caption comments
+## 1 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 2 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 3 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 4 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 5 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 6 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+##                               providerManagedID        MetadataDate     format
+## 1 urn:uuid:db276c2b-d57f-4a4b-a49a-6f56d78e1135 2019-01-09 11:29:02 image/jpeg
+## 2 urn:uuid:d28cc960-f066-4275-9f62-a6220250a9dd 2019-01-09 11:29:38 image/jpeg
+## 3 urn:uuid:3c3e259b-844c-4044-8c40-ce8e9c702c54 2019-01-09 11:29:49 image/jpeg
+## 4 urn:uuid:120a2668-bf43-4b4e-af01-def977f51109 2019-01-09 11:27:36 image/jpeg
+## 5 urn:uuid:c12fa468-35c2-41fd-88e6-d85834749e7c 2019-01-09 11:30:01 image/jpeg
+## 6 urn:uuid:05561c0c-4127-45c2-bb11-eb3975f33fc3 2019-01-09 11:29:56 image/jpeg
+##                                                         associatedSpecimenReference
+## 1 http://www.sernecportal.org/portal/collections/individual/index.php?occid=7453510
+## 2 http://www.sernecportal.org/portal/collections/individual/index.php?occid=7962893
+## 3 http://www.sernecportal.org/portal/collections/individual/index.php?occid=7941303
+## 4 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6816246
+## 5 http://www.sernecportal.org/portal/collections/individual/index.php?occid=8065784
+## 6 http://www.sernecportal.org/portal/collections/individual/index.php?occid=7973098
+##         type    subtype metadataLanguage
+## 1 StillImage Photograph               en
+## 2 StillImage Photograph               en
+## 3 StillImage Photograph               en
+## 4 StillImage Photograph               en
+## 5 StillImage Photograph               en
+## 6 StillImage Photograph               en
+\end{verbatim}
+
+\hypertarget{user-an-inner-join-between-the-two-data-sets-using-the-commands-in-dplyr}{%
+\subsection{User an inner join between the two data sets using the
+commands in
+dplyr}\label{user-an-inner-join-between-the-two-data-sets-using-the-commands-in-dplyr}}
+
+\begin{verbatim}
+##   filenum  coreid institutionCode collectionCode ownerInstitutionCode
+## 1      14 6763299            GMUF         Plants                   NA
+## 2      14 6763300            GMUF         Plants                   NA
+## 3      14 6763352            GMUF         Plants                   NA
+## 4      14 6763375            GMUF         Plants                   NA
+## 5      14 6763419            GMUF         Plants                   NA
+## 6      14 6763478            GMUF         Plants                   NA
+##                           collectionID     basisOfRecord
+## 1 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 2 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 3 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 4 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 5 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 6 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+##                           occurrenceID catalogNumber otherCatalogNumbers
+## 1 56cd503f-f6c1-4a3d-9429-a238ee7bd159  GMUF-0000592                    
+## 2 a41e5e63-0374-4fa4-aa02-b817703d1407  GMUF-0000591                    
+## 3 1c5f7085-fe91-484d-a096-06afce2beb57  GMUF-0000677                    
+## 4 02ebf5fd-03aa-4e29-9ec5-e322f5d54ab9  GMUF-0000654                    
+## 5 ac299619-35ac-4d7a-a0ff-fd5af0eeaf3d  GMUF-0001343               17050
+## 6 c9d34663-d1e9-4480-9e58-c7442246ab21  GMUF-0027246                    
+##   kingdom        phylum class   order       family          scientificName
+## 1 Plantae Magnoliophyta       Fagales   Betulaceae         Alnus serrulata
+## 2 Plantae Magnoliophyta       Fagales   Betulaceae         Alnus serrulata
+## 3 Plantae Magnoliophyta       Fagales   Betulaceae          Betula pendula
+## 4 Plantae Magnoliophyta       Fagales   Betulaceae            Betula nigra
+## 5 Plantae Magnoliophyta       Rosales     Moraceae Broussonetia papyrifera
+## 6 Plantae Magnoliophyta       Fagales Juglandaceae              Carya alba
+##   taxonID scientificNameAuthorship        genus specificEpithet taxonRank
+## 1   71602           (Aiton) Willd.        Alnus       serrulata          
+## 2   71602           (Aiton) Willd.        Alnus       serrulata          
+## 3   74637                     Roth       Betula         pendula          
+## 4   74633                       L.       Betula           nigra          
+## 5   34605    (L.) L'HÃ©r. ex Vent. Broussonetia      papyrifera          
+## 6   57046                    Nutt.        Carya            alba          
+##   infraspecificEpithet identifiedBy dateIdentified identificationReferences
+## 1                                                                        NA
+## 2                                                                        NA
+## 3                                                                        NA
+## 4                                                                        NA
+## 5                                                                        NA
+## 6                                                                        NA
+##   identificationRemarks taxonRemarks identificationQualifier typeStatus
+## 1                    NA                                   NA         NA
+## 2                    NA                                   NA         NA
+## 3                    NA                                   NA         NA
+## 4                    NA                                   NA         NA
+## 5                    NA                                   NA         NA
+## 6                    NA                                   NA         NA
+##                      recordedBy recordNumber  eventDate year month day
+## 1 Gary P. Fleming, Allen Belden        11740 1996-06-12 1996     6  12
+## 2                    Cliff Hupp           98 1972-08-20 1972     8  20
+## 3                   Ted Bradley       11691C 1977-03-18 1977     3  18
+## 4     Ted Bradley, Andrykovitch        18227 1982-07-05 1982     7   5
+## 5                   Ted Bradley        19838 1983-08-11 1983     8  11
+## 6         Ted Bradley, Ian Ward        23782 1990-07-07 1990     7   7
+##   startDayOfYear endDayOfYear verbatimEventDate occurrenceRemarks
+## 1            164           NA      12 June 1996                  
+## 2            233           NA    20 August 1972                  
+## 3             77           NA     18 March 1977                  
+## 4            186           NA       5 July 1982                  
+## 5            223           NA                                    
+## 6            188           NA       7 July 1990                  
+##                                                                                        habitat
+## 1 On hummocks under bald cypress and tupelo along north shore of the Northwest River; Frequent
+## 2                                                                                   Streamside
+## 3                                                                                    Roadside.
+## 4                                                                                             
+## 5                                                                                             
+## 6                                                                    roadside. Fruit separate.
+##   fieldNumber informationWithheld dataGeneralizations dynamicProperties
+## 1          NA                  NA                  NA                NA
+## 2          NA                  NA                  NA                NA
+## 3          NA                  NA                  NA                NA
+## 4          NA                  NA                  NA                NA
+## 5          NA                  NA                  NA                NA
+## 6          NA                  NA                  NA                NA
+##   associatedTaxa reproductiveCondition establishmentMeans lifeStage sex
+## 1                                                      NA        NA  NA
+## 2                                                      NA        NA  NA
+## 3                                                      NA        NA  NA
+## 4                                                      NA        NA  NA
+## 5                                                      NA        NA  NA
+## 6                                                      NA        NA  NA
+##   individualCount preparations       country stateProvince          county
+## 1              NA           NA United States      Virginia Chesapeake City
+## 2              NA           NA United States      Virginia       Frederick
+## 3              NA           NA United States      Virginia         Fairfax
+## 4              NA           NA United States      Virginia         Madison
+## 5              NA           NA United States      Virginia        Accomack
+## 6              NA           NA United States      Virginia    Westmoreland
+##   municipality
+## 1           NA
+## 2           NA
+## 3           NA
+## 4           NA
+## 5           NA
+## 6           NA
+##                                                                                          locality
+## 1                         Along north shore of the Northwest River, ca. 1.0 mile NW of Northwest.
+## 2                                                                                Pembrook Springs
+## 3 S. side of Va. 123 between Potomac School Rd. and Ballantrae Lane. Most western, road entrance.
+## 4                                        Near jct. of U.S. 29 and Rte. 636 at the Robinson River.
+## 5                                                                                     In Onancock
+## 6                                                2 mi. ne. of rte. 626 on rte. 612, se. of Hague.
+##   locationRemarks decimalLatitude decimalLongitude geodeticDatum
+## 1              NA              NA               NA            NA
+## 2              NA              NA               NA            NA
+## 3              NA              NA               NA            NA
+## 4              NA              NA               NA            NA
+## 5              NA              NA               NA            NA
+## 6              NA              NA               NA            NA
+##   coordinateUncertaintyInMeters verbatimCoordinates georeferencedBy
+## 1                            NA                                  NA
+## 2                            NA                                  NA
+## 3                            NA                                  NA
+## 4                            NA                                  NA
+## 5                            NA                                  NA
+## 6                            NA                                  NA
+##   georeferenceProtocol georeferenceSources georeferenceVerificationStatus
+## 1                   NA                                                 NA
+## 2                   NA                                                 NA
+## 3                   NA                                                 NA
+## 4                   NA                                                 NA
+## 5                   NA                                                 NA
+## 6                   NA                                                 NA
+##   georeferenceRemarks minimumElevationInMeters maximumElevationInMeters
+## 1                  NA                       NA                       NA
+## 2                  NA                       NA                       NA
+## 3                  NA                       NA                       NA
+## 4                  NA                       NA                       NA
+## 5                  NA                       NA                       NA
+## 6                  NA                       NA                       NA
+##   minimumDepthInMeters maximumDepthInMeters verbatimDepth verbatimElevation
+## 1                   NA                   NA            NA                  
+## 2                   NA                   NA            NA                  
+## 3                   NA                   NA            NA                  
+## 4                   NA                   NA            NA                  
+## 5                   NA                   NA            NA                  
+## 6                   NA                   NA            NA                  
+##   disposition language recordEnteredBy            modified
+## 1          NA                          2017-09-28 14:51:10
+## 2          NA                          2017-09-28 14:51:10
+## 3          NA                          2017-11-14 14:36:22
+## 4          NA                          2017-11-14 14:36:22
+## 5          NA                          2017-06-02 18:00:36
+## 6          NA                          2017-09-28 14:51:10
+##                                         rights.x rightsHolder accessRights
+## 1 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 2 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 3 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 4 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 5 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 6 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+##                                        recordId
+## 1 urn:uuid:56cd503f-f6c1-4a3d-9429-a238ee7bd159
+## 2 urn:uuid:a41e5e63-0374-4fa4-aa02-b817703d1407
+## 3 urn:uuid:1c5f7085-fe91-484d-a096-06afce2beb57
+## 4 urn:uuid:02ebf5fd-03aa-4e29-9ec5-e322f5d54ab9
+## 5 urn:uuid:ac299619-35ac-4d7a-a0ff-fd5af0eeaf3d
+## 6 urn:uuid:c9d34663-d1e9-4480-9e58-c7442246ab21
+##                                                                          references
+## 1 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763299
+## 2 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763300
+## 3 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763352
+## 4 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763375
+## 5 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763419
+## 6 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763478
+##   id
+## 1 15
+## 2 15
+## 3 15
+## 4 15
+## 5 15
+## 6 15
+##                                                                                         identifier
+## 1 https://bisque.cyverse.org/image_service/image/00-VXs246BLmjCdsND6xfPw4F/resize:4000/format:jpeg
+## 2 https://bisque.cyverse.org/image_service/image/00-8pkqRaesRCU53d3qrrasJH/resize:4000/format:jpeg
+## 3 https://bisque.cyverse.org/image_service/image/00-WLhgJScuxaEgqaSHKmkbAi/resize:4000/format:jpeg
+## 4 https://bisque.cyverse.org/image_service/image/00-5xXCwNAaVDR3LGLnrcygZL/resize:4000/format:jpeg
+## 5 https://bisque.cyverse.org/image_service/image/00-XCJQqHA5TL5Zfhzen3aMHH/resize:4000/format:jpeg
+## 6 https://bisque.cyverse.org/image_service/image/00-MppvACDyHSAZDXcyYWw4tj/resize:4000/format:jpeg
+##                                                                                          accessURI
+## 1 https://bisque.cyverse.org/image_service/image/00-VXs246BLmjCdsND6xfPw4F/resize:4000/format:jpeg
+## 2 https://bisque.cyverse.org/image_service/image/00-8pkqRaesRCU53d3qrrasJH/resize:4000/format:jpeg
+## 3 https://bisque.cyverse.org/image_service/image/00-WLhgJScuxaEgqaSHKmkbAi/resize:4000/format:jpeg
+## 4 https://bisque.cyverse.org/image_service/image/00-5xXCwNAaVDR3LGLnrcygZL/resize:4000/format:jpeg
+## 5 https://bisque.cyverse.org/image_service/image/00-XCJQqHA5TL5Zfhzen3aMHH/resize:4000/format:jpeg
+## 6 https://bisque.cyverse.org/image_service/image/00-MppvACDyHSAZDXcyYWw4tj/resize:4000/format:jpeg
+##                                                                           thumbnailAccessURI
+## 1 https://bisque.cyverse.org/image_service/image/00-VXs246BLmjCdsND6xfPw4F/thumbnail:200,200
+## 2 https://bisque.cyverse.org/image_service/image/00-8pkqRaesRCU53d3qrrasJH/thumbnail:200,200
+## 3 https://bisque.cyverse.org/image_service/image/00-WLhgJScuxaEgqaSHKmkbAi/thumbnail:200,200
+## 4 https://bisque.cyverse.org/image_service/image/00-5xXCwNAaVDR3LGLnrcygZL/thumbnail:200,200
+## 5 https://bisque.cyverse.org/image_service/image/00-XCJQqHA5TL5Zfhzen3aMHH/thumbnail:200,200
+## 6 https://bisque.cyverse.org/image_service/image/00-MppvACDyHSAZDXcyYWw4tj/thumbnail:200,200
+##                                                                               goodQualityAccessURI
+## 1 https://bisque.cyverse.org/image_service/image/00-VXs246BLmjCdsND6xfPw4F/resize:1250/format:jpeg
+## 2 https://bisque.cyverse.org/image_service/image/00-8pkqRaesRCU53d3qrrasJH/resize:1250/format:jpeg
+## 3 https://bisque.cyverse.org/image_service/image/00-WLhgJScuxaEgqaSHKmkbAi/resize:1250/format:jpeg
+## 4 https://bisque.cyverse.org/image_service/image/00-5xXCwNAaVDR3LGLnrcygZL/resize:1250/format:jpeg
+## 5 https://bisque.cyverse.org/image_service/image/00-XCJQqHA5TL5Zfhzen3aMHH/resize:1250/format:jpeg
+## 6 https://bisque.cyverse.org/image_service/image/00-MppvACDyHSAZDXcyYWw4tj/resize:1250/format:jpeg
+##   rights.y                                                           Owner
+## 1       NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 2       NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 3       NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 4       NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 5       NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 6       NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+##                              UsageTerms
+## 1 CC BY-NC (Attribution-Non-Commercial)
+## 2 CC BY-NC (Attribution-Non-Commercial)
+## 3 CC BY-NC (Attribution-Non-Commercial)
+## 4 CC BY-NC (Attribution-Non-Commercial)
+## 5 CC BY-NC (Attribution-Non-Commercial)
+## 6 CC BY-NC (Attribution-Non-Commercial)
+##                                     WebStatement caption comments
+## 1 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 2 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 3 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 4 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 5 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 6 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+##                               providerManagedID        MetadataDate     format
+## 1 urn:uuid:e5737178-330d-406a-a1fe-e6a233cae42b 2019-01-09 11:27:09 image/jpeg
+## 2 urn:uuid:bcb65297-c3c6-41a1-9189-c1ae9cd633e4 2019-01-09 11:27:09 image/jpeg
+## 3 urn:uuid:5433152b-1da0-4ad4-acde-a2d3065d86b1 2019-01-09 11:27:10 image/jpeg
+## 4 urn:uuid:abd443b8-1d9e-495f-a446-96429695de74 2019-01-09 11:27:09 image/jpeg
+## 5 urn:uuid:e208045e-8b44-4f12-b780-45dc0239960d 2019-01-09 11:27:11 image/jpeg
+## 6 urn:uuid:2c261138-3533-4694-a142-10168bf64ab7 2019-01-09 11:27:11 image/jpeg
+##                                                         associatedSpecimenReference
+## 1 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763299
+## 2 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763300
+## 3 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763352
+## 4 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763375
+## 5 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763419
+## 6 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763478
+##         type    subtype metadataLanguage
+## 1 StillImage Photograph               en
+## 2 StillImage Photograph               en
+## 3 StillImage Photograph               en
+## 4 StillImage Photograph               en
+## 5 StillImage Photograph               en
+## 6 StillImage Photograph               en
+\end{verbatim}
+
+\hypertarget{missing-data-of-year-of-collectionyear-count-the-number-of-missing-data-collection-years.}{%
+\subsection{Missing Data of Year of Collection(year), Count the number
+of missing data collection
+years.}\label{missing-data-of-year-of-collectionyear-count-the-number-of-missing-data-collection-years.}}
+
+\begin{verbatim}
+## [1] 371
+\end{verbatim}
+
+\hypertarget{based-on-our-lecture-and-if-i-told-you-herbarium-specimens-have-only-been-recorded-for-the-last-100-years.-please-fix-the-missingness-of-that-column.}{%
+\subsection{Based on our lecture and if I told you herbarium specimens
+have only been recorded for the last 100 years. Please fix the
+missingness of that
+column.}\label{based-on-our-lecture-and-if-i-told-you-herbarium-specimens-have-only-been-recorded-for-the-last-100-years.-please-fix-the-missingness-of-that-column.}}
+
+\begin{verbatim}
+##   filenum  coreid institutionCode collectionCode ownerInstitutionCode
+## 1      14 6763299            GMUF         Plants                   NA
+## 2      14 6763300            GMUF         Plants                   NA
+## 3      14 6763352            GMUF         Plants                   NA
+## 4      14 6763375            GMUF         Plants                   NA
+## 5      14 6763419            GMUF         Plants                   NA
+## 6      14 6763478            GMUF         Plants                   NA
+##                           collectionID     basisOfRecord
+## 1 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 2 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 3 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 4 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 5 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+## 6 2e430955-77d0-4aa4-a16f-e2d3c5ff4493 PreservedSpecimen
+##                           occurrenceID catalogNumber otherCatalogNumbers
+## 1 56cd503f-f6c1-4a3d-9429-a238ee7bd159  GMUF-0000592                    
+## 2 a41e5e63-0374-4fa4-aa02-b817703d1407  GMUF-0000591                    
+## 3 1c5f7085-fe91-484d-a096-06afce2beb57  GMUF-0000677                    
+## 4 02ebf5fd-03aa-4e29-9ec5-e322f5d54ab9  GMUF-0000654                    
+## 5 ac299619-35ac-4d7a-a0ff-fd5af0eeaf3d  GMUF-0001343               17050
+## 6 c9d34663-d1e9-4480-9e58-c7442246ab21  GMUF-0027246                    
+##   kingdom        phylum class   order       family          scientificName
+## 1 Plantae Magnoliophyta       Fagales   Betulaceae         Alnus serrulata
+## 2 Plantae Magnoliophyta       Fagales   Betulaceae         Alnus serrulata
+## 3 Plantae Magnoliophyta       Fagales   Betulaceae          Betula pendula
+## 4 Plantae Magnoliophyta       Fagales   Betulaceae            Betula nigra
+## 5 Plantae Magnoliophyta       Rosales     Moraceae Broussonetia papyrifera
+## 6 Plantae Magnoliophyta       Fagales Juglandaceae              Carya alba
+##   taxonID scientificNameAuthorship        genus specificEpithet taxonRank
+## 1   71602           (Aiton) Willd.        Alnus       serrulata          
+## 2   71602           (Aiton) Willd.        Alnus       serrulata          
+## 3   74637                     Roth       Betula         pendula          
+## 4   74633                       L.       Betula           nigra          
+## 5   34605    (L.) L'HÃ©r. ex Vent. Broussonetia      papyrifera          
+## 6   57046                    Nutt.        Carya            alba          
+##   infraspecificEpithet identifiedBy dateIdentified identificationReferences
+## 1                                                                        NA
+## 2                                                                        NA
+## 3                                                                        NA
+## 4                                                                        NA
+## 5                                                                        NA
+## 6                                                                        NA
+##   identificationRemarks taxonRemarks identificationQualifier typeStatus
+## 1                    NA                                   NA         NA
+## 2                    NA                                   NA         NA
+## 3                    NA                                   NA         NA
+## 4                    NA                                   NA         NA
+## 5                    NA                                   NA         NA
+## 6                    NA                                   NA         NA
+##                      recordedBy recordNumber  eventDate year month day
+## 1 Gary P. Fleming, Allen Belden        11740 1996-06-12 1996     6  12
+## 2                    Cliff Hupp           98 1972-08-20 1972     8  20
+## 3                   Ted Bradley       11691C 1977-03-18 1977     3  18
+## 4     Ted Bradley, Andrykovitch        18227 1982-07-05 1982     7   5
+## 5                   Ted Bradley        19838 1983-08-11 1983     8  11
+## 6         Ted Bradley, Ian Ward        23782 1990-07-07 1990     7   7
+##   startDayOfYear endDayOfYear verbatimEventDate occurrenceRemarks
+## 1            164           NA      12 June 1996                  
+## 2            233           NA    20 August 1972                  
+## 3             77           NA     18 March 1977                  
+## 4            186           NA       5 July 1982                  
+## 5            223           NA                                    
+## 6            188           NA       7 July 1990                  
+##                                                                                        habitat
+## 1 On hummocks under bald cypress and tupelo along north shore of the Northwest River; Frequent
+## 2                                                                                   Streamside
+## 3                                                                                    Roadside.
+## 4                                                                                             
+## 5                                                                                             
+## 6                                                                    roadside. Fruit separate.
+##   fieldNumber informationWithheld dataGeneralizations dynamicProperties
+## 1          NA                  NA                  NA                NA
+## 2          NA                  NA                  NA                NA
+## 3          NA                  NA                  NA                NA
+## 4          NA                  NA                  NA                NA
+## 5          NA                  NA                  NA                NA
+## 6          NA                  NA                  NA                NA
+##   associatedTaxa reproductiveCondition establishmentMeans lifeStage sex
+## 1                                                      NA        NA  NA
+## 2                                                      NA        NA  NA
+## 3                                                      NA        NA  NA
+## 4                                                      NA        NA  NA
+## 5                                                      NA        NA  NA
+## 6                                                      NA        NA  NA
+##   individualCount preparations       country stateProvince          county
+## 1              NA           NA United States      Virginia Chesapeake City
+## 2              NA           NA United States      Virginia       Frederick
+## 3              NA           NA United States      Virginia         Fairfax
+## 4              NA           NA United States      Virginia         Madison
+## 5              NA           NA United States      Virginia        Accomack
+## 6              NA           NA United States      Virginia    Westmoreland
+##   municipality
+## 1           NA
+## 2           NA
+## 3           NA
+## 4           NA
+## 5           NA
+## 6           NA
+##                                                                                          locality
+## 1                         Along north shore of the Northwest River, ca. 1.0 mile NW of Northwest.
+## 2                                                                                Pembrook Springs
+## 3 S. side of Va. 123 between Potomac School Rd. and Ballantrae Lane. Most western, road entrance.
+## 4                                        Near jct. of U.S. 29 and Rte. 636 at the Robinson River.
+## 5                                                                                     In Onancock
+## 6                                                2 mi. ne. of rte. 626 on rte. 612, se. of Hague.
+##   locationRemarks decimalLatitude decimalLongitude geodeticDatum
+## 1              NA              NA               NA            NA
+## 2              NA              NA               NA            NA
+## 3              NA              NA               NA            NA
+## 4              NA              NA               NA            NA
+## 5              NA              NA               NA            NA
+## 6              NA              NA               NA            NA
+##   coordinateUncertaintyInMeters verbatimCoordinates georeferencedBy
+## 1                            NA                                  NA
+## 2                            NA                                  NA
+## 3                            NA                                  NA
+## 4                            NA                                  NA
+## 5                            NA                                  NA
+## 6                            NA                                  NA
+##   georeferenceProtocol georeferenceSources georeferenceVerificationStatus
+## 1                   NA                                                 NA
+## 2                   NA                                                 NA
+## 3                   NA                                                 NA
+## 4                   NA                                                 NA
+## 5                   NA                                                 NA
+## 6                   NA                                                 NA
+##   georeferenceRemarks minimumElevationInMeters maximumElevationInMeters
+## 1                  NA                       NA                       NA
+## 2                  NA                       NA                       NA
+## 3                  NA                       NA                       NA
+## 4                  NA                       NA                       NA
+## 5                  NA                       NA                       NA
+## 6                  NA                       NA                       NA
+##   minimumDepthInMeters maximumDepthInMeters verbatimDepth verbatimElevation
+## 1                   NA                   NA            NA                  
+## 2                   NA                   NA            NA                  
+## 3                   NA                   NA            NA                  
+## 4                   NA                   NA            NA                  
+## 5                   NA                   NA            NA                  
+## 6                   NA                   NA            NA                  
+##   disposition language recordEnteredBy            modified
+## 1          NA                          2017-09-28 14:51:10
+## 2          NA                          2017-09-28 14:51:10
+## 3          NA                          2017-11-14 14:36:22
+## 4          NA                          2017-11-14 14:36:22
+## 5          NA                          2017-06-02 18:00:36
+## 6          NA                          2017-09-28 14:51:10
+##                                         rights.x rightsHolder accessRights
+## 1 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 2 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 3 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 4 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 5 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+## 6 http://creativecommons.org/licenses/by-nc/3.0/           NA           NA
+##                                        recordId
+## 1 urn:uuid:56cd503f-f6c1-4a3d-9429-a238ee7bd159
+## 2 urn:uuid:a41e5e63-0374-4fa4-aa02-b817703d1407
+## 3 urn:uuid:1c5f7085-fe91-484d-a096-06afce2beb57
+## 4 urn:uuid:02ebf5fd-03aa-4e29-9ec5-e322f5d54ab9
+## 5 urn:uuid:ac299619-35ac-4d7a-a0ff-fd5af0eeaf3d
+## 6 urn:uuid:c9d34663-d1e9-4480-9e58-c7442246ab21
+##                                                                          references
+## 1 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763299
+## 2 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763300
+## 3 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763352
+## 4 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763375
+## 5 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763419
+## 6 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763478
+##   id
+## 1 15
+## 2 15
+## 3 15
+## 4 15
+## 5 15
+## 6 15
+##                                                                                         identifier
+## 1 https://bisque.cyverse.org/image_service/image/00-VXs246BLmjCdsND6xfPw4F/resize:4000/format:jpeg
+## 2 https://bisque.cyverse.org/image_service/image/00-8pkqRaesRCU53d3qrrasJH/resize:4000/format:jpeg
+## 3 https://bisque.cyverse.org/image_service/image/00-WLhgJScuxaEgqaSHKmkbAi/resize:4000/format:jpeg
+## 4 https://bisque.cyverse.org/image_service/image/00-5xXCwNAaVDR3LGLnrcygZL/resize:4000/format:jpeg
+## 5 https://bisque.cyverse.org/image_service/image/00-XCJQqHA5TL5Zfhzen3aMHH/resize:4000/format:jpeg
+## 6 https://bisque.cyverse.org/image_service/image/00-MppvACDyHSAZDXcyYWw4tj/resize:4000/format:jpeg
+##                                                                                          accessURI
+## 1 https://bisque.cyverse.org/image_service/image/00-VXs246BLmjCdsND6xfPw4F/resize:4000/format:jpeg
+## 2 https://bisque.cyverse.org/image_service/image/00-8pkqRaesRCU53d3qrrasJH/resize:4000/format:jpeg
+## 3 https://bisque.cyverse.org/image_service/image/00-WLhgJScuxaEgqaSHKmkbAi/resize:4000/format:jpeg
+## 4 https://bisque.cyverse.org/image_service/image/00-5xXCwNAaVDR3LGLnrcygZL/resize:4000/format:jpeg
+## 5 https://bisque.cyverse.org/image_service/image/00-XCJQqHA5TL5Zfhzen3aMHH/resize:4000/format:jpeg
+## 6 https://bisque.cyverse.org/image_service/image/00-MppvACDyHSAZDXcyYWw4tj/resize:4000/format:jpeg
+##                                                                           thumbnailAccessURI
+## 1 https://bisque.cyverse.org/image_service/image/00-VXs246BLmjCdsND6xfPw4F/thumbnail:200,200
+## 2 https://bisque.cyverse.org/image_service/image/00-8pkqRaesRCU53d3qrrasJH/thumbnail:200,200
+## 3 https://bisque.cyverse.org/image_service/image/00-WLhgJScuxaEgqaSHKmkbAi/thumbnail:200,200
+## 4 https://bisque.cyverse.org/image_service/image/00-5xXCwNAaVDR3LGLnrcygZL/thumbnail:200,200
+## 5 https://bisque.cyverse.org/image_service/image/00-XCJQqHA5TL5Zfhzen3aMHH/thumbnail:200,200
+## 6 https://bisque.cyverse.org/image_service/image/00-MppvACDyHSAZDXcyYWw4tj/thumbnail:200,200
+##                                                                               goodQualityAccessURI
+## 1 https://bisque.cyverse.org/image_service/image/00-VXs246BLmjCdsND6xfPw4F/resize:1250/format:jpeg
+## 2 https://bisque.cyverse.org/image_service/image/00-8pkqRaesRCU53d3qrrasJH/resize:1250/format:jpeg
+## 3 https://bisque.cyverse.org/image_service/image/00-WLhgJScuxaEgqaSHKmkbAi/resize:1250/format:jpeg
+## 4 https://bisque.cyverse.org/image_service/image/00-5xXCwNAaVDR3LGLnrcygZL/resize:1250/format:jpeg
+## 5 https://bisque.cyverse.org/image_service/image/00-XCJQqHA5TL5Zfhzen3aMHH/resize:1250/format:jpeg
+## 6 https://bisque.cyverse.org/image_service/image/00-MppvACDyHSAZDXcyYWw4tj/resize:1250/format:jpeg
+##   rights.y                                                           Owner
+## 1       NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 2       NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 3       NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 4       NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 5       NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+## 6       NA George Mason University, Ted R. Bradley Herbarium (GMUF-Plants)
+##                              UsageTerms
+## 1 CC BY-NC (Attribution-Non-Commercial)
+## 2 CC BY-NC (Attribution-Non-Commercial)
+## 3 CC BY-NC (Attribution-Non-Commercial)
+## 4 CC BY-NC (Attribution-Non-Commercial)
+## 5 CC BY-NC (Attribution-Non-Commercial)
+## 6 CC BY-NC (Attribution-Non-Commercial)
+##                                     WebStatement caption comments
+## 1 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 2 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 3 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 4 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 5 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+## 6 http://creativecommons.org/licenses/by-nc/3.0/      NA       NA
+##                               providerManagedID        MetadataDate     format
+## 1 urn:uuid:e5737178-330d-406a-a1fe-e6a233cae42b 2019-01-09 11:27:09 image/jpeg
+## 2 urn:uuid:bcb65297-c3c6-41a1-9189-c1ae9cd633e4 2019-01-09 11:27:09 image/jpeg
+## 3 urn:uuid:5433152b-1da0-4ad4-acde-a2d3065d86b1 2019-01-09 11:27:10 image/jpeg
+## 4 urn:uuid:abd443b8-1d9e-495f-a446-96429695de74 2019-01-09 11:27:09 image/jpeg
+## 5 urn:uuid:e208045e-8b44-4f12-b780-45dc0239960d 2019-01-09 11:27:11 image/jpeg
+## 6 urn:uuid:2c261138-3533-4694-a142-10168bf64ab7 2019-01-09 11:27:11 image/jpeg
+##                                                         associatedSpecimenReference
+## 1 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763299
+## 2 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763300
+## 3 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763352
+## 4 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763375
+## 5 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763419
+## 6 http://www.sernecportal.org/portal/collections/individual/index.php?occid=6763478
+##         type    subtype metadataLanguage
+## 1 StillImage Photograph               en
+## 2 StillImage Photograph               en
+## 3 StillImage Photograph               en
+## 4 StillImage Photograph               en
+## 5 StillImage Photograph               en
+## 6 StillImage Photograph               en
+\end{verbatim}
+
+\hypertarget{by-phylum-please-take-the-average-startdayofyear-which-is-when-day-of-the-year-that-it-was-collected}{%
+\subsection{By phylum please take the average startDayOfYear which is
+when day of the year that it was
+collected}\label{by-phylum-please-take-the-average-startdayofyear-which-is-when-day-of-the-year-that-it-was-collected}}
+
+\begin{verbatim}
+## # A tibble: 4 x 2
+##   phylum           avg
+##   <fct>          <dbl>
+## 1 Coniferophyta   160.
+## 2 Lycopodiophyta  178.
+## 3 Magnoliophyta   200.
+## 4 Pteridophyta    221
+\end{verbatim}
+
+\hypertarget{subset-the-phylum-to-coniferophyta-and-print-the-dim-of-the-data-frame}{%
+\subsection{Subset the phylum to Coniferophyta and print the dim of the
+data
+frame}\label{subset-the-phylum-to-coniferophyta-and-print-the-dim-of-the-data-frame}}
+
+\begin{verbatim}
+## [1] 6
+\end{verbatim}
+
+\begin{verbatim}
+## [1] 100
+\end{verbatim}
+
+\end{document}

@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586909515008.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7BB6A158",
+    "lastKnownWriteTime" : 3328758694680290162,
+    "last_content_update" : 1586909515008,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "7193C26",
+        "caption" : "frequency",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=frequency&cache_key=7193C26",
+        "displayedObservations" : "8",
+        "environment" : "",
+        "expression" : "frequency",
+        "object" : "frequency",
+        "preview" : "0",
+        "totalObservations" : "8",
+        "variables" : "3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

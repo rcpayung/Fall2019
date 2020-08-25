@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580688822361.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E465A91D",
+    "lastKnownWriteTime" : 2459013921659036276,
+    "last_content_update" : 1580688822361,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "D45FA56C",
+        "caption" : "coniferophyta",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=coniferophyta&cache_key=D45FA56C",
+        "displayedObservations" : 6,
+        "environment" : "",
+        "expression" : "coniferophyta",
+        "object" : "coniferophyta",
+        "preview" : 0,
+        "totalObservations" : 6,
+        "variables" : 100
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

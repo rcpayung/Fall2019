@@ -1,0 +1,6 @@
+"0","#Change support to .1"
+"0","#Tells us who bought whole milk in addition to groceries"
+"0",""
+"0","rules <- apriori (data=Groceries, parameter=list (supp=0.001,conf = 0.08), appearance = list (default=""lhs"",rhs=""whole milk""), control = list (verbose=F)) # get rules that lead to buying 'whole milk'"
+"0","rules_conf <- sort (rules, by=""confidence"", decreasing=TRUE) # 'high-confidence' rules."
+"0","inspect(head(rules_conf))"

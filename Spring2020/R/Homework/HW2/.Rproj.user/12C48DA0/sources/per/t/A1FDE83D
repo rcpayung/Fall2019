@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586891749589.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A1FDE83D",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1586891749589,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "6E9F3590",
+        "caption" : "curitemset",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=curitemset&cache_key=6E9F3590",
+        "displayedObservations" : 1,
+        "environment" : "",
+        "expression" : "curitemset",
+        "object" : "curitemset",
+        "preview" : 0,
+        "totalObservations" : 1,
+        "variables" : 1
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

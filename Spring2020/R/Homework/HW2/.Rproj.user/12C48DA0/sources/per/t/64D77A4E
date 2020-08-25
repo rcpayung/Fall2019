@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586915227919.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "64D77A4E",
+    "lastKnownWriteTime" : 8391181851031398775,
+    "last_content_update" : 1586915227919,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "7BB298B",
+        "caption" : "frequencyDoubleCandidates",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=frequencyDoubleCandidates&cache_key=7BB298B",
+        "displayedObservations" : "28",
+        "environment" : "",
+        "expression" : "frequencyDoubleCandidates",
+        "object" : "frequencyDoubleCandidates",
+        "preview" : "0",
+        "totalObservations" : "28",
+        "variables" : "3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

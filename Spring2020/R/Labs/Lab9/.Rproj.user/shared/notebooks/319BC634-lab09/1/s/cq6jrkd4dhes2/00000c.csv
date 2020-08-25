@@ -1,0 +1,4 @@
+"0","#Give me the high lift rules"
+"0",""
+"0","rules_lift <- sort (rules, by=""lift"", decreasing=TRUE) # 'high-lift' rules."
+"0","inspect(head(rules_lift)) # show the support, lift and confidence for all rules"

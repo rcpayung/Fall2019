@@ -1,0 +1,2 @@
+"0","occ = read.csv(""occdata.csv"")"
+"0","pic = read.csv(""picdata.csv"")"

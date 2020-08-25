@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586914764051.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3565CF5E",
+    "lastKnownWriteTime" : 2257333290336,
+    "last_content_update" : 1586914764051,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "6610D49",
+        "caption" : "frequencydoubles",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=frequencydoubles&cache_key=6610D49",
+        "displayedObservations" : "28",
+        "environment" : "",
+        "expression" : "frequencydoubles",
+        "object" : "frequencydoubles",
+        "preview" : "0",
+        "totalObservations" : "28",
+        "variables" : "3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

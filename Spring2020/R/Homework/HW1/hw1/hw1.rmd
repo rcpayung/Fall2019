@@ -1,0 +1,50 @@
+---
+title: "Homework 1"
+author: "Riley Payung"
+date: "2/24/2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(rpart)
+library(rpart.plot)
+library(tidyverse)
+```
+# PART A
+## Read homework 1 data
+
+```{r}
+data <- read.csv(file="hw1data.csv")
+```
+
+## Create Model
+
+```{r}
+model <- rpart(risk~time+gender+area,data=data,method='class',control=rpart.control(minsplit=2))
+model
+```
+```{r}
+rpart.plot(model)
+```
+
+# PART B
+## Load Test Data:
+
+```{r}
+test <- read.csv(file="predict.csv")
+test <- test %>%
+  rename(X = "ï..X")
+head(test)
+```
+## Predict
+```{r}
+predicted <- predict(model, test, type='class')
+test$risk = predicted
+head(test)
+```
+
+

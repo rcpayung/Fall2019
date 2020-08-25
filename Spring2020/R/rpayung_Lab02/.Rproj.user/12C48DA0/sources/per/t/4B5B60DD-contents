@@ -1,0 +1,86 @@
+---
+title: "Lab2"
+author: "Riley Payung"
+date: "02/02/2020"
+output:
+  html_document:
+    df_print: paged
+  word_document: default
+---
+## Introduction 
+
+In this lab we will look at herbarium specimen data and use dplyr to perform data processing. Picture data is the URL link to the herbarium specimens. Occ data contains information on how the specimen was collected. We will be using "cuts" or sections of this data for labs for the rest of the semester. Herbarium specimens are collections of dried plant material overtime that aid botanists in the study of phenology or how species differe from each other. Always print your output for each section of your R markdown. Only user dplyr functions besides loading data and packages.
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load Data
+
+
+```{r loadData}
+occ = read.csv("occdata.csv")
+pic = read.csv("picdata.csv")
+```
+## Load Packages
+```{r loadPackages}
+library('dplyr')
+```
+
+
+
+
+## Print the head of the data sets, and use the R base package to calculate the number of rows and columns in each data frame
+
+
+```{r Summarize, echo=FALSE}
+head(occ)
+head(pic)
+rowsOCC <- nrow(occ)
+rowsPIC <- nrow(pic)
+colsOCC <- ncol(occ)
+colsPIC <- ncol(pic)
+```
+
+
+
+## User an inner join between the two data sets using the commands in dplyr
+```{r joins, echo=FALSE}
+data <- dplyr::inner_join(occ,pic,by="coreid")
+head(data)
+```
+
+
+## Missing Data of Year of Collection(year), Count the number of missing data collection years. 
+```{r missing data, echo=FALSE}
+numNA <-  sum(is.na(data$year))
+head(numNA)
+```
+## Based on our lecture and if I told you herbarium specimens have only been recorded for the last 100 years. Please fix the missingness of that column.
+```{r missing fix, echo=FALSE}
+filteredData <- data %>%
+  filter(year != is.na(1),year != 1059)
+head(filteredData)
+```
+## By phylum please take the average startDayOfYear which is when day of the year that it was collected
+```{r groupbyaverage, echo=FALSE}
+phylumGroup <- filteredData %>% 
+  select(phylum,startDayOfYear) %>% # Select certain columns
+  group_by(phylum) %>% # Group by phylum.
+  filter(startDayOfYear != is.na(1)) %>% #Filter out N/A
+  summarise(avg = mean(startDayOfYear)) # Summarize the average
+head(phylumGroup)
+```
+
+## Subset the phylum to Coniferophyta and print the dim of the data frame
+```{r subset, echo=FALSE}
+coniferophyta <- filteredData %>%
+  filter(phylum == "Coniferophyta")
+numRowsConif <- coniferophyta %>% nrow()
+numColsConif <- coniferophyta %>% ncol()
+print(numRowsConif)
+print(numColsConif)
+```
+

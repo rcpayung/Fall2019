@@ -1,0 +1,6 @@
+"0","phylumGroup <- filteredData %>% "
+"0","  select(phylum,startDayOfYear) %>%"
+"0","  group_by(phylum) %>%"
+"0","  filter(startDayOfYear != is.na(1)) %>%"
+"0","  summarise(avg = mean(startDayOfYear,is.na = FALSE))"
+"0","head(phylumGroup)"

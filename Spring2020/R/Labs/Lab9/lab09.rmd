@@ -1,0 +1,119 @@
+---
+title: "Lab 09"
+author: "Riley Payung"
+date: "4/6/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(arules)
+class('Groceries')
+data('Groceries')
+```
+
+```{r}
+#Change the support to 0.1
+
+frequentItems <- eclat (Groceries, parameter = list(supp = 0.07, maxlen = 15)) # calculates support for frequent items
+inspect(frequentItems)
+```
+```{r}
+
+frequentItems <- eclat (Groceries, parameter = list(supp = 0.1, maxlen = 15)) # calculates support for frequent items
+inspect(frequentItems)
+```
+The data completely changes. Originally it contained a compound transaction {other vegetables,whole milk} which is now gone since the support was not greater than 0.1. In fact the support was 0.0748, hence why we were able to see the itemset before. {sausage} itemset is also gone since its support was also not greater than or equal to 0.1. In fact, its support was 0.0939, just below the threshold. The data also completely drops everything after the 9th itemset. The data is ordered based on support, where compound itemsets are displayed first.
+
+```{r}
+
+#Change to TopN=20
+itemFrequencyPlot(Groceries, topN=10, type="absolute", main="Item Frequency") 
+
+```
+
+```{r}
+
+#Change to TopN=20
+itemFrequencyPlot(Groceries, topN=20, type="absolute", main="Item Frequency") 
+
+```
+
+Changing the topN to 20 just increases the amount of displayed data. Nothing new here.
+
+```{r}
+rules <- apriori (Groceries, parameter = list(supp = 0.001, conf = 0.5)) # Min Support as 0.001, confidence as 0.8.
+rules_conf <- sort (rules, by="confidence", decreasing=TRUE) # 'high-confidence' rules.
+inspect(head(rules_conf)) # show the support, lift and confidence for all rules
+```
+
+```{r}
+rules <- apriori (Groceries, parameter = list(supp = 0.1, conf = 0.5)) # Min Support as 0.001, confidence as 0.8.
+rules_conf <- sort (rules, by="confidence", decreasing=TRUE) # 'high-confidence' rules.
+inspect(head(rules_conf)) # show the support, lift and confidence for all rules
+```
+
+rules_conf just ends up empty, however, if we change support to 0.01, the list completely changes. The itemsets are completely different.
+
+```{r}
+rules <- apriori (Groceries, parameter = list(supp = 0.01, conf = 0.5)) # Min Support as 0.001, confidence as 0.8.
+rules_conf <- sort (rules, by="confidence", decreasing=TRUE) # 'high-confidence' rules.
+inspect(head(rules_conf)) # show the support, lift and confidence for all rules
+```
+
+```{r}
+#Give me the high lift rules
+
+rules_lift <- sort (rules, by="lift", decreasing=TRUE) # 'high-lift' rules.
+inspect(head(rules_lift)) # show the support, lift and confidence for all rules
+```
+
+
+```{r}
+#Change support to .1
+#Tells us who bought whole milk in addition to groceries
+
+rules <- apriori (data=Groceries, parameter=list (supp=0.001,conf = 0.08), appearance = list (default="lhs",rhs="whole milk"), control = list (verbose=F)) # get rules that lead to buying 'whole milk'
+rules_conf <- sort (rules, by="confidence", decreasing=TRUE) # 'high-confidence' rules.
+inspect(head(rules_conf))
+```
+
+```{r}
+#Change support to .1
+#Tells us who bought groceries in addition to whole milk
+
+
+rules <- apriori (data=Groceries, parameter=list (supp=0.01,conf = 0.15,minlen=2), appearance = list(default="rhs",lhs="whole milk"), control = list (verbose=F)) # those who bought 'milk' also bought..
+rules_conf <- sort (rules, by="confidence", decreasing=TRUE) # 'high-confidence' rules.
+inspect(head(rules_conf))
+```
+
+### Answer Section
+
+1) What are the top 20 items being purchased
+
+The top 20 items that are being purchased are whole milk, other vegetables, rolls/buns, soda, yogurt, bottled water, root vegetables, tropical fruit, shopping bags, sausage, pastry, citrus fruit, bottled beer, newspapers, canned beer, pip fruit, fruit/vegetable juice, whipped/sour cream, brown bread, and domestic eggs.
+
+2) Give me the the top 10 rules given a 10% min support and .5 confidence
+
+* [1]	{whole milk}	=>	{other vegetables}	0.07483477	0.2928770	1.5136341	736
+* [2]	{whole milk}	=>	{rolls/buns}	0.05663447	0.2216474	1.2050318	557
+* [3]	{whole milk}	=>	{yogurt}	0.05602440	0.2192598	1.5717351	551
+* [4]	{whole milk}	=>	{root vegetables}	0.04890696	0.1914047	1.7560310	481
+* [5]	{whole milk}	=>	{tropical fruit}	0.04229792	0.1655392	1.5775950	416
+* [6]	{whole milk}	=>	{soda}	0.04006101	0.1567847	0.8991124	394
+
+
+3) Tell us what people bought whole milk in addition to groceries
+
+People who were buying vegetables, tropical fruits, soda, yogurt, rolls/buns, just generally when they go grocery shopping, they are buying whole milk in addition to the other items on their lists.
+
+4) Tells us what people groceries in addition to whole milk.
+
+Rolls/Buns, Yougurt, Soda, tropical fruits, bottled water, root vegetables. Most buy other vegetables along with their milk.
+
+5) What story does this tell you about purchasing whole milk and groceries as a whole.
+
+People who purchase other groceries at the grocery store also tend to buy whole milk. Generally, people tend to buy whole milk in most of the transactions this store handles.
+
+

@@ -1,0 +1,7 @@
+"0",""
+"0","frequentItems <- eclat (Groceries, parameter = list(supp = 0.1, maxlen = 15)) # calculates support for frequent items"
+"1","Eclat
+"
+"1","
+parameter specification:
+"

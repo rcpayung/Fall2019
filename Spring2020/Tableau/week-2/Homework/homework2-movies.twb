@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.19.1211.1636                               -->
+<workbook original-version='18.1' source-build='2019.4.1 (20194.19.1211.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (movies)' inline='true' name='federated.0ed9ve819bu7hq1fh96jj1dydmeg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='movies' name='excel-direct.0vhntkw0qxnnx216txhqu0dvk04n'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/rcpay/Documents/College/Spring 2020/CDS 301/week-2/Homework/movies.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0vhntkw0qxnnx216txhqu0dvk04n' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:F11:no:A1:F11:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Rank' ordinal='0' />
+            <column datatype='string' name='Release' ordinal='1' />
+            <column datatype='integer' name='Daily' ordinal='2' />
+            <column datatype='integer' name='Theatres' ordinal='3' />
+            <column datatype='integer' name='Avg' ordinal='4' />
+            <column datatype='integer' name='Days in Release' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rank]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Rank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Release</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Release]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Release</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Daily</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Daily]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Daily</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Theatres</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Theatres]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Theatres</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Avg]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Avg</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Days in Release</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Days in Release]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Days in Release</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F11:no:A1:F11:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Daily Gross Average' datatype='real' name='[Calculation_2068559621326901248]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Daily] / [Theatres]' />
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.434509' measure-ordering='alphabetic' measure-percentage='0.565491' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Rank' />
+        <field-sort-custom-order field='Release' />
+        <field-sort-custom-order field='Daily' />
+        <field-sort-custom-order field='Theatres' />
+        <field-sort-custom-order field='Avg' />
+        <field-sort-custom-order field='Calculation_2068559621326901248' />
+        <field-sort-custom-order field='Days in Release' />
+      </field-sort-info>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Top 10 Movies - Average Gross Daily Income</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (movies)' name='federated.0ed9ve819bu7hq1fh96jj1dydmeg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ed9ve819bu7hq1fh96jj1dydmeg'>
+            <column caption='Daily Gross Average' datatype='real' name='[Calculation_2068559621326901248]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Daily] / [Theatres]' />
+            </column>
+            <column datatype='integer' name='[Daily]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Days in Release]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Release]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Theatres]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2068559621326901248]' derivation='Attribute' name='[attr:Calculation_2068559621326901248:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Days in Release]' derivation='None' name='[none:Days in Release:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Release]' derivation='None' name='[none:Release:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0ed9ve819bu7hq1fh96jj1dydmeg].[none:Release:nk]' value='119' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0ed9ve819bu7hq1fh96jj1dydmeg].[none:Days in Release:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ed9ve819bu7hq1fh96jj1dydmeg].[attr:Calculation_2068559621326901248:qk]</rows>
+        <cols>[federated.0ed9ve819bu7hq1fh96jj1dydmeg].[none:Release:nk]</cols>
+      </table>
+      <simple-id uuid='{99BB6809-FAC6-4AA9-8A22-3DB7C80C10FA}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0ed9ve819bu7hq1fh96jj1dydmeg].[none:Days in Release:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ed9ve819bu7hq1fh96jj1dydmeg].[none:Calculation_2068559621326901248:qk]</field>
+            <field>[federated.0ed9ve819bu7hq1fh96jj1dydmeg].[none:Days in Release:qk]</field>
+            <field>[federated.0ed9ve819bu7hq1fh96jj1dydmeg].[none:Rank:qk]</field>
+            <field>[federated.0ed9ve819bu7hq1fh96jj1dydmeg].[none:Release:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A2859FD7-DA1C-496D-BBD6-A7F37484E4AA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      /OAQbwKfzX8CZDTahfp9aIgAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586221220436.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "158025943",
+    "id" : "E9C74A23",
+    "lastKnownWriteTime" : 1586223241,
+    "last_content_update" : 1586223241324,
+    "path" : "~/College/Spring 2020/CDS 303/Labs/Lab9/lab09.rmd",
+    "project_path" : "lab09.rmd",
+    "properties" : {
+        "cursorPosition" : "42,0",
+        "last_setup_crc32" : "",
+        "scrollLine" : "40",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

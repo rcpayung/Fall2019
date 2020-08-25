@@ -1,0 +1,82 @@
+
+source('~/Documents/entropyHelperFunctions.R')
+
+printHelloWorld<-function(){return('Hello World')}
+
+
+printHelloWorld()
+
+df<-as.data.frame(rbind(c(1,'1-2','m','u','l')
+                        ,c(2,'2-7','m','r','h')
+                        ,c(3,'>7','f','u','l')
+                        ,c(4,'1-2','f','r','l')
+                        ,c(5,'>7','m','u','h')))
+
+names(df)<-c('person','time','gender','area','risk')
+
+
+#apply is a for loop
+step1<- apply(df[,c(-1,-5)],2,function(x,y=df$risk){ entropysplitGain(table(x,y))})
+
+#split data opn time
+
+df_time7<-subset(df, time =='>7')
+
+
+df_time1_2<-subset(df, time =='1-2')
+df_time2_7<-subset(df, time =='2-7')
+
+#We can't predict better for time 1-2, >7
+
+
+
+#No need to evaluate time, since we split on it already.
+step2<- apply(df_time7[,c(-1,-2,-5)],2,function(x,y=df_time7$risk){ entropysplitGain(table(x,y))})
+
+#We split on gender becauses its highest information gain
+
+#Final rule list
+#If time =1-2 then low
+#If time =2-7 then high
+#if time >7 and gender=m  then high
+#if time>7 and gender=f then low
+
+#Code prediction
+treePrediction<-function(df)
+{
+  df$prediction <- NA
+  #If time =1-2 then low
+  #If time =2-7 then high
+  df$prediction[df$time=='1-2'] <-'l'
+  df$prediction[df$time=='2-7'] <-'h'
+  # and &, == equals, !=, ne, | or
+  df$prediction[df$time=='>7' & df$gender=='m' ] <-'h'
+  df$prediction[df$time=='>7' & df$gender=='f' ] <-'l'
+  return(df)
+}
+
+
+
+
+dfPredicted<- treePrediction(df)
+# Testing data
+
+
+#Example performance metrics
+
+performanceMetrics<- function(outcome,predictions)
+{
+  names<-unique(outcome)
+  confMat<-table(outcome,predictions)
+  sens<-confMat[1,1]/sum(confMat[1,])
+  spec<-confMat[2,2]/sum(confMat[2,])
+  acc<- (confMat[2,2]+confMat[1,1])/sum(confMat)
+  prec<- (confMat[1,1])/sum(confMat[,1])
+  recall<-confMat[1,1]/sum(confMat[1,])
+  return(list(names,confMat,c(sens,spec,acc,prec,recall)))
+  
+}
+outcome<-dfPredicted$risk
+
+predictions<-dfPredicted$prediction
+performanceMetrics(outcome,predictions)

@@ -1,0 +1,3 @@
+"0","predicted <- predict(model, test, type='class')"
+"0","test$risk = predicted"
+"0","head(test)"

@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.19.1211.1636                               -->
+<workbook original-version='18.1' source-build='2019.4.1 (20194.19.1211.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='surface-plastic-mass-by-ocean' inline='true' name='federated.1qp28oc0nkp9ex1ezs9ix0kef1i5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='surface-plastic-mass-by-ocean' name='textscan.0du16cs0mf5agy1dc0ybw0fyd365'>
+            <connection class='textscan' directory='C:/Users/rcpay/Desktop' filename='surface-plastic-mass-by-ocean.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0du16cs0mf5agy1dc0ybw0fyd365' name='surface-plastic-mass-by-ocean.csv' table='[surface-plastic-mass-by-ocean#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Entity' ordinal='0' />
+            <column datatype='string' name='Code' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='integer' name='All sizes (total mass) (tonnes)' ordinal='3' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[surface-plastic-mass-by-ocean.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Entity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Entity]</local-name>
+            <parent-name>[surface-plastic-mass-by-ocean.csv]</parent-name>
+            <remote-alias>Entity</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Code]</local-name>
+            <parent-name>[surface-plastic-mass-by-ocean.csv]</parent-name>
+            <remote-alias>Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[surface-plastic-mass-by-ocean.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>All sizes (total mass) (tonnes)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[All sizes (total mass) (tonnes)]</local-name>
+            <parent-name>[surface-plastic-mass-by-ocean.csv]</parent-name>
+            <remote-alias>All sizes (total mass) (tonnes)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Ocean' datatype='string' name='[Entity]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.510076' measure-ordering='alphabetic' measure-percentage='0.489924' show-structure='true' user-set-layout='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Plastics by Ocean (2013)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='surface-plastic-mass-by-ocean' name='federated.1qp28oc0nkp9ex1ezs9ix0kef1i5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qp28oc0nkp9ex1ezs9ix0kef1i5'>
+            <column datatype='integer' name='[All sizes (total mass) (tonnes)]' role='measure' type='quantitative' />
+            <column caption='Ocean' datatype='string' name='[Entity]' role='dimension' type='nominal' />
+            <column-instance column='[Entity]' derivation='None' name='[none:Entity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[All sizes (total mass) (tonnes)]' derivation='Sum' name='[sum:All sizes (total mass) (tonnes):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1qp28oc0nkp9ex1ezs9ix0kef1i5].[none:Entity:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Entity:nk]' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Global ocean (total)&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1qp28oc0nkp9ex1ezs9ix0kef1i5].[none:Entity:nk]' direction='DESC' using='[federated.1qp28oc0nkp9ex1ezs9ix0kef1i5].[sum:All sizes (total mass) (tonnes):qk]' />
+          <slices>
+            <column>[federated.1qp28oc0nkp9ex1ezs9ix0kef1i5].[none:Entity:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1qp28oc0nkp9ex1ezs9ix0kef1i5].[sum:All sizes (total mass) (tonnes):qk]' palette='red_gold_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1qp28oc0nkp9ex1ezs9ix0kef1i5].[sum:All sizes (total mass) (tonnes):qk]' />
+              <text column='[federated.1qp28oc0nkp9ex1ezs9ix0kef1i5].[sum:All sizes (total mass) (tonnes):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1qp28oc0nkp9ex1ezs9ix0kef1i5].[sum:All sizes (total mass) (tonnes):qk]</rows>
+        <cols>[federated.1qp28oc0nkp9ex1ezs9ix0kef1i5].[none:Entity:nk]</cols>
+      </table>
+      <simple-id uuid='{6391B885-901F-4D80-970B-C91077C1FE29}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1qp28oc0nkp9ex1ezs9ix0kef1i5].[sum:All sizes (total mass) (tonnes):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1qp28oc0nkp9ex1ezs9ix0kef1i5].[none:Entity:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6F0D9918-ADE1-4577-AC42-385271CF35D0}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

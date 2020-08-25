@@ -1,0 +1,4 @@
+"0","rowsOCC <- nrow(occ)"
+"0","rowsPIC <- nrow(pic)"
+"0","colsOCC <- ncol(occ)"
+"0","colsPIC <- ncol(pic)"

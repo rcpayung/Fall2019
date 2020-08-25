@@ -1,0 +1,5686 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="Distance" attr.type="float"/>
+<key id="d5" for="edge" attr.name="Label" attr.type="string"/>
+<key id="d4" for="node" attr.name="Longitude" attr.type="float"/>
+<key id="d3" for="node" attr.name="Latitude" attr.type="float"/>
+<key id="d2" for="node" attr.name="Country" attr.type="string"/>
+<key id="d1" for="node" attr.name="City" attr.type="string"/>
+<key id="d0" for="node" attr.name="Label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="KEF">
+  <data key="d0">KEF</data>
+  <data key="d1">Keflavik</data>
+  <data key="d2">Iceland</data>
+  <data key="d3">63.985000610352</data>
+  <data key="d4">-22.605600357056</data>
+</node>
+<node id="JFK">
+  <data key="d0">JFK</data>
+  <data key="d1">New York</data>
+  <data key="d2">United States</data>
+  <data key="d3">40.63980103</data>
+  <data key="d4">-73.77890015</data>
+</node>
+<node id="MSP">
+  <data key="d0">MSP</data>
+  <data key="d1">Minneapolis</data>
+  <data key="d2">United States</data>
+  <data key="d3">44.881999969499994</data>
+  <data key="d4">-93.22180175780001</data>
+</node>
+<node id="YEG">
+  <data key="d0">YEG</data>
+  <data key="d1">Edmonton</data>
+  <data key="d2">Canada</data>
+  <data key="d3">53.309700012200004</data>
+  <data key="d4">-113.580001831</data>
+</node>
+<node id="SEA">
+  <data key="d0">SEA</data>
+  <data key="d1">Seattle</data>
+  <data key="d2">United States</data>
+  <data key="d3">47.44900131225586</data>
+  <data key="d4">-122.30899810791016</data>
+</node>
+<node id="YHZ">
+  <data key="d0">YHZ</data>
+  <data key="d1">Halifax</data>
+  <data key="d2">Canada</data>
+  <data key="d3">44.8807983398</data>
+  <data key="d4">-63.5085983276</data>
+</node>
+<node id="LGA">
+  <data key="d0">LGA</data>
+  <data key="d1">New York</data>
+  <data key="d2">United States</data>
+  <data key="d3">40.77719879</data>
+  <data key="d4">-73.87259674</data>
+</node>
+<node id="YOW">
+  <data key="d0">YOW</data>
+  <data key="d1">Ottawa</data>
+  <data key="d2">Canada</data>
+  <data key="d3">45.3224983215332</data>
+  <data key="d4">-75.66919708251953</data>
+</node>
+<node id="DTW">
+  <data key="d0">DTW</data>
+  <data key="d1">Detroit</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.212398529052734</data>
+  <data key="d4">-83.35340118408203</data>
+</node>
+<node id="YUL">
+  <data key="d0">YUL</data>
+  <data key="d1">Montreal</data>
+  <data key="d2">Canada</data>
+  <data key="d3">45.4706001282</data>
+  <data key="d4">-73.7407989502</data>
+</node>
+<node id="ATL">
+  <data key="d0">ATL</data>
+  <data key="d1">Atlanta</data>
+  <data key="d2">United States</data>
+  <data key="d3">33.63669967651367</data>
+  <data key="d4">-84.4281005859375</data>
+</node>
+<node id="YVR">
+  <data key="d0">YVR</data>
+  <data key="d1">Vancouver</data>
+  <data key="d2">Canada</data>
+  <data key="d3">49.193901062</data>
+  <data key="d4">-123.183998108</data>
+</node>
+<node id="SLC">
+  <data key="d0">SLC</data>
+  <data key="d1">Salt Lake City</data>
+  <data key="d2">United States</data>
+  <data key="d3">40.78839874267578</data>
+  <data key="d4">-111.97799682617188</data>
+</node>
+<node id="YWG">
+  <data key="d0">YWG</data>
+  <data key="d1">Winnipeg</data>
+  <data key="d2">Canada</data>
+  <data key="d3">49.909999847399995</data>
+  <data key="d4">-97.2398986816</data>
+</node>
+<node id="YXE">
+  <data key="d0">YXE</data>
+  <data key="d1">Saskatoon</data>
+  <data key="d2">Canada</data>
+  <data key="d3">52.170799255371094</data>
+  <data key="d4">-106.69999694824219</data>
+</node>
+<node id="YYC">
+  <data key="d0">YYC</data>
+  <data key="d1">Calgary</data>
+  <data key="d2">Canada</data>
+  <data key="d3">51.113899231</data>
+  <data key="d4">-114.019996643</data>
+</node>
+<node id="YYJ">
+  <data key="d0">YYJ</data>
+  <data key="d1">Victoria</data>
+  <data key="d2">Canada</data>
+  <data key="d3">48.646900177</data>
+  <data key="d4">-123.426002502</data>
+</node>
+<node id="YYZ">
+  <data key="d0">YYZ</data>
+  <data key="d1">Toronto</data>
+  <data key="d2">Canada</data>
+  <data key="d3">43.6772003174</data>
+  <data key="d4">-79.63059997559999</data>
+</node>
+<node id="CVG">
+  <data key="d0">CVG</data>
+  <data key="d1">Cincinnati</data>
+  <data key="d2">United States</data>
+  <data key="d3">39.0488014221</data>
+  <data key="d4">-84.6678009033</data>
+</node>
+<node id="LOS">
+  <data key="d0">LOS</data>
+  <data key="d1">Lagos</data>
+  <data key="d2">Nigeria</data>
+  <data key="d3">6.5773701667785645</data>
+  <data key="d4">3.321160078048706</data>
+</node>
+<node id="BRU">
+  <data key="d0">BRU</data>
+  <data key="d1">Brussels</data>
+  <data key="d2">Belgium</data>
+  <data key="d3">50.901401519800004</data>
+  <data key="d4">4.48443984985</data>
+</node>
+<node id="FRA">
+  <data key="d0">FRA</data>
+  <data key="d1">Frankfurt</data>
+  <data key="d2">Germany</data>
+  <data key="d3">50.0333333</data>
+  <data key="d4">8.5705556</data>
+</node>
+<node id="DUS">
+  <data key="d0">DUS</data>
+  <data key="d1">Duesseldorf</data>
+  <data key="d2">Germany</data>
+  <data key="d3">51.28950119018555</data>
+  <data key="d4">6.766779899597168</data>
+</node>
+<node id="MUC">
+  <data key="d0">MUC</data>
+  <data key="d1">Munich</data>
+  <data key="d2">Germany</data>
+  <data key="d3">48.353801727295</data>
+  <data key="d4">11.786100387573</data>
+</node>
+<node id="STR">
+  <data key="d0">STR</data>
+  <data key="d1">Stuttgart</data>
+  <data key="d2">Germany</data>
+  <data key="d3">48.689899444599995</data>
+  <data key="d4">9.22196006775</data>
+</node>
+<node id="TXL">
+  <data key="d0">TXL</data>
+  <data key="d1">Berlin</data>
+  <data key="d2">Germany</data>
+  <data key="d3">52.5597000122</data>
+  <data key="d4">13.2876996994</data>
+</node>
+<node id="LHR">
+  <data key="d0">LHR</data>
+  <data key="d1">London</data>
+  <data key="d2">United Kingdom</data>
+  <data key="d3">51.4706</data>
+  <data key="d4">-0.461941</data>
+</node>
+<node id="BOS">
+  <data key="d0">BOS</data>
+  <data key="d1">Boston</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.36429977</data>
+  <data key="d4">-71.00520325</data>
+</node>
+<node id="PDX">
+  <data key="d0">PDX</data>
+  <data key="d1">Portland</data>
+  <data key="d2">United States</data>
+  <data key="d3">45.58869934</data>
+  <data key="d4">-122.5979996</data>
+</node>
+<node id="GLA">
+  <data key="d0">GLA</data>
+  <data key="d1">Glasgow</data>
+  <data key="d2">United Kingdom</data>
+  <data key="d3">55.8718986511</data>
+  <data key="d4">-4.43306016922</data>
+</node>
+<node id="EDI">
+  <data key="d0">EDI</data>
+  <data key="d1">Edinburgh</data>
+  <data key="d2">United Kingdom</data>
+  <data key="d3">55.95000076293945</data>
+  <data key="d4">-3.372499942779541</data>
+</node>
+<node id="AMS">
+  <data key="d0">AMS</data>
+  <data key="d1">Amsterdam</data>
+  <data key="d2">Netherlands</data>
+  <data key="d3">52.3086013794</data>
+  <data key="d4">4.763889789579999</data>
+</node>
+<node id="MCO">
+  <data key="d0">MCO</data>
+  <data key="d1">Orlando</data>
+  <data key="d2">United States</data>
+  <data key="d3">28.429399490356445</data>
+  <data key="d4">-81.30899810791016</data>
+</node>
+<node id="DUB">
+  <data key="d0">DUB</data>
+  <data key="d1">Dublin</data>
+  <data key="d2">Ireland</data>
+  <data key="d3">53.42129898071289</data>
+  <data key="d4">-6.2700700759887695</data>
+</node>
+<node id="SNN">
+  <data key="d0">SNN</data>
+  <data key="d1">Shannon</data>
+  <data key="d2">Ireland</data>
+  <data key="d3">52.701999664307</data>
+  <data key="d4">-8.9248199462891</data>
+</node>
+<node id="CPH">
+  <data key="d0">CPH</data>
+  <data key="d1">Copenhagen</data>
+  <data key="d2">Denmark</data>
+  <data key="d3">55.617900848389</data>
+  <data key="d4">12.656000137329</data>
+</node>
+<node id="JNB">
+  <data key="d0">JNB</data>
+  <data key="d1">Johannesburg</data>
+  <data key="d2">South Africa</data>
+  <data key="d3">-26.1392</data>
+  <data key="d4">28.246</data>
+</node>
+<node id="BCN">
+  <data key="d0">BCN</data>
+  <data key="d1">Barcelona</data>
+  <data key="d2">Spain</data>
+  <data key="d3">41.297100067139</data>
+  <data key="d4">2.0784599781036</data>
+</node>
+<node id="MAD">
+  <data key="d0">MAD</data>
+  <data key="d1">Madrid</data>
+  <data key="d2">Spain</data>
+  <data key="d3">40.471926</data>
+  <data key="d4">-3.56264</data>
+</node>
+<node id="AGP">
+  <data key="d0">AGP</data>
+  <data key="d1">Malaga</data>
+  <data key="d2">Spain</data>
+  <data key="d3">36.67490005493164</data>
+  <data key="d4">-4.499110221862793</data>
+</node>
+<node id="NCE">
+  <data key="d0">NCE</data>
+  <data key="d1">Nice</data>
+  <data key="d2">France</data>
+  <data key="d3">43.6584014893</data>
+  <data key="d4">7.215869903560001</data>
+</node>
+<node id="CDG">
+  <data key="d0">CDG</data>
+  <data key="d1">Paris</data>
+  <data key="d2">France</data>
+  <data key="d3">49.0127983093</data>
+  <data key="d4">2.54999995232</data>
+</node>
+<node id="LAX">
+  <data key="d0">LAX</data>
+  <data key="d1">Los Angeles</data>
+  <data key="d2">United States</data>
+  <data key="d3">33.94250107</data>
+  <data key="d4">-118.4079971</data>
+</node>
+<node id="EWR">
+  <data key="d0">EWR</data>
+  <data key="d1">Newark</data>
+  <data key="d2">United States</data>
+  <data key="d3">40.692501068115234</data>
+  <data key="d4">-74.168701171875</data>
+</node>
+<node id="PIT">
+  <data key="d0">PIT</data>
+  <data key="d1">Pittsburgh</data>
+  <data key="d2">United States</data>
+  <data key="d3">40.49150085</data>
+  <data key="d4">-80.23290253</data>
+</node>
+<node id="RDU">
+  <data key="d0">RDU</data>
+  <data key="d1">Raleigh-durham</data>
+  <data key="d2">United States</data>
+  <data key="d3">35.877601623535156</data>
+  <data key="d4">-78.7874984741211</data>
+</node>
+<node id="IND">
+  <data key="d0">IND</data>
+  <data key="d1">Indianapolis</data>
+  <data key="d2">United States</data>
+  <data key="d3">39.7173</data>
+  <data key="d4">-86.294403</data>
+</node>
+<node id="MXP">
+  <data key="d0">MXP</data>
+  <data key="d1">Milano</data>
+  <data key="d2">Italy</data>
+  <data key="d3">45.6306</data>
+  <data key="d4">8.72811</data>
+</node>
+<node id="VCE">
+  <data key="d0">VCE</data>
+  <data key="d1">Venice</data>
+  <data key="d2">Italy</data>
+  <data key="d3">45.505299</data>
+  <data key="d4">12.3519</data>
+</node>
+<node id="FCO">
+  <data key="d0">FCO</data>
+  <data key="d1">Rome</data>
+  <data key="d2">Italy</data>
+  <data key="d3">41.8002778</data>
+  <data key="d4">12.2388889</data>
+</node>
+<node id="PRG">
+  <data key="d0">PRG</data>
+  <data key="d1">Prague</data>
+  <data key="d2">Czech Republic</data>
+  <data key="d3">50.1008</data>
+  <data key="d4">14.26</data>
+</node>
+<node id="TLV">
+  <data key="d0">TLV</data>
+  <data key="d1">Tel-aviv</data>
+  <data key="d2">Israel</data>
+  <data key="d3">32.01139831542969</data>
+  <data key="d4">34.88669967651367</data>
+</node>
+<node id="PDL">
+  <data key="d0">PDL</data>
+  <data key="d1">Ponta Delgada</data>
+  <data key="d2">Portugal</data>
+  <data key="d3">37.7411994934</data>
+  <data key="d4">-25.6979007721</data>
+</node>
+<node id="LIS">
+  <data key="d0">LIS</data>
+  <data key="d1">Lisbon</data>
+  <data key="d2">Portugal</data>
+  <data key="d3">38.7812995911</data>
+  <data key="d4">-9.13591957092</data>
+</node>
+<node id="ZRH">
+  <data key="d0">ZRH</data>
+  <data key="d1">Zurich</data>
+  <data key="d2">Switzerland</data>
+  <data key="d3">47.464698791504</data>
+  <data key="d4">8.5491695404053</data>
+</node>
+<node id="PLS">
+  <data key="d0">PLS</data>
+  <data key="d1">Providenciales</data>
+  <data key="d2">Turks and Caicos Islands</data>
+  <data key="d3">21.77359962463379</data>
+  <data key="d4">-72.26589965820312</data>
+</node>
+<node id="PUJ">
+  <data key="d0">PUJ</data>
+  <data key="d1">Punta Cana</data>
+  <data key="d2">Dominican Republic</data>
+  <data key="d3">18.567399978599997</data>
+  <data key="d4">-68.36340332030001</data>
+</node>
+<node id="SDQ">
+  <data key="d0">SDQ</data>
+  <data key="d1">Santo Domingo</data>
+  <data key="d2">Dominican Republic</data>
+  <data key="d3">18.42970085144</data>
+  <data key="d4">-69.668899536133</data>
+</node>
+<node id="STI">
+  <data key="d0">STI</data>
+  <data key="d1">Santiago</data>
+  <data key="d2">Dominican Republic</data>
+  <data key="d3">19.406099319458008</data>
+  <data key="d4">-70.60469818115234</data>
+</node>
+<node id="GUA">
+  <data key="d0">GUA</data>
+  <data key="d1">Guatemala City</data>
+  <data key="d2">Guatemala</data>
+  <data key="d3">14.58329963684082</data>
+  <data key="d4">-90.52749633789062</data>
+</node>
+<node id="SAP">
+  <data key="d0">SAP</data>
+  <data key="d1">San Pedro Sula</data>
+  <data key="d2">Honduras</data>
+  <data key="d3">15.45259952545166</data>
+  <data key="d4">-87.92359924316406</data>
+</node>
+<node id="TGU">
+  <data key="d0">TGU</data>
+  <data key="d1">Tegucigalpa</data>
+  <data key="d2">Honduras</data>
+  <data key="d3">14.06089973449707</data>
+  <data key="d4">-87.21720123291016</data>
+</node>
+<node id="KIN">
+  <data key="d0">KIN</data>
+  <data key="d1">Kingston</data>
+  <data key="d2">Jamaica</data>
+  <data key="d3">17.935699462890625</data>
+  <data key="d4">-76.7874984741211</data>
+</node>
+<node id="MBJ">
+  <data key="d0">MBJ</data>
+  <data key="d1">Montego Bay</data>
+  <data key="d2">Jamaica</data>
+  <data key="d3">18.503700256347656</data>
+  <data key="d4">-77.91339874267578</data>
+</node>
+<node id="CZM">
+  <data key="d0">CZM</data>
+  <data key="d1">Cozumel</data>
+  <data key="d2">Mexico</data>
+  <data key="d3">20.52239990234375</data>
+  <data key="d4">-86.92559814453125</data>
+</node>
+<node id="GDL">
+  <data key="d0">GDL</data>
+  <data key="d1">Guadalajara</data>
+  <data key="d2">Mexico</data>
+  <data key="d3">20.521799087524414</data>
+  <data key="d4">-103.31099700927734</data>
+</node>
+<node id="MEX">
+  <data key="d0">MEX</data>
+  <data key="d1">Mexico City</data>
+  <data key="d2">Mexico</data>
+  <data key="d3">19.4363</data>
+  <data key="d4">-99.072098</data>
+</node>
+<node id="MTY">
+  <data key="d0">MTY</data>
+  <data key="d1">Monterrey</data>
+  <data key="d2">Mexico</data>
+  <data key="d3">25.7784996033</data>
+  <data key="d4">-100.107002258</data>
+</node>
+<node id="PVR">
+  <data key="d0">PVR</data>
+  <data key="d1">Puerto Vallarta</data>
+  <data key="d2">Mexico</data>
+  <data key="d3">20.680099487304688</data>
+  <data key="d4">-105.25399780273438</data>
+</node>
+<node id="SJD">
+  <data key="d0">SJD</data>
+  <data key="d1">San Jose Del Cabo</data>
+  <data key="d2">Mexico</data>
+  <data key="d3">23.15180015563965</data>
+  <data key="d4">-109.72100067138672</data>
+</node>
+<node id="CUN">
+  <data key="d0">CUN</data>
+  <data key="d1">Cancun</data>
+  <data key="d2">Mexico</data>
+  <data key="d3">21.036500930800003</data>
+  <data key="d4">-86.8770980835</data>
+</node>
+<node id="MGA">
+  <data key="d0">MGA</data>
+  <data key="d1">Managua</data>
+  <data key="d2">Nicaragua</data>
+  <data key="d3">12.141500473022461</data>
+  <data key="d4">-86.16819763183594</data>
+</node>
+<node id="PTY">
+  <data key="d0">PTY</data>
+  <data key="d1">Panama City</data>
+  <data key="d2">Panama</data>
+  <data key="d3">9.0713596344</data>
+  <data key="d4">-79.3834991455</data>
+</node>
+<node id="LIR">
+  <data key="d0">LIR</data>
+  <data key="d1">Liberia</data>
+  <data key="d2">Costa Rica</data>
+  <data key="d3">10.593299865722656</data>
+  <data key="d4">-85.54440307617188</data>
+</node>
+<node id="SJO">
+  <data key="d0">SJO</data>
+  <data key="d1">San Jose</data>
+  <data key="d2">Costa Rica</data>
+  <data key="d3">9.993860244750977</data>
+  <data key="d4">-84.20880126953125</data>
+</node>
+<node id="SAL">
+  <data key="d0">SAL</data>
+  <data key="d1">San Salvador</data>
+  <data key="d2">El Salvador</data>
+  <data key="d3">13.4409</data>
+  <data key="d4">-89.055702</data>
+</node>
+<node id="PAP">
+  <data key="d0">PAP</data>
+  <data key="d1">Port-au-prince</data>
+  <data key="d2">Haiti</data>
+  <data key="d3">18.579999923706055</data>
+  <data key="d4">-72.2925033569336</data>
+</node>
+<node id="HAV">
+  <data key="d0">HAV</data>
+  <data key="d1">Havana</data>
+  <data key="d2">Cuba</data>
+  <data key="d3">22.989200592041016</data>
+  <data key="d4">-82.40910339355469</data>
+</node>
+<node id="MIA">
+  <data key="d0">MIA</data>
+  <data key="d1">Miami</data>
+  <data key="d2">United States</data>
+  <data key="d3">25.79319953918457</data>
+  <data key="d4">-80.29060363769531</data>
+</node>
+<node id="GCM">
+  <data key="d0">GCM</data>
+  <data key="d1">Georgetown</data>
+  <data key="d2">Cayman Islands</data>
+  <data key="d3">19.292800903299998</data>
+  <data key="d4">-81.3576965332</data>
+</node>
+<node id="MHH">
+  <data key="d0">MHH</data>
+  <data key="d1">Marsh Harbor</data>
+  <data key="d2">Bahamas</data>
+  <data key="d3">26.511400222800003</data>
+  <data key="d4">-77.08350372310001</data>
+</node>
+<node id="GGT">
+  <data key="d0">GGT</data>
+  <data key="d1">Great Exuma</data>
+  <data key="d2">Bahamas</data>
+  <data key="d3">23.5625991821</data>
+  <data key="d4">-75.8779983521</data>
+</node>
+<node id="ELH">
+  <data key="d0">ELH</data>
+  <data key="d1">North Eleuthera</data>
+  <data key="d2">Bahamas</data>
+  <data key="d3">25.474899292</data>
+  <data key="d4">-76.6835021973</data>
+</node>
+<node id="NAS">
+  <data key="d0">NAS</data>
+  <data key="d1">Nassau</data>
+  <data key="d2">Bahamas</data>
+  <data key="d3">25.0389995575</data>
+  <data key="d4">-77.46620178219999</data>
+</node>
+<node id="BZE">
+  <data key="d0">BZE</data>
+  <data key="d1">Belize City</data>
+  <data key="d2">Belize</data>
+  <data key="d3">17.539100646972656</data>
+  <data key="d4">-88.30819702148438</data>
+</node>
+<node id="NRT">
+  <data key="d0">NRT</data>
+  <data key="d1">Tokyo</data>
+  <data key="d2">Japan</data>
+  <data key="d3">35.7647018433</data>
+  <data key="d4">140.386001587</data>
+</node>
+<node id="PVG">
+  <data key="d0">PVG</data>
+  <data key="d1">Shanghai</data>
+  <data key="d2">China</data>
+  <data key="d3">31.143400192260742</data>
+  <data key="d4">121.80500030517578</data>
+</node>
+<node id="MNL">
+  <data key="d0">MNL</data>
+  <data key="d1">Manila</data>
+  <data key="d2">Philippines</data>
+  <data key="d3">14.5086</data>
+  <data key="d4">121.019997</data>
+</node>
+<node id="SIN">
+  <data key="d0">SIN</data>
+  <data key="d1">Singapore</data>
+  <data key="d2">Singapore</data>
+  <data key="d3">1.35019</data>
+  <data key="d4">103.994003</data>
+</node>
+<node id="HNL">
+  <data key="d0">HNL</data>
+  <data key="d1">Honolulu</data>
+  <data key="d2">United States</data>
+  <data key="d3">21.318700790405273</data>
+  <data key="d4">-157.9219970703125</data>
+</node>
+<node id="FUK">
+  <data key="d0">FUK</data>
+  <data key="d1">Fukuoka</data>
+  <data key="d2">Japan</data>
+  <data key="d3">33.585899353027344</data>
+  <data key="d4">130.4510040283203</data>
+</node>
+<node id="HND">
+  <data key="d0">HND</data>
+  <data key="d1">Tokyo</data>
+  <data key="d2">Japan</data>
+  <data key="d3">35.552299</data>
+  <data key="d4">139.779999</data>
+</node>
+<node id="GIG">
+  <data key="d0">GIG</data>
+  <data key="d1">Rio De Janeiro</data>
+  <data key="d2">Brazil</data>
+  <data key="d3">-22.8099994659</data>
+  <data key="d4">-43.2505569458</data>
+</node>
+<node id="GRU">
+  <data key="d0">GRU</data>
+  <data key="d1">Sao Paulo</data>
+  <data key="d2">Brazil</data>
+  <data key="d3">-23.435556411743164</data>
+  <data key="d4">-46.47305679321289</data>
+</node>
+<node id="SCL">
+  <data key="d0">SCL</data>
+  <data key="d1">Santiago</data>
+  <data key="d2">Chile</data>
+  <data key="d3">-33.393001556396484</data>
+  <data key="d4">-70.78579711914062</data>
+</node>
+<node id="UIO">
+  <data key="d0">UIO</data>
+  <data key="d1">Quito</data>
+  <data key="d2">Ecuador</data>
+  <data key="d3">-0.129166666667</data>
+  <data key="d4">-78.3575</data>
+</node>
+<node id="BOG">
+  <data key="d0">BOG</data>
+  <data key="d1">Bogota</data>
+  <data key="d2">Colombia</data>
+  <data key="d3">4.70159</data>
+  <data key="d4">-74.1469</data>
+</node>
+<node id="CTG">
+  <data key="d0">CTG</data>
+  <data key="d1">Cartagena</data>
+  <data key="d2">Colombia</data>
+  <data key="d3">10.4424</data>
+  <data key="d4">-75.513</data>
+</node>
+<node id="LIM">
+  <data key="d0">LIM</data>
+  <data key="d1">Lima</data>
+  <data key="d2">Peru</data>
+  <data key="d3">-12.0219</data>
+  <data key="d4">-77.114304</data>
+</node>
+<node id="STT">
+  <data key="d0">STT</data>
+  <data key="d1">St. Thomas</data>
+  <data key="d2">Virgin Islands</data>
+  <data key="d3">18.337299346923828</data>
+  <data key="d4">-64.97339630126953</data>
+</node>
+<node id="SJU">
+  <data key="d0">SJU</data>
+  <data key="d1">San Juan</data>
+  <data key="d2">Puerto Rico</data>
+  <data key="d3">18.4393997192</data>
+  <data key="d4">-66.0018005371</data>
+</node>
+<node id="UVF">
+  <data key="d0">UVF</data>
+  <data key="d1">Hewandorra</data>
+  <data key="d2">Saint Lucia</data>
+  <data key="d3">13.7332</data>
+  <data key="d4">-60.952599</data>
+</node>
+<node id="AUA">
+  <data key="d0">AUA</data>
+  <data key="d1">Oranjestad</data>
+  <data key="d2">Aruba</data>
+  <data key="d3">12.501399993896484</data>
+  <data key="d4">-70.01519775390625</data>
+</node>
+<node id="SXM">
+  <data key="d0">SXM</data>
+  <data key="d1">Philipsburg</data>
+  <data key="d2">Netherlands Antilles</data>
+  <data key="d3">18.041000366200002</data>
+  <data key="d4">-63.1088981628</data>
+</node>
+<node id="HKG">
+  <data key="d0">HKG</data>
+  <data key="d1">Hong Kong</data>
+  <data key="d2">Hong Kong</data>
+  <data key="d3">22.3089008331</data>
+  <data key="d4">113.915000916</data>
+</node>
+<node id="SYD">
+  <data key="d0">SYD</data>
+  <data key="d1">Sydney</data>
+  <data key="d2">Australia</data>
+  <data key="d3">-33.94609832763672</data>
+  <data key="d4">151.177001953125</data>
+</node>
+<node id="PEK">
+  <data key="d0">PEK</data>
+  <data key="d1">Beijing</data>
+  <data key="d2">China</data>
+  <data key="d3">40.080101013183594</data>
+  <data key="d4">116.58499908447266</data>
+</node>
+<node id="FSM">
+  <data key="d0">FSM</data>
+  <data key="d1">Fort Smith</data>
+  <data key="d2">United States</data>
+  <data key="d3">35.33660125732422</data>
+  <data key="d4">-94.36740112304688</data>
+</node>
+<node id="GFK">
+  <data key="d0">GFK</data>
+  <data key="d1">Grand Forks</data>
+  <data key="d2">United States</data>
+  <data key="d3">47.949299</data>
+  <data key="d4">-97.176102</data>
+</node>
+<node id="BDA">
+  <data key="d0">BDA</data>
+  <data key="d1">Bermuda</data>
+  <data key="d2">Bermuda</data>
+  <data key="d3">32.36399841308594</data>
+  <data key="d4">-64.67870330810547</data>
+</node>
+<node id="TPA">
+  <data key="d0">TPA</data>
+  <data key="d1">Tampa</data>
+  <data key="d2">United States</data>
+  <data key="d3">27.975500106811523</data>
+  <data key="d4">-82.533203125</data>
+</node>
+<node id="AUS">
+  <data key="d0">AUS</data>
+  <data key="d1">Austin</data>
+  <data key="d2">United States</data>
+  <data key="d3">30.194499969482422</data>
+  <data key="d4">-97.6698989868164</data>
+</node>
+<node id="FLL">
+  <data key="d0">FLL</data>
+  <data key="d1">Fort Lauderdale</data>
+  <data key="d2">United States</data>
+  <data key="d3">26.072599411010742</data>
+  <data key="d4">-80.15270233154297</data>
+</node>
+<node id="SFO">
+  <data key="d0">SFO</data>
+  <data key="d1">San Francisco</data>
+  <data key="d2">United States</data>
+  <data key="d3">37.61899948120117</data>
+  <data key="d4">-122.375</data>
+</node>
+<node id="BUF">
+  <data key="d0">BUF</data>
+  <data key="d1">Buffalo</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.94049835</data>
+  <data key="d4">-78.73220062</data>
+</node>
+<node id="RIC">
+  <data key="d0">RIC</data>
+  <data key="d1">Richmond</data>
+  <data key="d2">United States</data>
+  <data key="d3">37.50519943237305</data>
+  <data key="d4">-77.3197021484375</data>
+</node>
+<node id="ORF">
+  <data key="d0">ORF</data>
+  <data key="d1">Norfolk</data>
+  <data key="d2">United States</data>
+  <data key="d3">36.89459991455078</data>
+  <data key="d4">-76.20120239257812</data>
+</node>
+<node id="MKE">
+  <data key="d0">MKE</data>
+  <data key="d1">Milwaukee</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.947200775146484</data>
+  <data key="d4">-87.89659881591797</data>
+</node>
+<node id="BNA">
+  <data key="d0">BNA</data>
+  <data key="d1">Nashville</data>
+  <data key="d2">United States</data>
+  <data key="d3">36.1245002746582</data>
+  <data key="d4">-86.6781997680664</data>
+</node>
+<node id="JAX">
+  <data key="d0">JAX</data>
+  <data key="d1">Jacksonville</data>
+  <data key="d2">United States</data>
+  <data key="d3">30.49410057067871</data>
+  <data key="d4">-81.68789672851562</data>
+</node>
+<node id="MCI">
+  <data key="d0">MCI</data>
+  <data key="d1">Kansas City</data>
+  <data key="d2">United States</data>
+  <data key="d3">39.2976</data>
+  <data key="d4">-94.713898</data>
+</node>
+<node id="CMH">
+  <data key="d0">CMH</data>
+  <data key="d1">Columbus</data>
+  <data key="d2">United States</data>
+  <data key="d3">39.99800109863281</data>
+  <data key="d4">-82.89189910888672</data>
+</node>
+<node id="CHS">
+  <data key="d0">CHS</data>
+  <data key="d1">Charleston</data>
+  <data key="d2">United States</data>
+  <data key="d3">32.89860153</data>
+  <data key="d4">-80.04049683</data>
+</node>
+<node id="OAK">
+  <data key="d0">OAK</data>
+  <data key="d1">Oakland</data>
+  <data key="d2">United States</data>
+  <data key="d3">37.72129821777344</data>
+  <data key="d4">-122.22100067138672</data>
+</node>
+<node id="OMA">
+  <data key="d0">OMA</data>
+  <data key="d1">Omaha</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.303199768066406</data>
+  <data key="d4">-95.89409637451172</data>
+</node>
+<node id="DCA">
+  <data key="d0">DCA</data>
+  <data key="d1">Washington</data>
+  <data key="d2">United States</data>
+  <data key="d3">38.8521</data>
+  <data key="d4">-77.037697</data>
+</node>
+<node id="OGG">
+  <data key="d0">OGG</data>
+  <data key="d1">Kahului</data>
+  <data key="d2">United States</data>
+  <data key="d3">20.89859962463379</data>
+  <data key="d4">-156.42999267578125</data>
+</node>
+<node id="ICT">
+  <data key="d0">ICT</data>
+  <data key="d1">Wichita</data>
+  <data key="d2">United States</data>
+  <data key="d3">37.649898529052734</data>
+  <data key="d4">-97.43309783935547</data>
+</node>
+<node id="MSN">
+  <data key="d0">MSN</data>
+  <data key="d1">Madison</data>
+  <data key="d2">United States</data>
+  <data key="d3">43.13990020751953</data>
+  <data key="d4">-89.3375015258789</data>
+</node>
+<node id="PHX">
+  <data key="d0">PHX</data>
+  <data key="d1">Phoenix</data>
+  <data key="d2">United States</data>
+  <data key="d3">33.43429946899414</data>
+  <data key="d4">-112.01200103759766</data>
+</node>
+<node id="BGR">
+  <data key="d0">BGR</data>
+  <data key="d1">Bangor</data>
+  <data key="d2">United States</data>
+  <data key="d3">44.80739974975586</data>
+  <data key="d4">-68.8281021118164</data>
+</node>
+<node id="GEG">
+  <data key="d0">GEG</data>
+  <data key="d1">Spokane</data>
+  <data key="d2">United States</data>
+  <data key="d3">47.61989974975586</data>
+  <data key="d4">-117.53399658203125</data>
+</node>
+<node id="GNV">
+  <data key="d0">GNV</data>
+  <data key="d1">Gainesville</data>
+  <data key="d2">United States</data>
+  <data key="d3">29.6900997162</data>
+  <data key="d4">-82.2717971802</data>
+</node>
+<node id="MEM">
+  <data key="d0">MEM</data>
+  <data key="d1">Memphis</data>
+  <data key="d2">United States</data>
+  <data key="d3">35.04240036010742</data>
+  <data key="d4">-89.97669982910156</data>
+</node>
+<node id="DEN">
+  <data key="d0">DEN</data>
+  <data key="d1">Denver</data>
+  <data key="d2">United States</data>
+  <data key="d3">39.861698150635</data>
+  <data key="d4">-104.672996521</data>
+</node>
+<node id="DFW">
+  <data key="d0">DFW</data>
+  <data key="d1">Dallas-Fort Worth</data>
+  <data key="d2">United States</data>
+  <data key="d3">32.89680099487305</data>
+  <data key="d4">-97.03800201416016</data>
+</node>
+<node id="SAN">
+  <data key="d0">SAN</data>
+  <data key="d1">San Diego</data>
+  <data key="d2">United States</data>
+  <data key="d3">32.7336006165</data>
+  <data key="d4">-117.190002441</data>
+</node>
+<node id="LAS">
+  <data key="d0">LAS</data>
+  <data key="d1">Las Vegas</data>
+  <data key="d2">United States</data>
+  <data key="d3">36.08010101</data>
+  <data key="d4">-115.1520004</data>
+</node>
+<node id="MSY">
+  <data key="d0">MSY</data>
+  <data key="d1">New Orleans</data>
+  <data key="d2">United States</data>
+  <data key="d3">29.99340057373047</data>
+  <data key="d4">-90.25800323486328</data>
+</node>
+<node id="LIH">
+  <data key="d0">LIH</data>
+  <data key="d1">Lihue</data>
+  <data key="d2">United States</data>
+  <data key="d3">21.97599983215332</data>
+  <data key="d4">-159.33900451660156</data>
+</node>
+<node id="KOA">
+  <data key="d0">KOA</data>
+  <data key="d1">Kona</data>
+  <data key="d2">United States</data>
+  <data key="d3">19.738800048828125</data>
+  <data key="d4">-156.04600524902344</data>
+</node>
+<node id="TUS">
+  <data key="d0">TUS</data>
+  <data key="d1">Tucson</data>
+  <data key="d2">United States</data>
+  <data key="d3">32.1161003112793</data>
+  <data key="d4">-110.94100189208984</data>
+</node>
+<node id="ASE">
+  <data key="d0">ASE</data>
+  <data key="d1">Aspen</data>
+  <data key="d2">United States</data>
+  <data key="d3">39.22320175</data>
+  <data key="d4">-106.8690033</data>
+</node>
+<node id="BOI">
+  <data key="d0">BOI</data>
+  <data key="d1">Boise</data>
+  <data key="d2">United States</data>
+  <data key="d3">43.56439972</data>
+  <data key="d4">-116.2229996</data>
+</node>
+<node id="SJC">
+  <data key="d0">SJC</data>
+  <data key="d1">San Jose</data>
+  <data key="d2">United States</data>
+  <data key="d3">37.36259841918945</data>
+  <data key="d4">-121.92900085449219</data>
+</node>
+<node id="SMF">
+  <data key="d0">SMF</data>
+  <data key="d1">Sacramento</data>
+  <data key="d2">United States</data>
+  <data key="d3">38.69540023803711</data>
+  <data key="d4">-121.59100341796875</data>
+</node>
+<node id="ABQ">
+  <data key="d0">ABQ</data>
+  <data key="d1">Albuquerque</data>
+  <data key="d2">United States</data>
+  <data key="d3">35.040199279785156</data>
+  <data key="d4">-106.60900115966797</data>
+</node>
+<node id="SAT">
+  <data key="d0">SAT</data>
+  <data key="d1">San Antonio</data>
+  <data key="d2">United States</data>
+  <data key="d3">29.533700942993164</data>
+  <data key="d4">-98.46980285644531</data>
+</node>
+<node id="CLE">
+  <data key="d0">CLE</data>
+  <data key="d1">Cleveland</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.4117012024</data>
+  <data key="d4">-81.8498001099</data>
+</node>
+<node id="BDL">
+  <data key="d0">BDL</data>
+  <data key="d1">Windsor Locks</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.9388999939</data>
+  <data key="d4">-72.68319702149999</data>
+</node>
+<node id="RSW">
+  <data key="d0">RSW</data>
+  <data key="d1">Fort Myers</data>
+  <data key="d2">United States</data>
+  <data key="d3">26.53619956970215</data>
+  <data key="d4">-81.75520324707031</data>
+</node>
+<node id="ORD">
+  <data key="d0">ORD</data>
+  <data key="d1">Chicago</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.97859955</data>
+  <data key="d4">-87.90480042</data>
+</node>
+<node id="STL">
+  <data key="d0">STL</data>
+  <data key="d1">St. Louis</data>
+  <data key="d2">United States</data>
+  <data key="d3">38.74869918823242</data>
+  <data key="d4">-90.37000274658203</data>
+</node>
+<node id="CLT">
+  <data key="d0">CLT</data>
+  <data key="d1">Charlotte</data>
+  <data key="d2">United States</data>
+  <data key="d3">35.2140007019043</data>
+  <data key="d4">-80.94309997558594</data>
+</node>
+<node id="BWI">
+  <data key="d0">BWI</data>
+  <data key="d1">Baltimore</data>
+  <data key="d2">United States</data>
+  <data key="d3">39.17539978</data>
+  <data key="d4">-76.66829681</data>
+</node>
+<node id="PHL">
+  <data key="d0">PHL</data>
+  <data key="d1">Philadelphia</data>
+  <data key="d2">United States</data>
+  <data key="d3">39.87189865112305</data>
+  <data key="d4">-75.24109649658203</data>
+</node>
+<node id="XNA">
+  <data key="d0">XNA</data>
+  <data key="d1">Bentonville</data>
+  <data key="d2">United States</data>
+  <data key="d3">36.281898</data>
+  <data key="d4">-94.306801</data>
+</node>
+<node id="IAH">
+  <data key="d0">IAH</data>
+  <data key="d1">Houston</data>
+  <data key="d2">United States</data>
+  <data key="d3">29.984399795532227</data>
+  <data key="d4">-95.34140014648438</data>
+</node>
+<node id="JNU">
+  <data key="d0">JNU</data>
+  <data key="d1">Juneau</data>
+  <data key="d2">United States</data>
+  <data key="d3">58.35499954223633</data>
+  <data key="d4">-134.5760040283203</data>
+</node>
+<node id="LFT">
+  <data key="d0">LFT</data>
+  <data key="d1">Lafayette</data>
+  <data key="d2">United States</data>
+  <data key="d3">30.20529938</data>
+  <data key="d4">-91.98760223</data>
+</node>
+<node id="MOT">
+  <data key="d0">MOT</data>
+  <data key="d1">Minot</data>
+  <data key="d2">United States</data>
+  <data key="d3">48.2593994140625</data>
+  <data key="d4">-101.27999877929688</data>
+</node>
+<node id="DAL">
+  <data key="d0">DAL</data>
+  <data key="d1">Dallas</data>
+  <data key="d2">United States</data>
+  <data key="d3">32.84709930419922</data>
+  <data key="d4">-96.85179901123047</data>
+</node>
+<node id="HLN">
+  <data key="d0">HLN</data>
+  <data key="d1">Helena</data>
+  <data key="d2">United States</data>
+  <data key="d3">46.6068000793457</data>
+  <data key="d4">-111.98300170898438</data>
+</node>
+<node id="MYR">
+  <data key="d0">MYR</data>
+  <data key="d1">Myrtle Beach</data>
+  <data key="d2">United States</data>
+  <data key="d3">33.6796989441</data>
+  <data key="d4">-78.9282989502</data>
+</node>
+<node id="ACK">
+  <data key="d0">ACK</data>
+  <data key="d1">Nantucket</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.25310135</data>
+  <data key="d4">-70.06020355</data>
+</node>
+<node id="LEX">
+  <data key="d0">LEX</data>
+  <data key="d1">Lexington KY</data>
+  <data key="d2">United States</data>
+  <data key="d3">38.0364990234375</data>
+  <data key="d4">-84.60590362548828</data>
+</node>
+<node id="INL">
+  <data key="d0">INL</data>
+  <data key="d1">International Falls</data>
+  <data key="d2">United States</data>
+  <data key="d3">48.566200256347656</data>
+  <data key="d4">-93.4030990600586</data>
+</node>
+<node id="JAC">
+  <data key="d0">JAC</data>
+  <data key="d1">Jacksn Hole</data>
+  <data key="d2">United States</data>
+  <data key="d3">43.6072998046875</data>
+  <data key="d4">-110.73799896240234</data>
+</node>
+<node id="RNO">
+  <data key="d0">RNO</data>
+  <data key="d1">Reno</data>
+  <data key="d2">United States</data>
+  <data key="d3">39.49909973144531</data>
+  <data key="d4">-119.76799774169922</data>
+</node>
+<node id="PSC">
+  <data key="d0">PSC</data>
+  <data key="d1">Pasco</data>
+  <data key="d2">United States</data>
+  <data key="d3">46.26470184326172</data>
+  <data key="d4">-119.11900329589844</data>
+</node>
+<node id="FCA">
+  <data key="d0">FCA</data>
+  <data key="d1">Kalispell</data>
+  <data key="d2">United States</data>
+  <data key="d3">48.31050109863281</data>
+  <data key="d4">-114.25599670410156</data>
+</node>
+<node id="SNA">
+  <data key="d0">SNA</data>
+  <data key="d1">Santa Ana</data>
+  <data key="d2">United States</data>
+  <data key="d3">33.67570114</data>
+  <data key="d4">-117.8679962</data>
+</node>
+<node id="BIL">
+  <data key="d0">BIL</data>
+  <data key="d1">Billings</data>
+  <data key="d2">United States</data>
+  <data key="d3">45.807701110839844</data>
+  <data key="d4">-108.54299926757812</data>
+</node>
+<node id="MSO">
+  <data key="d0">MSO</data>
+  <data key="d1">Missoula</data>
+  <data key="d2">United States</data>
+  <data key="d3">46.91630173</data>
+  <data key="d4">-114.0910034</data>
+</node>
+<node id="IAD">
+  <data key="d0">IAD</data>
+  <data key="d1">Washington</data>
+  <data key="d2">United States</data>
+  <data key="d3">38.94449997</data>
+  <data key="d4">-77.45580292</data>
+</node>
+<node id="BZN">
+  <data key="d0">BZN</data>
+  <data key="d1">Bozeman</data>
+  <data key="d2">United States</data>
+  <data key="d3">45.77750015</data>
+  <data key="d4">-111.1529999</data>
+</node>
+<node id="PIH">
+  <data key="d0">PIH</data>
+  <data key="d1">Pocatello</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.9098014831543</data>
+  <data key="d4">-112.59600067138672</data>
+</node>
+<node id="TWF">
+  <data key="d0">TWF</data>
+  <data key="d1">Twin Falls</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.48180008</data>
+  <data key="d4">-114.487999</data>
+</node>
+<node id="IDA">
+  <data key="d0">IDA</data>
+  <data key="d1">Idaho Falls</data>
+  <data key="d2">United States</data>
+  <data key="d3">43.51459884643555</data>
+  <data key="d4">-112.07099914550781</data>
+</node>
+<node id="EKO">
+  <data key="d0">EKO</data>
+  <data key="d1">Elko</data>
+  <data key="d2">United States</data>
+  <data key="d3">40.82490158081055</data>
+  <data key="d4">-115.79199981689453</data>
+</node>
+<node id="GJT">
+  <data key="d0">GJT</data>
+  <data key="d1">Grand Junction</data>
+  <data key="d2">United States</data>
+  <data key="d3">39.1223983765</data>
+  <data key="d4">-108.527000427</data>
+</node>
+<node id="CDC">
+  <data key="d0">CDC</data>
+  <data key="d1">Cedar City</data>
+  <data key="d2">United States</data>
+  <data key="d3">37.70100021362305</data>
+  <data key="d4">-113.0989990234375</data>
+</node>
+<node id="SGU">
+  <data key="d0">SGU</data>
+  <data key="d1">Saint George</data>
+  <data key="d2">United States</data>
+  <data key="d3">37.0363888889</data>
+  <data key="d4">-113.510305556</data>
+</node>
+<node id="WYS">
+  <data key="d0">WYS</data>
+  <data key="d1">West Yellowstone</data>
+  <data key="d2">United States</data>
+  <data key="d3">44.68840027</data>
+  <data key="d4">-111.1179962</data>
+</node>
+<node id="COD">
+  <data key="d0">COD</data>
+  <data key="d1">Cody</data>
+  <data key="d2">United States</data>
+  <data key="d3">44.520198822</data>
+  <data key="d4">-109.024002075</data>
+</node>
+<node id="CPR">
+  <data key="d0">CPR</data>
+  <data key="d1">Casper</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.90800095</data>
+  <data key="d4">-106.4639969</data>
+</node>
+<node id="BTM">
+  <data key="d0">BTM</data>
+  <data key="d1">Butte</data>
+  <data key="d2">United States</data>
+  <data key="d3">45.95479965209961</data>
+  <data key="d4">-112.49700164794922</data>
+</node>
+<node id="COS">
+  <data key="d0">COS</data>
+  <data key="d1">Colorado Springs</data>
+  <data key="d2">United States</data>
+  <data key="d3">38.805801391602</data>
+  <data key="d4">-104.70099639893</data>
+</node>
+<node id="LWS">
+  <data key="d0">LWS</data>
+  <data key="d1">Lewiston</data>
+  <data key="d2">United States</data>
+  <data key="d3">46.3745002746582</data>
+  <data key="d4">-117.01499938964844</data>
+</node>
+<node id="GTF">
+  <data key="d0">GTF</data>
+  <data key="d1">Great Falls</data>
+  <data key="d2">United States</data>
+  <data key="d3">47.48199844</data>
+  <data key="d4">-111.3710022</data>
+</node>
+<node id="FAT">
+  <data key="d0">FAT</data>
+  <data key="d1">Fresno</data>
+  <data key="d2">United States</data>
+  <data key="d3">36.77619934082031</data>
+  <data key="d4">-119.71800231933594</data>
+</node>
+<node id="RAP">
+  <data key="d0">RAP</data>
+  <data key="d1">Rapid City</data>
+  <data key="d2">United States</data>
+  <data key="d3">44.0452995300293</data>
+  <data key="d4">-103.05699920654297</data>
+</node>
+<node id="SUN">
+  <data key="d0">SUN</data>
+  <data key="d1">Hailey</data>
+  <data key="d2">United States</data>
+  <data key="d3">43.50439835</data>
+  <data key="d4">-114.2959976</data>
+</node>
+<node id="PSP">
+  <data key="d0">PSP</data>
+  <data key="d1">Palm Springs</data>
+  <data key="d2">United States</data>
+  <data key="d3">33.8297004699707</data>
+  <data key="d4">-116.50700378417969</data>
+</node>
+<node id="ONT">
+  <data key="d0">ONT</data>
+  <data key="d1">Ontario</data>
+  <data key="d2">United States</data>
+  <data key="d3">34.055999755859375</data>
+  <data key="d4">-117.60099792480469</data>
+</node>
+<node id="OKC">
+  <data key="d0">OKC</data>
+  <data key="d1">Oklahoma City</data>
+  <data key="d2">United States</data>
+  <data key="d3">35.39310073852539</data>
+  <data key="d4">-97.60070037841797</data>
+</node>
+<node id="MFR">
+  <data key="d0">MFR</data>
+  <data key="d1">Medford</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.37419891357422</data>
+  <data key="d4">-122.87300109863281</data>
+</node>
+<node id="TUL">
+  <data key="d0">TUL</data>
+  <data key="d1">Tulsa</data>
+  <data key="d2">United States</data>
+  <data key="d3">36.19839859008789</data>
+  <data key="d4">-95.88809967041016</data>
+</node>
+<node id="RDM">
+  <data key="d0">RDM</data>
+  <data key="d1">Redmond-Bend</data>
+  <data key="d2">United States</data>
+  <data key="d3">44.2541008</data>
+  <data key="d4">-121.1500015</data>
+</node>
+<node id="LGB">
+  <data key="d0">LGB</data>
+  <data key="d1">Long Beach</data>
+  <data key="d2">United States</data>
+  <data key="d3">33.81769943</data>
+  <data key="d4">-118.1520004</data>
+</node>
+<node id="EUG">
+  <data key="d0">EUG</data>
+  <data key="d1">Eugene</data>
+  <data key="d2">United States</data>
+  <data key="d3">44.12459945678711</data>
+  <data key="d4">-123.21199798583984</data>
+</node>
+<node id="DSM">
+  <data key="d0">DSM</data>
+  <data key="d1">Des Moines</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.534000396728516</data>
+  <data key="d4">-93.66310119628906</data>
+</node>
+<node id="BUR">
+  <data key="d0">BUR</data>
+  <data key="d1">Burbank</data>
+  <data key="d2">United States</data>
+  <data key="d3">34.20069885253906</data>
+  <data key="d4">-118.35900115966797</data>
+</node>
+<node id="MDT">
+  <data key="d0">MDT</data>
+  <data key="d1">Harrisburg</data>
+  <data key="d2">United States</data>
+  <data key="d3">40.1935005188</data>
+  <data key="d4">-76.7633972168</data>
+</node>
+<node id="LNK">
+  <data key="d0">LNK</data>
+  <data key="d1">Lincoln</data>
+  <data key="d2">United States</data>
+  <data key="d3">40.85100173950195</data>
+  <data key="d4">-96.75920104980469</data>
+</node>
+<node id="LAN">
+  <data key="d0">LAN</data>
+  <data key="d1">Lansing</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.77870178222656</data>
+  <data key="d4">-84.58740234375</data>
+</node>
+<node id="ELP">
+  <data key="d0">ELP</data>
+  <data key="d1">El Paso</data>
+  <data key="d2">United States</data>
+  <data key="d3">31.80719948</data>
+  <data key="d4">-106.3779984</data>
+</node>
+<node id="CAE">
+  <data key="d0">CAE</data>
+  <data key="d1">Columbia</data>
+  <data key="d2">United States</data>
+  <data key="d3">33.93880081176758</data>
+  <data key="d4">-81.11949920654297</data>
+</node>
+<node id="PNS">
+  <data key="d0">PNS</data>
+  <data key="d1">Pensacola</data>
+  <data key="d2">United States</data>
+  <data key="d3">30.473400115967</data>
+  <data key="d4">-87.186599731445</data>
+</node>
+<node id="HOU">
+  <data key="d0">HOU</data>
+  <data key="d1">Houston</data>
+  <data key="d2">United States</data>
+  <data key="d3">29.64539909</data>
+  <data key="d4">-95.27890015</data>
+</node>
+<node id="ANC">
+  <data key="d0">ANC</data>
+  <data key="d1">Anchorage</data>
+  <data key="d2">United States</data>
+  <data key="d3">61.174400329589844</data>
+  <data key="d4">-149.99600219726562</data>
+</node>
+<node id="FAI">
+  <data key="d0">FAI</data>
+  <data key="d1">Fairbanks</data>
+  <data key="d2">United States</data>
+  <data key="d3">64.81510162</data>
+  <data key="d4">-147.8560028</data>
+</node>
+<node id="ICN">
+  <data key="d0">ICN</data>
+  <data key="d1">Seoul</data>
+  <data key="d2">South Korea</data>
+  <data key="d3">37.46910095214844</data>
+  <data key="d4">126.45099639892578</data>
+</node>
+<node id="KTN">
+  <data key="d0">KTN</data>
+  <data key="d1">Ketchikan</data>
+  <data key="d2">United States</data>
+  <data key="d3">55.35559845</data>
+  <data key="d4">-131.7140045</data>
+</node>
+<node id="SIT">
+  <data key="d0">SIT</data>
+  <data key="d1">Sitka</data>
+  <data key="d2">United States</data>
+  <data key="d3">57.04710006713867</data>
+  <data key="d4">-135.36199951171875</data>
+</node>
+<node id="CHA">
+  <data key="d0">CHA</data>
+  <data key="d1">Chattanooga</data>
+  <data key="d2">United States</data>
+  <data key="d3">35.035301208496094</data>
+  <data key="d4">-85.20379638671875</data>
+</node>
+<node id="JAN">
+  <data key="d0">JAN</data>
+  <data key="d1">Jackson</data>
+  <data key="d2">United States</data>
+  <data key="d3">32.3111991882</data>
+  <data key="d4">-90.0758972168</data>
+</node>
+<node id="HPN">
+  <data key="d0">HPN</data>
+  <data key="d1">White Plains</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.06700134277344</data>
+  <data key="d4">-73.70760345458984</data>
+</node>
+<node id="DLH">
+  <data key="d0">DLH</data>
+  <data key="d1">Duluth</data>
+  <data key="d2">United States</data>
+  <data key="d3">46.8420982361</data>
+  <data key="d4">-92.19360351559999</data>
+</node>
+<node id="SHV">
+  <data key="d0">SHV</data>
+  <data key="d1">Shreveport</data>
+  <data key="d2">United States</data>
+  <data key="d3">32.44660186767578</data>
+  <data key="d4">-93.82559967041016</data>
+</node>
+<node id="SAV">
+  <data key="d0">SAV</data>
+  <data key="d1">Savannah</data>
+  <data key="d2">United States</data>
+  <data key="d3">32.12760162</data>
+  <data key="d4">-81.20210266</data>
+</node>
+<node id="ROC">
+  <data key="d0">ROC</data>
+  <data key="d1">Rochester</data>
+  <data key="d2">United States</data>
+  <data key="d3">43.118900299072266</data>
+  <data key="d4">-77.67240142822266</data>
+</node>
+<node id="DAY">
+  <data key="d0">DAY</data>
+  <data key="d1">Dayton</data>
+  <data key="d2">United States</data>
+  <data key="d3">39.902400970458984</data>
+  <data key="d4">-84.21939849853516</data>
+</node>
+<node id="PHF">
+  <data key="d0">PHF</data>
+  <data key="d1">Newport News</data>
+  <data key="d2">United States</data>
+  <data key="d3">37.13190079</data>
+  <data key="d4">-76.49299622</data>
+</node>
+<node id="PVD">
+  <data key="d0">PVD</data>
+  <data key="d1">Providence</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.732601165771484</data>
+  <data key="d4">-71.42040252685547</data>
+</node>
+<node id="GSP">
+  <data key="d0">GSP</data>
+  <data key="d1">Greenville</data>
+  <data key="d2">United States</data>
+  <data key="d3">34.8956985474</data>
+  <data key="d4">-82.2189025879</data>
+</node>
+<node id="GRR">
+  <data key="d0">GRR</data>
+  <data key="d1">Grand Rapids</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.88079834</data>
+  <data key="d4">-85.52279663</data>
+</node>
+<node id="TVC">
+  <data key="d0">TVC</data>
+  <data key="d1">Traverse City</data>
+  <data key="d2">United States</data>
+  <data key="d3">44.74140167236328</data>
+  <data key="d4">-85.58219909667969</data>
+</node>
+<node id="MBS">
+  <data key="d0">MBS</data>
+  <data key="d1">Saginaw</data>
+  <data key="d2">United States</data>
+  <data key="d3">43.532901763916016</data>
+  <data key="d4">-84.07959747314453</data>
+</node>
+<node id="AZO">
+  <data key="d0">AZO</data>
+  <data key="d1">Kalamazoo</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.234901428222656</data>
+  <data key="d4">-85.5521011352539</data>
+</node>
+<node id="FWA">
+  <data key="d0">FWA</data>
+  <data key="d1">Fort Wayne</data>
+  <data key="d2">United States</data>
+  <data key="d3">40.97850037</data>
+  <data key="d4">-85.19509888</data>
+</node>
+<node id="CAK">
+  <data key="d0">CAK</data>
+  <data key="d1">Akron</data>
+  <data key="d2">United States</data>
+  <data key="d3">40.916099548339844</data>
+  <data key="d4">-81.44219970703125</data>
+</node>
+<node id="SBN">
+  <data key="d0">SBN</data>
+  <data key="d1">South Bend</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.70869827270508</data>
+  <data key="d4">-86.31729888916016</data>
+</node>
+<node id="ERI">
+  <data key="d0">ERI</data>
+  <data key="d1">Erie</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.0831270134</data>
+  <data key="d4">-80.1738667488</data>
+</node>
+<node id="APN">
+  <data key="d0">APN</data>
+  <data key="d1">Alpena</data>
+  <data key="d2">United States</data>
+  <data key="d3">45.0780983</data>
+  <data key="d4">-83.56030273</data>
+</node>
+<node id="PLN">
+  <data key="d0">PLN</data>
+  <data key="d1">Pellston</data>
+  <data key="d2">United States</data>
+  <data key="d3">45.57089996</data>
+  <data key="d4">-84.79669952</data>
+</node>
+<node id="CIU">
+  <data key="d0">CIU</data>
+  <data key="d1">Sault Ste Marie</data>
+  <data key="d2">United States</data>
+  <data key="d3">46.25080108642578</data>
+  <data key="d4">-84.47239685058594</data>
+</node>
+<node id="GRB">
+  <data key="d0">GRB</data>
+  <data key="d1">Green Bay</data>
+  <data key="d2">United States</data>
+  <data key="d3">44.48509979248047</data>
+  <data key="d4">-88.12960052490234</data>
+</node>
+<node id="ATW">
+  <data key="d0">ATW</data>
+  <data key="d1">Appleton</data>
+  <data key="d2">United States</data>
+  <data key="d3">44.258098602299995</data>
+  <data key="d4">-88.5190963745</data>
+</node>
+<node id="SCE">
+  <data key="d0">SCE</data>
+  <data key="d1">State College Pennsylvania</data>
+  <data key="d2">United States</data>
+  <data key="d3">40.8493003845</data>
+  <data key="d4">-77.84870147710001</data>
+</node>
+<node id="ESC">
+  <data key="d0">ESC</data>
+  <data key="d1">Escanaba</data>
+  <data key="d2">United States</data>
+  <data key="d3">45.7226982117</data>
+  <data key="d4">-87.0936965942</data>
+</node>
+<node id="SDF">
+  <data key="d0">SDF</data>
+  <data key="d1">Louisville</data>
+  <data key="d2">United States</data>
+  <data key="d3">38.1744</data>
+  <data key="d4">-85.736</data>
+</node>
+<node id="IMT">
+  <data key="d0">IMT</data>
+  <data key="d1">Iron Mountain</data>
+  <data key="d2">United States</data>
+  <data key="d3">45.8184013367</data>
+  <data key="d4">-88.1145019531</data>
+</node>
+<node id="PIA">
+  <data key="d0">PIA</data>
+  <data key="d1">Peoria</data>
+  <data key="d2">United States</data>
+  <data key="d3">40.664199829100006</data>
+  <data key="d4">-89.6932983398</data>
+</node>
+<node id="MQT">
+  <data key="d0">MQT</data>
+  <data key="d1">Gwinn</data>
+  <data key="d2">United States</data>
+  <data key="d3">46.353599548300004</data>
+  <data key="d4">-87.395401001</data>
+</node>
+<node id="ITH">
+  <data key="d0">ITH</data>
+  <data key="d1">Ithaca</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.49100112915039</data>
+  <data key="d4">-76.4583969116211</data>
+</node>
+<node id="CWA">
+  <data key="d0">CWA</data>
+  <data key="d1">Wassau</data>
+  <data key="d2">United States</data>
+  <data key="d3">44.7775993347</data>
+  <data key="d4">-89.6668014526</data>
+</node>
+<node id="EVV">
+  <data key="d0">EVV</data>
+  <data key="d1">Evansville</data>
+  <data key="d2">United States</data>
+  <data key="d3">38.0369987488</data>
+  <data key="d4">-87.5324020386</data>
+</node>
+<node id="MLI">
+  <data key="d0">MLI</data>
+  <data key="d1">Moline</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.44850158691406</data>
+  <data key="d4">-90.50749969482422</data>
+</node>
+<node id="SYR">
+  <data key="d0">SYR</data>
+  <data key="d1">Syracuse</data>
+  <data key="d2">United States</data>
+  <data key="d3">43.11119842529297</data>
+  <data key="d4">-76.1063003540039</data>
+</node>
+<node id="BGM">
+  <data key="d0">BGM</data>
+  <data key="d1">Binghamton</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.20869827</data>
+  <data key="d4">-75.97979736</data>
+</node>
+<node id="AVP">
+  <data key="d0">AVP</data>
+  <data key="d1">Scranton</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.338500976599995</data>
+  <data key="d4">-75.72339630130001</data>
+</node>
+<node id="ABE">
+  <data key="d0">ABE</data>
+  <data key="d1">Allentown</data>
+  <data key="d2">United States</data>
+  <data key="d3">40.652099609375</data>
+  <data key="d4">-75.44080352783203</data>
+</node>
+<node id="CID">
+  <data key="d0">CID</data>
+  <data key="d1">Cedar Rapids</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.884700775146484</data>
+  <data key="d4">-91.71080017089844</data>
+</node>
+<node id="TYS">
+  <data key="d0">TYS</data>
+  <data key="d1">Knoxville</data>
+  <data key="d2">United States</data>
+  <data key="d3">35.81100082</data>
+  <data key="d4">-83.9940033</data>
+</node>
+<node id="GSO">
+  <data key="d0">GSO</data>
+  <data key="d1">Greensboro</data>
+  <data key="d2">United States</data>
+  <data key="d3">36.097801208496094</data>
+  <data key="d4">-79.93730163574219</data>
+</node>
+<node id="SWF">
+  <data key="d0">SWF</data>
+  <data key="d1">Newburgh</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.50410079956055</data>
+  <data key="d4">-74.10479736328125</data>
+</node>
+<node id="ALB">
+  <data key="d0">ALB</data>
+  <data key="d1">Albany</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.74829864501953</data>
+  <data key="d4">-73.80169677734375</data>
+</node>
+<node id="BTV">
+  <data key="d0">BTV</data>
+  <data key="d1">Burlington</data>
+  <data key="d2">United States</data>
+  <data key="d3">44.471900939899996</data>
+  <data key="d4">-73.15329742429999</data>
+</node>
+<node id="HSV">
+  <data key="d0">HSV</data>
+  <data key="d1">Huntsville</data>
+  <data key="d2">United States</data>
+  <data key="d3">34.637199401855</data>
+  <data key="d4">-86.775100708008</data>
+</node>
+<node id="MDW">
+  <data key="d0">MDW</data>
+  <data key="d1">Chicago</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.7859992980957</data>
+  <data key="d4">-87.75240325927734</data>
+</node>
+<node id="ELM">
+  <data key="d0">ELM</data>
+  <data key="d1">Elmira</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.1599006652832</data>
+  <data key="d4">-76.8916015625</data>
+</node>
+<node id="MHT">
+  <data key="d0">MHT</data>
+  <data key="d1">Manchester NH</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.93259811401367</data>
+  <data key="d4">-71.43569946289062</data>
+</node>
+<node id="BHM">
+  <data key="d0">BHM</data>
+  <data key="d1">Birmingham</data>
+  <data key="d2">United States</data>
+  <data key="d3">33.56290054</data>
+  <data key="d4">-86.75350189</data>
+</node>
+<node id="PWM">
+  <data key="d0">PWM</data>
+  <data key="d1">Portland</data>
+  <data key="d2">United States</data>
+  <data key="d3">43.64619827</data>
+  <data key="d4">-70.30930328</data>
+</node>
+<node id="LIT">
+  <data key="d0">LIT</data>
+  <data key="d1">Little Rock</data>
+  <data key="d2">United States</data>
+  <data key="d3">34.729400634799994</data>
+  <data key="d4">-92.2242965698</data>
+</node>
+<node id="PBI">
+  <data key="d0">PBI</data>
+  <data key="d1">West Palm Beach</data>
+  <data key="d2">United States</data>
+  <data key="d3">26.68320083618164</data>
+  <data key="d4">-80.09559631347656</data>
+</node>
+<node id="HIB">
+  <data key="d0">HIB</data>
+  <data key="d1">Hibbing</data>
+  <data key="d2">United States</data>
+  <data key="d3">47.38660049</data>
+  <data key="d4">-92.83899689</data>
+</node>
+<node id="AGS">
+  <data key="d0">AGS</data>
+  <data key="d1">Bush Field</data>
+  <data key="d2">United States</data>
+  <data key="d3">33.36989974975586</data>
+  <data key="d4">-81.9645004272461</data>
+</node>
+<node id="ISN">
+  <data key="d0">ISN</data>
+  <data key="d1">Williston</data>
+  <data key="d2">United States</data>
+  <data key="d3">48.177898407</data>
+  <data key="d4">-103.641998291</data>
+</node>
+<node id="MLB">
+  <data key="d0">MLB</data>
+  <data key="d1">Melbourne</data>
+  <data key="d2">United States</data>
+  <data key="d3">28.102800369262695</data>
+  <data key="d4">-80.64530181884766</data>
+</node>
+<node id="ECP">
+  <data key="d0">ECP</data>
+  <data key="d1">Panama City</data>
+  <data key="d2">United States</data>
+  <data key="d3">30.357106</data>
+  <data key="d4">-85.795414</data>
+</node>
+<node id="ROA">
+  <data key="d0">ROA</data>
+  <data key="d1">Roanoke VA</data>
+  <data key="d2">United States</data>
+  <data key="d3">37.325500488299994</data>
+  <data key="d4">-79.975402832</data>
+</node>
+<node id="SRQ">
+  <data key="d0">SRQ</data>
+  <data key="d1">Sarasota</data>
+  <data key="d2">United States</data>
+  <data key="d3">27.39539909362793</data>
+  <data key="d4">-82.55439758300781</data>
+</node>
+<node id="EZE">
+  <data key="d0">EZE</data>
+  <data key="d1">Buenos Aires</data>
+  <data key="d2">Argentina</data>
+  <data key="d3">-34.8222</data>
+  <data key="d4">-58.5358</data>
+</node>
+<node id="AVL">
+  <data key="d0">AVL</data>
+  <data key="d1">Asheville</data>
+  <data key="d2">United States</data>
+  <data key="d3">35.43619918823242</data>
+  <data key="d4">-82.54180145263672</data>
+</node>
+<node id="VPS">
+  <data key="d0">VPS</data>
+  <data key="d1">Valparaiso</data>
+  <data key="d2">United States</data>
+  <data key="d3">30.4832</data>
+  <data key="d4">-86.525398</data>
+</node>
+<node id="CRW">
+  <data key="d0">CRW</data>
+  <data key="d1">Charleston</data>
+  <data key="d2">United States</data>
+  <data key="d3">38.37310028076172</data>
+  <data key="d4">-81.59320068359375</data>
+</node>
+<node id="CHO">
+  <data key="d0">CHO</data>
+  <data key="d1">Charlottesville VA</data>
+  <data key="d2">United States</data>
+  <data key="d3">38.13859939575195</data>
+  <data key="d4">-78.4529037475586</data>
+</node>
+<node id="FSD">
+  <data key="d0">FSD</data>
+  <data key="d1">Sioux Falls</data>
+  <data key="d2">United States</data>
+  <data key="d3">43.582000732400004</data>
+  <data key="d4">-96.741897583</data>
+</node>
+<node id="EYW">
+  <data key="d0">EYW</data>
+  <data key="d1">Key West</data>
+  <data key="d2">United States</data>
+  <data key="d3">24.556100845336914</data>
+  <data key="d4">-81.75959777832031</data>
+</node>
+<node id="CSG">
+  <data key="d0">CSG</data>
+  <data key="d1">Columbus</data>
+  <data key="d2">United States</data>
+  <data key="d3">32.516300201416016</data>
+  <data key="d4">-84.93890380859375</data>
+</node>
+<node id="ABY">
+  <data key="d0">ABY</data>
+  <data key="d1">Albany</data>
+  <data key="d2">United States</data>
+  <data key="d3">31.535499572753906</data>
+  <data key="d4">-84.19450378417969</data>
+</node>
+<node id="MGM">
+  <data key="d0">MGM</data>
+  <data key="d1">MONTGOMERY</data>
+  <data key="d2">United States</data>
+  <data key="d3">32.30059814</data>
+  <data key="d4">-86.39399719</data>
+</node>
+<node id="DHN">
+  <data key="d0">DHN</data>
+  <data key="d1">Dothan</data>
+  <data key="d2">United States</data>
+  <data key="d3">31.321300506591797</data>
+  <data key="d4">-85.44960021972656</data>
+</node>
+<node id="VLD">
+  <data key="d0">VLD</data>
+  <data key="d1">Valdosta</data>
+  <data key="d2">United States</data>
+  <data key="d3">30.782499313354492</data>
+  <data key="d4">-83.27670288085938</data>
+</node>
+<node id="TRI">
+  <data key="d0">TRI</data>
+  <data key="d1">BRISTOL</data>
+  <data key="d2">United States</data>
+  <data key="d3">36.47520065307617</data>
+  <data key="d4">-82.40740203857422</data>
+</node>
+<node id="BQK">
+  <data key="d0">BQK</data>
+  <data key="d1">Brunswick</data>
+  <data key="d2">United States</data>
+  <data key="d3">31.258800506591797</data>
+  <data key="d4">-81.46649932861328</data>
+</node>
+<node id="GTR">
+  <data key="d0">GTR</data>
+  <data key="d1">Columbus Mississippi</data>
+  <data key="d2">United States</data>
+  <data key="d3">33.450298309299995</data>
+  <data key="d4">-88.5914001465</data>
+</node>
+<node id="MOB">
+  <data key="d0">MOB</data>
+  <data key="d1">Mobile</data>
+  <data key="d2">United States</data>
+  <data key="d3">30.691200256348</data>
+  <data key="d4">-88.242797851562</data>
+</node>
+<node id="FAY">
+  <data key="d0">FAY</data>
+  <data key="d1">Fayetteville</data>
+  <data key="d2">United States</data>
+  <data key="d3">34.9911994934082</data>
+  <data key="d4">-78.88030242919922</data>
+</node>
+<node id="ILM">
+  <data key="d0">ILM</data>
+  <data key="d1">Wilmington</data>
+  <data key="d2">United States</data>
+  <data key="d3">34.270599365234375</data>
+  <data key="d4">-77.90260314941406</data>
+</node>
+<node id="OAJ">
+  <data key="d0">OAJ</data>
+  <data key="d1">Jacksonville NC</data>
+  <data key="d2">United States</data>
+  <data key="d3">34.8292007446</data>
+  <data key="d4">-77.61209869380001</data>
+</node>
+<node id="EWN">
+  <data key="d0">EWN</data>
+  <data key="d1">New Bern</data>
+  <data key="d2">United States</data>
+  <data key="d3">35.0730018616</data>
+  <data key="d4">-77.04290008539999</data>
+</node>
+<node id="MLU">
+  <data key="d0">MLU</data>
+  <data key="d1">Monroe</data>
+  <data key="d2">United States</data>
+  <data key="d3">32.51089859008789</data>
+  <data key="d4">-92.0376968383789</data>
+</node>
+<node id="BTR">
+  <data key="d0">BTR</data>
+  <data key="d1">Baton Rouge</data>
+  <data key="d2">United States</data>
+  <data key="d3">30.53319931</data>
+  <data key="d4">-91.14959717</data>
+</node>
+<node id="AEX">
+  <data key="d0">AEX</data>
+  <data key="d1">Alexandria</data>
+  <data key="d2">United States</data>
+  <data key="d3">31.32740020751953</data>
+  <data key="d4">-92.54979705810547</data>
+</node>
+<node id="TLH">
+  <data key="d0">TLH</data>
+  <data key="d1">Tallahassee</data>
+  <data key="d2">United States</data>
+  <data key="d3">30.396499633789062</data>
+  <data key="d4">-84.35030364990234</data>
+</node>
+<node id="GPT">
+  <data key="d0">GPT</data>
+  <data key="d1">Gulfport</data>
+  <data key="d2">United States</data>
+  <data key="d3">30.40730094909668</data>
+  <data key="d4">-89.07009887695312</data>
+</node>
+<node id="BMI">
+  <data key="d0">BMI</data>
+  <data key="d1">Bloomington</data>
+  <data key="d2">United States</data>
+  <data key="d3">40.47710037</data>
+  <data key="d4">-88.91590118</data>
+</node>
+<node id="SGF">
+  <data key="d0">SGF</data>
+  <data key="d1">Springfield</data>
+  <data key="d2">United States</data>
+  <data key="d3">37.24570084</data>
+  <data key="d4">-93.38860321</data>
+</node>
+<node id="RST">
+  <data key="d0">RST</data>
+  <data key="d1">Rochester</data>
+  <data key="d2">United States</data>
+  <data key="d3">43.90829849243164</data>
+  <data key="d4">-92.5</data>
+</node>
+<node id="FNT">
+  <data key="d0">FNT</data>
+  <data key="d1">Flint</data>
+  <data key="d2">United States</data>
+  <data key="d3">42.96540069580078</data>
+  <data key="d4">-83.74359893798828</data>
+</node>
+<node id="DAB">
+  <data key="d0">DAB</data>
+  <data key="d1">Daytona Beach</data>
+  <data key="d2">United States</data>
+  <data key="d3">29.179899</data>
+  <data key="d4">-81.058098</data>
+</node>
+<node id="MVY">
+  <data key="d0">MVY</data>
+  <data key="d1">Vineyard Haven MA</data>
+  <data key="d2">United States</data>
+  <data key="d3">41.3931007385</data>
+  <data key="d4">-70.6143035889</data>
+</node>
+<node id="NGO">
+  <data key="d0">NGO</data>
+  <data key="d1">Nagoya</data>
+  <data key="d2">Japan</data>
+  <data key="d3">34.8583984375</data>
+  <data key="d4">136.80499267578125</data>
+</node>
+<node id="KIX">
+  <data key="d0">KIX</data>
+  <data key="d1">Osaka</data>
+  <data key="d2">Japan</data>
+  <data key="d3">34.42729949951172</data>
+  <data key="d4">135.24400329589844</data>
+</node>
+<node id="ATH">
+  <data key="d0">ATH</data>
+  <data key="d1">Athens</data>
+  <data key="d2">Greece</data>
+  <data key="d3">37.9364013672</data>
+  <data key="d4">23.9444999695</data>
+</node>
+<node id="FAR">
+  <data key="d0">FAR</data>
+  <data key="d1">Fargo</data>
+  <data key="d2">United States</data>
+  <data key="d3">46.92070007324219</data>
+  <data key="d4">-96.81580352783203</data>
+</node>
+<node id="BIS">
+  <data key="d0">BIS</data>
+  <data key="d1">Bismarck</data>
+  <data key="d2">United States</data>
+  <data key="d3">46.772701263427734</data>
+  <data key="d4">-100.74600219726562</data>
+</node>
+<node id="BRD">
+  <data key="d0">BRD</data>
+  <data key="d1">Brainerd</data>
+  <data key="d2">United States</data>
+  <data key="d3">46.39830017</data>
+  <data key="d4">-94.13809967</data>
+</node>
+<node id="LSE">
+  <data key="d0">LSE</data>
+  <data key="d1">La Crosse</data>
+  <data key="d2">United States</data>
+  <data key="d3">43.879002</data>
+  <data key="d4">-91.256699</data>
+</node>
+<node id="RHI">
+  <data key="d0">RHI</data>
+  <data key="d1">Rhinelander</data>
+  <data key="d2">United States</data>
+  <data key="d3">45.63119888305664</data>
+  <data key="d4">-89.46749877929688</data>
+</node>
+<node id="BJI">
+  <data key="d0">BJI</data>
+  <data key="d1">Bemidji</data>
+  <data key="d2">United States</data>
+  <data key="d3">47.50939941</data>
+  <data key="d4">-94.93370056</data>
+</node>
+<node id="ABR">
+  <data key="d0">ABR</data>
+  <data key="d1">Aberdeen</data>
+  <data key="d2">United States</data>
+  <data key="d3">45.449100494384766</data>
+  <data key="d4">-98.42179870605469</data>
+</node>
+<edge source="KEF" target="JFK">
+  <data key="d5">JFK-KEF</data>
+  <data key="d6">2248.0</data>
+</edge>
+<edge source="KEF" target="MSP">
+  <data key="d5">MSP-KEF</data>
+  <data key="d6">2551.6</data>
+</edge>
+<edge source="JFK" target="YUL">
+  <data key="d5">JFK-YUL</data>
+  <data key="d6">289.9</data>
+</edge>
+<edge source="JFK" target="YVR">
+  <data key="d5">JFK-YVR</data>
+  <data key="d6">2122.2</data>
+</edge>
+<edge source="JFK" target="YYZ">
+  <data key="d5">JFK-YYZ</data>
+  <data key="d6">317.8</data>
+</edge>
+<edge source="JFK" target="BRU">
+  <data key="d5">JFK-BRU</data>
+  <data key="d6">3177.9</data>
+</edge>
+<edge source="JFK" target="FRA">
+  <data key="d5">JFK-FRA</data>
+  <data key="d6">3341.2</data>
+</edge>
+<edge source="JFK" target="TXL">
+  <data key="d5">JFK-TXL</data>
+  <data key="d6">3438.3</data>
+</edge>
+<edge source="JFK" target="LHR">
+  <data key="d5">JFK-LHR</data>
+  <data key="d6">2991.1</data>
+</edge>
+<edge source="JFK" target="GLA">
+  <data key="d5">JFK-GLA</data>
+  <data key="d6">2787.4</data>
+</edge>
+<edge source="JFK" target="EDI">
+  <data key="d5">JFK-EDI</data>
+  <data key="d6">2821.4</data>
+</edge>
+<edge source="JFK" target="AMS">
+  <data key="d5">JFK-AMS</data>
+  <data key="d6">3157.4</data>
+</edge>
+<edge source="JFK" target="DUB">
+  <data key="d5">JFK-DUB</data>
+  <data key="d6">2755.4</data>
+</edge>
+<edge source="JFK" target="SNN">
+  <data key="d5">JFK-SNN</data>
+  <data key="d6">2670.6</data>
+</edge>
+<edge source="JFK" target="CPH">
+  <data key="d5">JFK-CPH</data>
+  <data key="d6">3341.6</data>
+</edge>
+<edge source="JFK" target="BCN">
+  <data key="d5">JFK-BCN</data>
+  <data key="d6">3320.9</data>
+</edge>
+<edge source="JFK" target="MAD">
+  <data key="d5">JFK-MAD</data>
+  <data key="d6">3110.6</data>
+</edge>
+<edge source="JFK" target="AGP">
+  <data key="d5">JFK-AGP</data>
+  <data key="d6">3171.3</data>
+</edge>
+<edge source="JFK" target="NCE">
+  <data key="d5">JFK-NCE</data>
+  <data key="d6">3459.4</data>
+</edge>
+<edge source="JFK" target="CDG">
+  <data key="d5">JFK-CDG</data>
+  <data key="d6">3149.9</data>
+</edge>
+<edge source="JFK" target="MXP">
+  <data key="d5">JFK-MXP</data>
+  <data key="d6">3462.6</data>
+</edge>
+<edge source="JFK" target="VCE">
+  <data key="d5">JFK-VCE</data>
+  <data key="d6">3600.6</data>
+</edge>
+<edge source="JFK" target="FCO">
+  <data key="d5">JFK-FCO</data>
+  <data key="d6">3707.5</data>
+</edge>
+<edge source="JFK" target="PRG">
+  <data key="d5">JFK-PRG</data>
+  <data key="d6">3537.3</data>
+</edge>
+<edge source="JFK" target="TLV">
+  <data key="d5">JFK-TLV</data>
+  <data key="d6">4922.8</data>
+</edge>
+<edge source="JFK" target="PDL">
+  <data key="d5">PDL-JFK</data>
+  <data key="d6">2216.3</data>
+</edge>
+<edge source="JFK" target="LIS">
+  <data key="d5">JFK-LIS</data>
+  <data key="d6">2918.2</data>
+</edge>
+<edge source="JFK" target="ZRH">
+  <data key="d5">JFK-ZRH</data>
+  <data key="d6">3406.8</data>
+</edge>
+<edge source="JFK" target="PUJ">
+  <data key="d5">JFK-PUJ</data>
+  <data key="d6">1354.3</data>
+</edge>
+<edge source="JFK" target="SDQ">
+  <data key="d5">JFK-SDQ</data>
+  <data key="d6">1350.3</data>
+</edge>
+<edge source="JFK" target="STI">
+  <data key="d5">JFK-STI</data>
+  <data key="d6">1285.3</data>
+</edge>
+<edge source="JFK" target="MBJ">
+  <data key="d5">JFK-MBJ</data>
+  <data key="d6">1346.1</data>
+</edge>
+<edge source="JFK" target="MEX">
+  <data key="d5">JFK-MEX</data>
+  <data key="d6">1817.1</data>
+</edge>
+<edge source="JFK" target="CUN">
+  <data key="d5">JFK-CUN</data>
+  <data key="d6">1353.3</data>
+</edge>
+<edge source="JFK" target="NAS">
+  <data key="d5">JFK-NAS</data>
+  <data key="d6">954.7</data>
+</edge>
+<edge source="JFK" target="GRU">
+  <data key="d5">JFK-GRU</data>
+  <data key="d6">4138.1</data>
+</edge>
+<edge source="JFK" target="STT">
+  <data key="d5">JFK-STT</data>
+  <data key="d6">1414.0</data>
+</edge>
+<edge source="JFK" target="SJU">
+  <data key="d5">JFK-SJU</data>
+  <data key="d6">1392.0</data>
+</edge>
+<edge source="JFK" target="AUA">
+  <data key="d5">JFK-AUA</data>
+  <data key="d6">1701.1</data>
+</edge>
+<edge source="JFK" target="BOS">
+  <data key="d5">JFK-BOS</data>
+  <data key="d6">162.0</data>
+</edge>
+<edge source="JFK" target="PHX">
+  <data key="d5">JFK-PHX</data>
+  <data key="d6">1867.2</data>
+</edge>
+<edge source="JFK" target="BGR">
+  <data key="d5">JFK-BGR</data>
+  <data key="d6">332.0</data>
+</edge>
+<edge source="JFK" target="SFO">
+  <data key="d5">JFK-SFO</data>
+  <data key="d6">2241.8</data>
+</edge>
+<edge source="JFK" target="LAX">
+  <data key="d5">JFK-LAX</data>
+  <data key="d6">2145.9</data>
+</edge>
+<edge source="JFK" target="CLE">
+  <data key="d5">JFK-CLE</data>
+  <data key="d6">368.6</data>
+</edge>
+<edge source="JFK" target="CVG">
+  <data key="d5">JFK-CVG</data>
+  <data key="d6">510.6</data>
+</edge>
+<edge source="JFK" target="DCA">
+  <data key="d5">JFK-DCA</data>
+  <data key="d6">184.8</data>
+</edge>
+<edge source="JFK" target="FLL">
+  <data key="d5">JFK-FLL</data>
+  <data key="d6">930.5</data>
+</edge>
+<edge source="JFK" target="SLC">
+  <data key="d5">JFK-SLC</data>
+  <data key="d6">1724.4</data>
+</edge>
+<edge source="JFK" target="PIT">
+  <data key="d5">JFK-PIT</data>
+  <data key="d6">294.4</data>
+</edge>
+<edge source="JFK" target="MIA">
+  <data key="d5">JFK-MIA</data>
+  <data key="d6">948.6</data>
+</edge>
+<edge source="JFK" target="SEA">
+  <data key="d5">JFK-SEA</data>
+  <data key="d6">2098.7</data>
+</edge>
+<edge source="JFK" target="IND">
+  <data key="d5">JFK-IND</data>
+  <data key="d6">576.3</data>
+</edge>
+<edge source="JFK" target="RIC">
+  <data key="d5">JFK-RIC</data>
+  <data key="d6">250.3</data>
+</edge>
+<edge source="JFK" target="ORF">
+  <data key="d5">JFK-ORF</data>
+  <data key="d6">251.8</data>
+</edge>
+<edge source="JFK" target="SAV">
+  <data key="d5">JFK-SAV</data>
+  <data key="d6">623.9</data>
+</edge>
+<edge source="JFK" target="SAT">
+  <data key="d5">JFK-SAT</data>
+  <data key="d6">1377.3</data>
+</edge>
+<edge source="JFK" target="ROC">
+  <data key="d5">JFK-ROC</data>
+  <data key="d6">229.0</data>
+</edge>
+<edge source="JFK" target="RDU">
+  <data key="d5">JFK-RDU</data>
+  <data key="d6">370.7</data>
+</edge>
+<edge source="JFK" target="DTW">
+  <data key="d5">JFK-DTW</data>
+  <data key="d6">441.0</data>
+</edge>
+<edge source="JFK" target="TPA">
+  <data key="d5">JFK-TPA</data>
+  <data key="d6">874.5</data>
+</edge>
+<edge source="JFK" target="DFW">
+  <data key="d5">JFK-DFW</data>
+  <data key="d6">1206.7</data>
+</edge>
+<edge source="JFK" target="AUS">
+  <data key="d5">JFK-AUS</data>
+  <data key="d6">1320.4</data>
+</edge>
+<edge source="JFK" target="ATL">
+  <data key="d5">JFK-ATL</data>
+  <data key="d6">659.9</data>
+</edge>
+<edge source="JFK" target="BNA">
+  <data key="d5">JFK-BNA</data>
+  <data key="d6">664.0</data>
+</edge>
+<edge source="JFK" target="BTV">
+  <data key="d5">JFK-BTV</data>
+  <data key="d6">231.7</data>
+</edge>
+<edge source="JFK" target="JAX">
+  <data key="d5">JFK-JAX</data>
+  <data key="d6">720.6</data>
+</edge>
+<edge source="JFK" target="IAD">
+  <data key="d5">JFK-IAD</data>
+  <data key="d6">197.9</data>
+</edge>
+<edge source="JFK" target="PDX">
+  <data key="d5">JFK-PDX</data>
+  <data key="d6">2126.8</data>
+</edge>
+<edge source="JFK" target="PBI">
+  <data key="d5">JFK-PBI</data>
+  <data key="d6">894.8</data>
+</edge>
+<edge source="JFK" target="SAN">
+  <data key="d5">JFK-SAN</data>
+  <data key="d6">2121.0</data>
+</edge>
+<edge source="JFK" target="SYR">
+  <data key="d5">JFK-SYR</data>
+  <data key="d6">181.2</data>
+</edge>
+<edge source="JFK" target="SJC">
+  <data key="d5">JFK-SJC</data>
+  <data key="d6">2227.2</data>
+</edge>
+<edge source="JFK" target="DEN">
+  <data key="d5">JFK-DEN</data>
+  <data key="d6">1409.2</data>
+</edge>
+<edge source="JFK" target="PHL">
+  <data key="d5">JFK-PHL</data>
+  <data key="d6">81.3</data>
+</edge>
+<edge source="JFK" target="CMH">
+  <data key="d5">JFK-CMH</data>
+  <data key="d6">418.8</data>
+</edge>
+<edge source="JFK" target="BDA">
+  <data key="d5">BDA-JFK</data>
+  <data key="d6">662.4</data>
+</edge>
+<edge source="JFK" target="MSP">
+  <data key="d5">MSP-JFK</data>
+  <data key="d6">891.6</data>
+</edge>
+<edge source="JFK" target="MCO">
+  <data key="d5">MCO-JFK</data>
+  <data key="d6">821.5</data>
+</edge>
+<edge source="JFK" target="MSY">
+  <data key="d5">MSY-JFK</data>
+  <data key="d6">1026.7</data>
+</edge>
+<edge source="JFK" target="LOS">
+  <data key="d5">JFK-LOS</data>
+  <data key="d6">4559.6</data>
+</edge>
+<edge source="JFK" target="ATH">
+  <data key="d5">ATH-JFK</data>
+  <data key="d6">4283.2</data>
+</edge>
+<edge source="JFK" target="CHS">
+  <data key="d5">CHS-JFK</data>
+  <data key="d6">553.5</data>
+</edge>
+<edge source="JFK" target="LAS">
+  <data key="d5">LAS-JFK</data>
+  <data key="d6">1948.9</data>
+</edge>
+<edge source="JFK" target="BWI">
+  <data key="d5">BWI-JFK</data>
+  <data key="d6">159.5</data>
+</edge>
+<edge source="JFK" target="PWM">
+  <data key="d5">PWM-JFK</data>
+  <data key="d6">237.5</data>
+</edge>
+<edge source="JFK" target="BUF">
+  <data key="d5">BUF-JFK</data>
+  <data key="d6">261.2</data>
+</edge>
+<edge source="JFK" target="CLT">
+  <data key="d5">CLT-JFK</data>
+  <data key="d6">470.3</data>
+</edge>
+<edge source="JFK" target="ORD">
+  <data key="d5">ORD-JFK</data>
+  <data key="d6">641.5</data>
+</edge>
+<edge source="MSP" target="YEG">
+  <data key="d5">MSP-YEG</data>
+  <data key="d6">941.8</data>
+</edge>
+<edge source="MSP" target="YUL">
+  <data key="d5">MSP-YUL</data>
+  <data key="d6">823.2</data>
+</edge>
+<edge source="MSP" target="YVR">
+  <data key="d5">MSP-YVR</data>
+  <data key="d6">1244.4</data>
+</edge>
+<edge source="MSP" target="YWG">
+  <data key="d5">MSP-YWG</data>
+  <data key="d6">343.0</data>
+</edge>
+<edge source="MSP" target="YXE">
+  <data key="d5">MSP-YXE</data>
+  <data key="d6">690.0</data>
+</edge>
+<edge source="MSP" target="YYC">
+  <data key="d5">MSP-YYC</data>
+  <data key="d6">911.5</data>
+</edge>
+<edge source="MSP" target="YYZ">
+  <data key="d5">MSP-YYZ</data>
+  <data key="d6">588.0</data>
+</edge>
+<edge source="MSP" target="LHR">
+  <data key="d5">MSP-LHR</data>
+  <data key="d6">3478.7</data>
+</edge>
+<edge source="MSP" target="AMS">
+  <data key="d5">MSP-AMS</data>
+  <data key="d6">3609.6</data>
+</edge>
+<edge source="MSP" target="CDG">
+  <data key="d5">MSP-CDG</data>
+  <data key="d6">3658.1</data>
+</edge>
+<edge source="MSP" target="CUN">
+  <data key="d5">MSP-CUN</data>
+  <data key="d6">1465.8</data>
+</edge>
+<edge source="MSP" target="HND">
+  <data key="d5">MSP-HND</data>
+  <data key="d6">5185.5</data>
+</edge>
+<edge source="MSP" target="GFK">
+  <data key="d5">MSP-GFK</data>
+  <data key="d6">246.2</data>
+</edge>
+<edge source="MSP" target="BOS">
+  <data key="d5">MSP-BOS</data>
+  <data key="d6">974.2</data>
+</edge>
+<edge source="MSP" target="OMA">
+  <data key="d5">MSP-OMA</data>
+  <data key="d6">244.7</data>
+</edge>
+<edge source="MSP" target="ICT">
+  <data key="d5">MSP-ICT</data>
+  <data key="d6">473.8</data>
+</edge>
+<edge source="MSP" target="MCI">
+  <data key="d5">MSP-MCI</data>
+  <data key="d6">341.8</data>
+</edge>
+<edge source="MSP" target="MSN">
+  <data key="d5">MSP-MSN</data>
+  <data key="d6">197.6</data>
+</edge>
+<edge source="MSP" target="PHX">
+  <data key="d5">MSP-PHX</data>
+  <data key="d6">1107.8</data>
+</edge>
+<edge source="MSP" target="GEG">
+  <data key="d5">MSP-GEG</data>
+  <data key="d6">1018.4</data>
+</edge>
+<edge source="MSP" target="SFO">
+  <data key="d5">MSP-SFO</data>
+  <data key="d6">1377.6</data>
+</edge>
+<edge source="MSP" target="MEM">
+  <data key="d5">MSP-MEM</data>
+  <data key="d6">609.2</data>
+</edge>
+<edge source="MSP" target="LAX">
+  <data key="d5">MSP-LAX</data>
+  <data key="d6">1332.2</data>
+</edge>
+<edge source="MSP" target="CLE">
+  <data key="d5">MSP-CLE</data>
+  <data key="d6">539.2</data>
+</edge>
+<edge source="MSP" target="CVG">
+  <data key="d5">MSP-CVG</data>
+  <data key="d6">517.6</data>
+</edge>
+<edge source="MSP" target="EWR">
+  <data key="d5">MSP-EWR</data>
+  <data key="d6">874.0</data>
+</edge>
+<edge source="MSP" target="BOI">
+  <data key="d5">MSP-BOI</data>
+  <data key="d6">989.5</data>
+</edge>
+<edge source="MSP" target="MOT">
+  <data key="d5">MSP-MOT</data>
+  <data key="d6">389.1</data>
+</edge>
+<edge source="MSP" target="HLN">
+  <data key="d5">MSP-HLN</data>
+  <data key="d6">791.0</data>
+</edge>
+<edge source="MSP" target="DCA">
+  <data key="d5">MSP-DCA</data>
+  <data key="d6">807.2</data>
+</edge>
+<edge source="MSP" target="FLL">
+  <data key="d5">MSP-FLL</data>
+  <data key="d6">1293.7</data>
+</edge>
+<edge source="MSP" target="INL">
+  <data key="d5">MSP-INL</data>
+  <data key="d6">221.3</data>
+</edge>
+<edge source="MSP" target="SLC">
+  <data key="d5">MSP-SLC</data>
+  <data key="d6">859.4</data>
+</edge>
+<edge source="MSP" target="LNK">
+  <data key="d5">MSP-LNK</data>
+  <data key="d6">287.7</data>
+</edge>
+<edge source="MSP" target="LAN">
+  <data key="d5">MSP-LAN</data>
+  <data key="d6">394.5</data>
+</edge>
+<edge source="MSP" target="IAH">
+  <data key="d5">MSP-IAH</data>
+  <data key="d6">900.1</data>
+</edge>
+<edge source="MSP" target="PIT">
+  <data key="d5">MSP-PIT</data>
+  <data key="d6">630.0</data>
+</edge>
+<edge source="MSP" target="MIA">
+  <data key="d5">MSP-MIA</data>
+  <data key="d6">1305.5</data>
+</edge>
+<edge source="MSP" target="SEA">
+  <data key="d5">MSP-SEA</data>
+  <data key="d6">1212.2</data>
+</edge>
+<edge source="MSP" target="IND">
+  <data key="d5">MSP-IND</data>
+  <data key="d6">436.5</data>
+</edge>
+<edge source="MSP" target="DLH">
+  <data key="d5">MSP-DLH</data>
+  <data key="d6">125.3</data>
+</edge>
+<edge source="MSP" target="RIC">
+  <data key="d5">MSP-RIC</data>
+  <data key="d6">841.8</data>
+</edge>
+<edge source="MSP" target="ORF">
+  <data key="d5">MSP-ORF</data>
+  <data key="d6">906.5</data>
+</edge>
+<edge source="MSP" target="SAT">
+  <data key="d5">MSP-SAT</data>
+  <data key="d6">954.5</data>
+</edge>
+<edge source="MSP" target="ROC">
+  <data key="d5">MSP-ROC</data>
+  <data key="d6">678.8</data>
+</edge>
+<edge source="MSP" target="RDU">
+  <data key="d5">MSP-RDU</data>
+  <data key="d6">851.1</data>
+</edge>
+<edge source="MSP" target="DAY">
+  <data key="d5">MSP-DAY</data>
+  <data key="d6">498.2</data>
+</edge>
+<edge source="MSP" target="DTW">
+  <data key="d5">MSP-DTW</data>
+  <data key="d6">458.0</data>
+</edge>
+<edge source="MSP" target="TPA">
+  <data key="d5">MSP-TPA</data>
+  <data key="d6">1136.5</data>
+</edge>
+<edge source="MSP" target="HIB">
+  <data key="d5">MSP-HIB</data>
+  <data key="d6">151.2</data>
+</edge>
+<edge source="MSP" target="GRB">
+  <data key="d5">MSP-GRB</data>
+  <data key="d6">218.6</data>
+</edge>
+<edge source="MSP" target="ISN">
+  <data key="d5">MSP-ISN</data>
+  <data key="d6">473.2</data>
+</edge>
+<edge source="MSP" target="DFW">
+  <data key="d5">MSP-DFW</data>
+  <data key="d6">741.1</data>
+</edge>
+<edge source="MSP" target="AUS">
+  <data key="d5">MSP-AUS</data>
+  <data key="d6">906.5</data>
+</edge>
+<edge source="MSP" target="MQT">
+  <data key="d5">MSP-MQT</data>
+  <data key="d6">260.1</data>
+</edge>
+<edge source="MSP" target="TYS">
+  <data key="d5">MSP-TYS</data>
+  <data key="d6">688.2</data>
+</edge>
+<edge source="MSP" target="STL">
+  <data key="d5">MSP-STL</data>
+  <data key="d6">389.7</data>
+</edge>
+<edge source="MSP" target="ATL">
+  <data key="d5">MSP-ATL</data>
+  <data key="d6">788.2</data>
+</edge>
+<edge source="MSP" target="GRR">
+  <data key="d5">MSP-GRR</data>
+  <data key="d6">354.0</data>
+</edge>
+<edge source="MSP" target="BNA">
+  <data key="d5">MSP-BNA</data>
+  <data key="d6">604.2</data>
+</edge>
+<edge source="MSP" target="LGA">
+  <data key="d5">MSP-LGA</data>
+  <data key="d6">884.5</data>
+</edge>
+<edge source="MSP" target="JAX">
+  <data key="d5">MSP-JAX</data>
+  <data key="d6">1020.7</data>
+</edge>
+<edge source="MSP" target="IAD">
+  <data key="d5">MSP-IAD</data>
+  <data key="d6">787.4</data>
+</edge>
+<edge source="MSP" target="MKE">
+  <data key="d5">MSP-MKE</data>
+  <data key="d6">257.9</data>
+</edge>
+<edge source="MSP" target="PDX">
+  <data key="d5">MSP-PDX</data>
+  <data key="d6">1235.8</data>
+</edge>
+<edge source="MSP" target="HNL">
+  <data key="d5">MSP-HNL</data>
+  <data key="d6">3446.9</data>
+</edge>
+<edge source="MSP" target="DSM">
+  <data key="d5">MSP-DSM</data>
+  <data key="d6">201.9</data>
+</edge>
+<edge source="MSP" target="SAN">
+  <data key="d5">MSP-SAN</data>
+  <data key="d6">1329.8</data>
+</edge>
+<edge source="MSP" target="SYR">
+  <data key="d5">MSP-SYR</data>
+  <data key="d6">745.4</data>
+</edge>
+<edge source="MSP" target="MDW">
+  <data key="d5">MSP-MDW</data>
+  <data key="d6">302.5</data>
+</edge>
+<edge source="MSP" target="SJC">
+  <data key="d5">MSP-SJC</data>
+  <data key="d6">1366.1</data>
+</edge>
+<edge source="MSP" target="DEN">
+  <data key="d5">MSP-DEN</data>
+  <data key="d6">589.8</data>
+</edge>
+<edge source="MSP" target="PHL">
+  <data key="d5">MSP-PHL</data>
+  <data key="d6">850.1</data>
+</edge>
+<edge source="MSP" target="CMH">
+  <data key="d5">MSP-CMH</data>
+  <data key="d6">542.9</data>
+</edge>
+<edge source="MSP" target="ANC">
+  <data key="d5">MSP-ANC</data>
+  <data key="d6">2182.5</data>
+</edge>
+<edge source="MSP" target="RSW">
+  <data key="d5">MSP-RSW</data>
+  <data key="d6">1232.3</data>
+</edge>
+<edge source="MSP" target="SMF">
+  <data key="d5">MSP-SMF</data>
+  <data key="d6">1315.6</data>
+</edge>
+<edge source="MSP" target="BUF">
+  <data key="d5">MSP-BUF</data>
+  <data key="d6">636.6</data>
+</edge>
+<edge source="MSP" target="BDL">
+  <data key="d5">MSP-BDL</data>
+  <data key="d6">910.5</data>
+</edge>
+<edge source="MSP" target="ORD">
+  <data key="d5">MSP-ORD</data>
+  <data key="d6">289.8</data>
+</edge>
+<edge source="MSP" target="FAI">
+  <data key="d5">MSP-FAI</data>
+  <data key="d6">2137.5</data>
+</edge>
+<edge source="MSP" target="BWI">
+  <data key="d5">MSP-BWI</data>
+  <data key="d6">811.9</data>
+</edge>
+<edge source="MSP" target="TUL">
+  <data key="d5">MSP-TUL</data>
+  <data key="d6">535.3</data>
+</edge>
+<edge source="MSP" target="FAR">
+  <data key="d5">FAR-MSP</data>
+  <data key="d6">193.7</data>
+</edge>
+<edge source="MSP" target="BZN">
+  <data key="d5">BZN-MSP</data>
+  <data key="d6">757.1</data>
+</edge>
+<edge source="MSP" target="MSO">
+  <data key="d5">MSO-MSP</data>
+  <data key="d6">877.8</data>
+</edge>
+<edge source="MSP" target="LAS">
+  <data key="d5">LAS-MSP</data>
+  <data key="d6">1127.3</data>
+</edge>
+<edge source="MSP" target="SNA">
+  <data key="d5">SNA-MSP</data>
+  <data key="d6">1320.6</data>
+</edge>
+<edge source="MSP" target="RAP">
+  <data key="d5">RAP-MSP</data>
+  <data key="d6">424.2</data>
+</edge>
+<edge source="MSP" target="ABQ">
+  <data key="d5">ABQ-MSP</data>
+  <data key="d6">851.5</data>
+</edge>
+<edge source="MSP" target="FCA">
+  <data key="d5">FCA-MSP</data>
+  <data key="d6">888.8</data>
+</edge>
+<edge source="MSP" target="FSD">
+  <data key="d5">FSD-MSP</data>
+  <data key="d6">170.3</data>
+</edge>
+<edge source="MSP" target="ATW">
+  <data key="d5">ATW-MSP</data>
+  <data key="d6">204.6</data>
+</edge>
+<edge source="MSP" target="BIS">
+  <data key="d5">BIS-MSP</data>
+  <data key="d6">334.5</data>
+</edge>
+<edge source="MSP" target="SDF">
+  <data key="d5">SDF-MSP</data>
+  <data key="d6">524.3</data>
+</edge>
+<edge source="MSP" target="BIL">
+  <data key="d5">BIL-MSP</data>
+  <data key="d6">647.9</data>
+</edge>
+<edge source="MSP" target="CLT">
+  <data key="d5">CLT-MSP</data>
+  <data key="d6">807.6</data>
+</edge>
+<edge source="MSP" target="GTF">
+  <data key="d5">GTF-MSP</data>
+  <data key="d6">768.6</data>
+</edge>
+<edge source="MSP" target="MSY">
+  <data key="d5">MSY-MSP</data>
+  <data key="d6">904.8</data>
+</edge>
+<edge source="MSP" target="MCO">
+  <data key="d5">MCO-MSP</data>
+  <data key="d6">1139.5</data>
+</edge>
+<edge source="MSP" target="RST">
+  <data key="d5">RST-MSP</data>
+  <data key="d6">66.2</data>
+</edge>
+<edge source="MSP" target="BRD">
+  <data key="d5">BRD-MSP</data>
+  <data key="d6">99.0</data>
+</edge>
+<edge source="MSP" target="LSE">
+  <data key="d5">LSE-MSP</data>
+  <data key="d6">103.6</data>
+</edge>
+<edge source="MSP" target="CWA">
+  <data key="d5">CWA-MSP</data>
+  <data key="d6">151.5</data>
+</edge>
+<edge source="MSP" target="RHI">
+  <data key="d5">RHI-MSP</data>
+  <data key="d6">164.9</data>
+</edge>
+<edge source="MSP" target="BJI">
+  <data key="d5">BJI-MSP</data>
+  <data key="d6">173.1</data>
+</edge>
+<edge source="MSP" target="CID">
+  <data key="d5">CID-MSP</data>
+  <data key="d6">191.6</data>
+</edge>
+<edge source="MSP" target="ABR">
+  <data key="d5">ABR-MSP</data>
+  <data key="d6">222.7</data>
+</edge>
+<edge source="MSP" target="IMT">
+  <data key="d5">IMT-MSP</data>
+  <data key="d6">222.7</data>
+</edge>
+<edge source="MSP" target="MLI">
+  <data key="d5">MLI-MSP</data>
+  <data key="d6">237.9</data>
+</edge>
+<edge source="MSP" target="PIA">
+  <data key="d5">PIA-MSP</data>
+  <data key="d6">297.1</data>
+</edge>
+<edge source="MSP" target="BMI">
+  <data key="d5">BMI-MSP</data>
+  <data key="d6">325.6</data>
+</edge>
+<edge source="MSP" target="SBN">
+  <data key="d5">SBN-MSP</data>
+  <data key="d6">356.7</data>
+</edge>
+<edge source="MSP" target="AZO">
+  <data key="d5">AZO-MSP</data>
+  <data key="d6">369.4</data>
+</edge>
+<edge source="MSP" target="CIU">
+  <data key="d5">CIU-MSP</data>
+  <data key="d6">376.6</data>
+</edge>
+<edge source="MSP" target="MBS">
+  <data key="d5">MBS-MSP</data>
+  <data key="d6">401.5</data>
+</edge>
+<edge source="MSP" target="FWA">
+  <data key="d5">FWA-MSP</data>
+  <data key="d6">423.3</data>
+</edge>
+<edge source="MSP" target="FNT">
+  <data key="d5">FNT-MSP</data>
+  <data key="d6">425.4</data>
+</edge>
+<edge source="MSP" target="TVC">
+  <data key="d5">TVC-MSP</data>
+  <data key="d6">325.4</data>
+</edge>
+<edge source="MSP" target="LEX">
+  <data key="d5">LEX-MSP</data>
+  <data key="d6">564.3</data>
+</edge>
+<edge source="MSP" target="OKC">
+  <data key="d5">OKC-MSP</data>
+  <data key="d6">603.9</data>
+</edge>
+<edge source="MSP" target="XNA">
+  <data key="d5">XNA-MSP</data>
+  <data key="d6">518.7</data>
+</edge>
+<edge source="MSP" target="PSC">
+  <data key="d5">PSC-MSP</data>
+  <data key="d6">1086.7</data>
+</edge>
+<edge source="MSP" target="ALB">
+  <data key="d5">ALB-MSP</data>
+  <data key="d6">848.9</data>
+</edge>
+<edge source="YEG" target="SEA">
+  <data key="d5">SEA-YEG</data>
+  <data key="d6">484.7</data>
+</edge>
+<edge source="SEA" target="YVR">
+  <data key="d5">SEA-YVR</data>
+  <data key="d6">110.4</data>
+</edge>
+<edge source="SEA" target="YYC">
+  <data key="d5">SEA-YYC</data>
+  <data key="d6">391.9</data>
+</edge>
+<edge source="SEA" target="YYJ">
+  <data key="d5">SEA-YYJ</data>
+  <data key="d6">84.6</data>
+</edge>
+<edge source="SEA" target="AMS">
+  <data key="d5">SEA-AMS</data>
+  <data key="d6">4233.3</data>
+</edge>
+<edge source="SEA" target="CDG">
+  <data key="d5">SEA-CDG</data>
+  <data key="d6">4346.2</data>
+</edge>
+<edge source="SEA" target="NRT">
+  <data key="d5">SEA-NRT</data>
+  <data key="d6">4133.7</data>
+</edge>
+<edge source="SEA" target="HKG">
+  <data key="d5">SEA-HKG</data>
+  <data key="d6">5638.3</data>
+</edge>
+<edge source="SEA" target="PEK">
+  <data key="d5">SEA-PEK</data>
+  <data key="d6">4686.3</data>
+</edge>
+<edge source="SEA" target="PVG">
+  <data key="d5">SEA-PVG</data>
+  <data key="d6">4960.9</data>
+</edge>
+<edge source="SEA" target="BOS">
+  <data key="d5">SEA-BOS</data>
+  <data key="d6">2162.9</data>
+</edge>
+<edge source="SEA" target="OGG">
+  <data key="d5">SEA-OGG</data>
+  <data key="d6">2293.9</data>
+</edge>
+<edge source="SEA" target="MCI">
+  <data key="d5">SEA-MCI</data>
+  <data key="d6">1291.5</data>
+</edge>
+<edge source="SEA" target="PHX">
+  <data key="d5">SEA-PHX</data>
+  <data key="d6">962.2</data>
+</edge>
+<edge source="SEA" target="GEG">
+  <data key="d5">SEA-GEG</data>
+  <data key="d6">193.9</data>
+</edge>
+<edge source="SEA" target="SFO">
+  <data key="d5">SEA-SFO</data>
+  <data key="d6">590.3</data>
+</edge>
+<edge source="SEA" target="LAX">
+  <data key="d5">SEA-LAX</data>
+  <data key="d6">830.0</data>
+</edge>
+<edge source="SEA" target="CVG">
+  <data key="d5">SEA-CVG</data>
+  <data key="d6">1703.0</data>
+</edge>
+<edge source="SEA" target="JNU">
+  <data key="d5">SEA-JNU</data>
+  <data key="d6">788.5</data>
+</edge>
+<edge source="SEA" target="BOI">
+  <data key="d5">SEA-BOI</data>
+  <data key="d6">346.3</data>
+</edge>
+<edge source="SEA" target="KOA">
+  <data key="d5">SEA-KOA</data>
+  <data key="d6">2336.2</data>
+</edge>
+<edge source="SEA" target="SLC">
+  <data key="d5">SEA-SLC</data>
+  <data key="d6">597.7</data>
+</edge>
+<edge source="SEA" target="DEN">
+  <data key="d5">DEN-SEA</data>
+  <data key="d6">888.4</data>
+</edge>
+<edge source="SEA" target="MKE">
+  <data key="d5">MKE-SEA</data>
+  <data key="d6">1468.4</data>
+</edge>
+<edge source="SEA" target="ORD">
+  <data key="d5">ORD-SEA</data>
+  <data key="d6">1491.2</data>
+</edge>
+<edge source="SEA" target="IND">
+  <data key="d5">IND-SEA</data>
+  <data key="d6">1617.6</data>
+</edge>
+<edge source="SEA" target="PDX">
+  <data key="d5">PDX-SEA</data>
+  <data key="d6">112.4</data>
+</edge>
+<edge source="SEA" target="LAS">
+  <data key="d5">LAS-SEA</data>
+  <data key="d6">753.4</data>
+</edge>
+<edge source="SEA" target="SAN">
+  <data key="d5">SAN-SEA</data>
+  <data key="d6">913.8</data>
+</edge>
+<edge source="SEA" target="ANC">
+  <data key="d5">ANC-SEA</data>
+  <data key="d6">1255.6</data>
+</edge>
+<edge source="SEA" target="FAI">
+  <data key="d5">FAI-SEA</data>
+  <data key="d6">1329.1</data>
+</edge>
+<edge source="SEA" target="AUS">
+  <data key="d5">AUS-SEA</data>
+  <data key="d6">1537.6</data>
+</edge>
+<edge source="SEA" target="BNA">
+  <data key="d5">BNA-SEA</data>
+  <data key="d6">1715.2</data>
+</edge>
+<edge source="SEA" target="ATL">
+  <data key="d5">ATL-SEA</data>
+  <data key="d6">1892.7</data>
+</edge>
+<edge source="SEA" target="IAD">
+  <data key="d5">IAD-SEA</data>
+  <data key="d6">1998.6</data>
+</edge>
+<edge source="SEA" target="RDU">
+  <data key="d5">RDU-SEA</data>
+  <data key="d6">2041.4</data>
+</edge>
+<edge source="SEA" target="DTW">
+  <data key="d5">DTW-SEA</data>
+  <data key="d6">1670.2</data>
+</edge>
+<edge source="SEA" target="MCO">
+  <data key="d5">MCO-SEA</data>
+  <data key="d6">2216.5</data>
+</edge>
+<edge source="SEA" target="LIH">
+  <data key="d5">LIH-SEA</data>
+  <data key="d6">2346.1</data>
+</edge>
+<edge source="SEA" target="HNL">
+  <data key="d5">HNL-SEA</data>
+  <data key="d6">2326.0</data>
+</edge>
+<edge source="SEA" target="ICN">
+  <data key="d5">ICN-SEA</data>
+  <data key="d6">4521.1</data>
+</edge>
+<edge source="SEA" target="SMF">
+  <data key="d5">SMF-SEA</data>
+  <data key="d6">526.6</data>
+</edge>
+<edge source="SEA" target="KTN">
+  <data key="d5">KTN-SEA</data>
+  <data key="d6">589.8</data>
+</edge>
+<edge source="SEA" target="PSC">
+  <data key="d5">PSC-SEA</data>
+  <data key="d6">149.1</data>
+</edge>
+<edge source="SEA" target="RDM">
+  <data key="d5">RDM-SEA</data>
+  <data key="d6">197.9</data>
+</edge>
+<edge source="SEA" target="EUG">
+  <data key="d5">EUG-SEA</data>
+  <data key="d6">203.2</data>
+</edge>
+<edge source="SEA" target="MFR">
+  <data key="d5">MFR-SEA</data>
+  <data key="d6">305.7</data>
+</edge>
+<edge source="SEA" target="SJC">
+  <data key="d5">SJC-SEA</data>
+  <data key="d6">605.9</data>
+</edge>
+<edge source="SEA" target="SNA">
+  <data key="d5">SNA-SEA</data>
+  <data key="d6">851.1</data>
+</edge>
+<edge source="SEA" target="SIT">
+  <data key="d5">SIT-SEA</data>
+  <data key="d6">747.2</data>
+</edge>
+<edge source="YHZ" target="LGA">
+  <data key="d5">LGA-YHZ</data>
+  <data key="d6">518.1</data>
+</edge>
+<edge source="LGA" target="YOW">
+  <data key="d5">LGA-YOW</data>
+  <data key="d6">284.0</data>
+</edge>
+<edge source="LGA" target="YUL">
+  <data key="d5">LGA-YUL</data>
+  <data key="d6">281.7</data>
+</edge>
+<edge source="LGA" target="BOS">
+  <data key="d5">LGA-BOS</data>
+  <data key="d6">160.1</data>
+</edge>
+<edge source="LGA" target="OMA">
+  <data key="d5">LGA-OMA</data>
+  <data key="d6">995.1</data>
+</edge>
+<edge source="LGA" target="MCI">
+  <data key="d5">LGA-MCI</data>
+  <data key="d6">959.9</data>
+</edge>
+<edge source="LGA" target="MSN">
+  <data key="d5">LGA-MSN</data>
+  <data key="d6">703.8</data>
+</edge>
+<edge source="LGA" target="BGR">
+  <data key="d5">LGA-BGR</data>
+  <data key="d6">328.4</data>
+</edge>
+<edge source="LGA" target="MEM">
+  <data key="d5">LGA-MEM</data>
+  <data key="d6">835.3</data>
+</edge>
+<edge source="LGA" target="CLE">
+  <data key="d5">LGA-CLE</data>
+  <data key="d6">363.1</data>
+</edge>
+<edge source="LGA" target="CVG">
+  <data key="d5">LGA-CVG</data>
+  <data key="d6">507.5</data>
+</edge>
+<edge source="LGA" target="ACK">
+  <data key="d5">LGA-ACK</data>
+  <data key="d6">175.0</data>
+</edge>
+<edge source="LGA" target="DCA">
+  <data key="d5">LGA-DCA</data>
+  <data key="d6">186.2</data>
+</edge>
+<edge source="LGA" target="FLL">
+  <data key="d5">LGA-FLL</data>
+  <data key="d6">936.6</data>
+</edge>
+<edge source="LGA" target="IAH">
+  <data key="d5">LGA-IAH</data>
+  <data key="d6">1229.6</data>
+</edge>
+<edge source="LGA" target="CAE">
+  <data key="d5">LGA-CAE</data>
+  <data key="d6">536.4</data>
+</edge>
+<edge source="LGA" target="PIT">
+  <data key="d5">LGA-PIT</data>
+  <data key="d6">290.2</data>
+</edge>
+<edge source="LGA" target="MIA">
+  <data key="d5">LGA-MIA</data>
+  <data key="d6">954.7</data>
+</edge>
+<edge source="LGA" target="IND">
+  <data key="d5">LGA-IND</data>
+  <data key="d6">572.3</data>
+</edge>
+<edge source="LGA" target="RIC">
+  <data key="d5">LGA-RIC</data>
+  <data key="d6">253.6</data>
+</edge>
+<edge source="LGA" target="ORF">
+  <data key="d5">LGA-ORF</data>
+  <data key="d6">257.3</data>
+</edge>
+<edge source="LGA" target="SAV">
+  <data key="d5">LGA-SAV</data>
+  <data key="d6">627.9</data>
+</edge>
+<edge source="LGA" target="ROC">
+  <data key="d5">LGA-ROC</data>
+  <data key="d6">220.3</data>
+</edge>
+<edge source="LGA" target="RDU">
+  <data key="d5">LGA-RDU</data>
+  <data key="d6">374.2</data>
+</edge>
+<edge source="LGA" target="DTW">
+  <data key="d5">LGA-DTW</data>
+  <data key="d6">434.7</data>
+</edge>
+<edge source="LGA" target="TPA">
+  <data key="d5">LGA-TPA</data>
+  <data key="d6">879.2</data>
+</edge>
+<edge source="LGA" target="DFW">
+  <data key="d5">LGA-DFW</data>
+  <data key="d6">1204.8</data>
+</edge>
+<edge source="LGA" target="TYS">
+  <data key="d5">LGA-TYS</data>
+  <data key="d6">561.9</data>
+</edge>
+<edge source="LGA" target="STL">
+  <data key="d5">LGA-STL</data>
+  <data key="d6">769.9</data>
+</edge>
+<edge source="LGA" target="ATL">
+  <data key="d5">LGA-ATL</data>
+  <data key="d6">661.4</data>
+</edge>
+<edge source="LGA" target="GRR">
+  <data key="d5">LGA-GRR</data>
+  <data key="d6">535.8</data>
+</edge>
+<edge source="LGA" target="BNA">
+  <data key="d5">LGA-BNA</data>
+  <data key="d6">662.9</data>
+</edge>
+<edge source="LGA" target="PBI">
+  <data key="d5">PBI-LGA</data>
+  <data key="d6">900.8</data>
+</edge>
+<edge source="LGA" target="RSW">
+  <data key="d5">RSW-LGA</data>
+  <data key="d6">940.4</data>
+</edge>
+<edge source="LGA" target="MSY">
+  <data key="d5">MSY-LGA</data>
+  <data key="d6">1027.7</data>
+</edge>
+<edge source="LGA" target="MCO">
+  <data key="d5">MCO-LGA</data>
+  <data key="d6">826.7</data>
+</edge>
+<edge source="LGA" target="ORD">
+  <data key="d5">ORD-LGA</data>
+  <data key="d6">635.6</data>
+</edge>
+<edge source="LGA" target="DEN">
+  <data key="d5">DEN-LGA</data>
+  <data key="d6">1403.8</data>
+</edge>
+<edge source="LGA" target="JAX">
+  <data key="d5">JAX-LGA</data>
+  <data key="d6">725.0</data>
+</edge>
+<edge source="LGA" target="MVY">
+  <data key="d5">MVY-LGA</data>
+  <data key="d6">152.0</data>
+</edge>
+<edge source="LGA" target="MHT">
+  <data key="d5">MHT-LGA</data>
+  <data key="d6">169.2</data>
+</edge>
+<edge source="LGA" target="SYR">
+  <data key="d5">SYR-LGA</data>
+  <data key="d6">172.0</data>
+</edge>
+<edge source="LGA" target="BTV">
+  <data key="d5">BTV-LGA</data>
+  <data key="d6">224.1</data>
+</edge>
+<edge source="LGA" target="PWM">
+  <data key="d5">PWM-LGA</data>
+  <data key="d6">234.0</data>
+</edge>
+<edge source="LGA" target="BUF">
+  <data key="d5">BUF-LGA</data>
+  <data key="d6">253.1</data>
+</edge>
+<edge source="LGA" target="CHO">
+  <data key="d5">CHO-LGA</data>
+  <data key="d6">264.9</data>
+</edge>
+<edge source="LGA" target="CLT">
+  <data key="d5">CLT-LGA</data>
+  <data key="d6">472.6</data>
+</edge>
+<edge source="LGA" target="GSO">
+  <data key="d5">GSO-LGA</data>
+  <data key="d6">400.1</data>
+</edge>
+<edge source="LGA" target="LEX">
+  <data key="d5">LEX-LGA</data>
+  <data key="d6">524.1</data>
+</edge>
+<edge source="LGA" target="GSP">
+  <data key="d5">GSP-LGA</data>
+  <data key="d6">529.9</data>
+</edge>
+<edge source="LGA" target="MKE">
+  <data key="d5">MKE-LGA</data>
+  <data key="d6">639.7</data>
+</edge>
+<edge source="LGA" target="BHM">
+  <data key="d5">BHM-LGA</data>
+  <data key="d6">751.9</data>
+</edge>
+<edge source="LGA" target="DSM">
+  <data key="d5">DSM-LGA</data>
+  <data key="d6">893.8</data>
+</edge>
+<edge source="LGA" target="SRQ">
+  <data key="d5">SRQ-LGA</data>
+  <data key="d6">910.9</data>
+</edge>
+<edge source="LGA" target="XNA">
+  <data key="d5">XNA-LGA</data>
+  <data key="d6">994.4</data>
+</edge>
+<edge source="LGA" target="CMH">
+  <data key="d5">CMH-LGA</data>
+  <data key="d6">414.9</data>
+</edge>
+<edge source="LGA" target="CHS">
+  <data key="d5">CHS-LGA</data>
+  <data key="d6">557.9</data>
+</edge>
+<edge source="LGA" target="SDF">
+  <data key="d5">SDF-LGA</data>
+  <data key="d6">571.1</data>
+</edge>
+<edge source="YOW" target="DTW">
+  <data key="d5">DTW-YOW</data>
+  <data key="d6">381.7</data>
+</edge>
+<edge source="DTW" target="YUL">
+  <data key="d5">DTW-YUL</data>
+  <data key="d6">459.5</data>
+</edge>
+<edge source="DTW" target="YYZ">
+  <data key="d5">DTW-YYZ</data>
+  <data key="d6">185.7</data>
+</edge>
+<edge source="DTW" target="FRA">
+  <data key="d5">DTW-FRA</data>
+  <data key="d6">3605.8</data>
+</edge>
+<edge source="DTW" target="MUC">
+  <data key="d5">DTW-MUC</data>
+  <data key="d6">3767.1</data>
+</edge>
+<edge source="DTW" target="LHR">
+  <data key="d5">DTW-LHR</data>
+  <data key="d6">3263.6</data>
+</edge>
+<edge source="DTW" target="AMS">
+  <data key="d5">DTW-AMS</data>
+  <data key="d6">3414.5</data>
+</edge>
+<edge source="DTW" target="CDG">
+  <data key="d5">DTW-CDG</data>
+  <data key="d6">3433.6</data>
+</edge>
+<edge source="DTW" target="FCO">
+  <data key="d5">DTW-FCO</data>
+  <data key="d6">4010.7</data>
+</edge>
+<edge source="DTW" target="MEX">
+  <data key="d5">DTW-MEX</data>
+  <data key="d6">1583.6</data>
+</edge>
+<edge source="DTW" target="MTY">
+  <data key="d5">DTW-MTY</data>
+  <data key="d6">1286.9</data>
+</edge>
+<edge source="DTW" target="CUN">
+  <data key="d5">DTW-CUN</data>
+  <data key="d6">1283.8</data>
+</edge>
+<edge source="DTW" target="NRT">
+  <data key="d5">DTW-NRT</data>
+  <data key="d6">5546.5</data>
+</edge>
+<edge source="DTW" target="PEK">
+  <data key="d5">DTW-PEK</data>
+  <data key="d6">5748.7</data>
+</edge>
+<edge source="DTW" target="PVG">
+  <data key="d5">DTW-PVG</data>
+  <data key="d6">6188.9</data>
+</edge>
+<edge source="DTW" target="BOS">
+  <data key="d5">DTW-BOS</data>
+  <data key="d6">548.0</data>
+</edge>
+<edge source="DTW" target="OMA">
+  <data key="d5">DTW-OMA</data>
+  <data key="d6">563.8</data>
+</edge>
+<edge source="DTW" target="MCI">
+  <data key="d5">DTW-MCI</data>
+  <data key="d6">545.0</data>
+</edge>
+<edge source="DTW" target="MSN">
+  <data key="d5">DTW-MSN</data>
+  <data key="d6">269.9</data>
+</edge>
+<edge source="DTW" target="PHX">
+  <data key="d5">DTW-PHX</data>
+  <data key="d6">1449.2</data>
+</edge>
+<edge source="DTW" target="SFO">
+  <data key="d5">DTW-SFO</data>
+  <data key="d6">1802.0</data>
+</edge>
+<edge source="DTW" target="MEM">
+  <data key="d5">DTW-MEM</data>
+  <data key="d6">530.5</data>
+</edge>
+<edge source="DTW" target="LAX">
+  <data key="d5">DTW-LAX</data>
+  <data key="d6">1716.0</data>
+</edge>
+<edge source="DTW" target="CLE">
+  <data key="d5">DTW-CLE</data>
+  <data key="d6">82.6</data>
+</edge>
+<edge source="DTW" target="CVG">
+  <data key="d5">DTW-CVG</data>
+  <data key="d6">199.2</data>
+</edge>
+<edge source="DTW" target="EWR">
+  <data key="d5">DTW-EWR</data>
+  <data key="d6">423.0</data>
+</edge>
+<edge source="DTW" target="MYR">
+  <data key="d5">DTW-MYR</data>
+  <data key="d6">553.3</data>
+</edge>
+<edge source="DTW" target="DCA">
+  <data key="d5">DTW-DCA</data>
+  <data key="d6">351.6</data>
+</edge>
+<edge source="DTW" target="FLL">
+  <data key="d5">DTW-FLL</data>
+  <data key="d6">981.8</data>
+</edge>
+<edge source="DTW" target="SLC">
+  <data key="d5">DTW-SLC</data>
+  <data key="d6">1284.0</data>
+</edge>
+<edge source="DTW" target="MDT">
+  <data key="d5">DTW-MDT</data>
+  <data key="d6">321.4</data>
+</edge>
+<edge source="DTW" target="LAN">
+  <data key="d5">DTW-LAN</data>
+  <data key="d6">64.3</data>
+</edge>
+<edge source="DTW" target="IAH">
+  <data key="d5">DTW-IAH</data>
+  <data key="d6">934.6</data>
+</edge>
+<edge source="DTW" target="PIT">
+  <data key="d5">DTW-PIT</data>
+  <data key="d6">174.5</data>
+</edge>
+<edge source="DTW" target="MIA">
+  <data key="d5">DTW-MIA</data>
+  <data key="d6">997.2</data>
+</edge>
+<edge source="DTW" target="CHA">
+  <data key="d5">DTW-CHA</data>
+  <data key="d6">439.5</data>
+</edge>
+<edge source="DTW" target="IND">
+  <data key="d5">DTW-IND</data>
+  <data key="d6">200.5</data>
+</edge>
+<edge source="DTW" target="HPN">
+  <data key="d5">DTW-HPN</data>
+  <data key="d6">438.0</data>
+</edge>
+<edge source="DTW" target="RIC">
+  <data key="d5">DTW-RIC</data>
+  <data key="d6">396.3</data>
+</edge>
+<edge source="DTW" target="ORF">
+  <data key="d5">DTW-ORF</data>
+  <data key="d6">459.6</data>
+</edge>
+<edge source="DTW" target="SAV">
+  <data key="d5">DTW-SAV</data>
+  <data key="d6">614.1</data>
+</edge>
+<edge source="DTW" target="SAT">
+  <data key="d5">DTW-SAT</data>
+  <data key="d6">1055.3</data>
+</edge>
+<edge source="DTW" target="ROC">
+  <data key="d5">DTW-ROC</data>
+  <data key="d6">256.6</data>
+</edge>
+<edge source="DTW" target="RDU">
+  <data key="d5">DTW-RDU</data>
+  <data key="d6">435.7</data>
+</edge>
+<edge source="DTW" target="DAY">
+  <data key="d5">DTW-DAY</data>
+  <data key="d6">144.1</data>
+</edge>
+<edge source="DTW" target="PVD">
+  <data key="d5">DTW-PVD</data>
+  <data key="d6">532.7</data>
+</edge>
+<edge source="DTW" target="ORD">
+  <data key="d5">ORD-DTW</data>
+  <data key="d6">203.3</data>
+</edge>
+<edge source="DTW" target="BUF">
+  <data key="d5">BUF-DTW</data>
+  <data key="d6">208.9</data>
+</edge>
+<edge source="DTW" target="BWI">
+  <data key="d5">BWI-DTW</data>
+  <data key="d6">354.6</data>
+</edge>
+<edge source="DTW" target="GSP">
+  <data key="d5">GSP-DTW</data>
+  <data key="d6">442.5</data>
+</edge>
+<edge source="DTW" target="DFW">
+  <data key="d5">DFW-DTW</data>
+  <data key="d6">856.6</data>
+</edge>
+<edge source="DTW" target="AUS">
+  <data key="d5">AUS-DTW</data>
+  <data key="d6">998.1</data>
+</edge>
+<edge source="DTW" target="MCO">
+  <data key="d5">MCO-DTW</data>
+  <data key="d6">833.5</data>
+</edge>
+<edge source="DTW" target="RSW">
+  <data key="d5">RSW-DTW</data>
+  <data key="d6">944.5</data>
+</edge>
+<edge source="DTW" target="SAN">
+  <data key="d5">SAN-DTW</data>
+  <data key="d6">1696.6</data>
+</edge>
+<edge source="DTW" target="GRU">
+  <data key="d5">DTW-GRU</data>
+  <data key="d6">4400.8</data>
+</edge>
+<edge source="DTW" target="ICN">
+  <data key="d5">ICN-DTW</data>
+  <data key="d6">5753.0</data>
+</edge>
+<edge source="DTW" target="GRR">
+  <data key="d5">GRR-DTW</data>
+  <data key="d6">104.0</data>
+</edge>
+<edge source="DTW" target="TVC">
+  <data key="d5">TVC-DTW</data>
+  <data key="d6">180.2</data>
+</edge>
+<edge source="DTW" target="MKE">
+  <data key="d5">MKE-DTW</data>
+  <data key="d6">205.6</data>
+</edge>
+<edge source="DTW" target="PHL">
+  <data key="d5">PHL-DTW</data>
+  <data key="d6">393.1</data>
+</edge>
+<edge source="DTW" target="BNA">
+  <data key="d5">BNA-DTW</data>
+  <data key="d6">396.9</data>
+</edge>
+<edge source="DTW" target="CLT">
+  <data key="d5">CLT-DTW</data>
+  <data key="d6">435.0</data>
+</edge>
+<edge source="DTW" target="MSY">
+  <data key="d5">MSY-DTW</data>
+  <data key="d6">805.8</data>
+</edge>
+<edge source="DTW" target="TPA">
+  <data key="d5">TPA-DTW</data>
+  <data key="d6">855.7</data>
+</edge>
+<edge source="DTW" target="LAS">
+  <data key="d5">LAS-DTW</data>
+  <data key="d6">1516.2</data>
+</edge>
+<edge source="DTW" target="PDX">
+  <data key="d5">PDX-DTW</data>
+  <data key="d6">1692.7</data>
+</edge>
+<edge source="DTW" target="ATL">
+  <data key="d5">ATL-DTW</data>
+  <data key="d6">517.4</data>
+</edge>
+<edge source="DTW" target="DEN">
+  <data key="d5">DEN-DTW</data>
+  <data key="d6">973.2</data>
+</edge>
+<edge source="DTW" target="SNA">
+  <data key="d5">SNA-DTW</data>
+  <data key="d6">1699.5</data>
+</edge>
+<edge source="DTW" target="MBS">
+  <data key="d5">MBS-DTW</data>
+  <data key="d6">85.5</data>
+</edge>
+<edge source="DTW" target="AZO">
+  <data key="d5">AZO-DTW</data>
+  <data key="d6">97.7</data>
+</edge>
+<edge source="DTW" target="FWA">
+  <data key="d5">FWA-DTW</data>
+  <data key="d6">111.0</data>
+</edge>
+<edge source="DTW" target="CAK">
+  <data key="d5">CAK-DTW</data>
+  <data key="d6">115.9</data>
+</edge>
+<edge source="DTW" target="SBN">
+  <data key="d5">SBN-DTW</data>
+  <data key="d6">135.7</data>
+</edge>
+<edge source="DTW" target="ERI">
+  <data key="d5">ERI-DTW</data>
+  <data key="d6">141.6</data>
+</edge>
+<edge source="DTW" target="APN">
+  <data key="d5">APN-DTW</data>
+  <data key="d6">172.3</data>
+</edge>
+<edge source="DTW" target="PLN">
+  <data key="d5">PLN-DTW</data>
+  <data key="d6">211.1</data>
+</edge>
+<edge source="DTW" target="CIU">
+  <data key="d5">CIU-DTW</data>
+  <data key="d6">247.2</data>
+</edge>
+<edge source="DTW" target="GRB">
+  <data key="d5">GRB-DTW</data>
+  <data key="d6">249.1</data>
+</edge>
+<edge source="DTW" target="ATW">
+  <data key="d5">ATW-DTW</data>
+  <data key="d6">257.1</data>
+</edge>
+<edge source="DTW" target="LEX">
+  <data key="d5">LEX-DTW</data>
+  <data key="d6">257.2</data>
+</edge>
+<edge source="DTW" target="SCE">
+  <data key="d5">SCE-DTW</data>
+  <data key="d6">260.5</data>
+</edge>
+<edge source="DTW" target="ESC">
+  <data key="d5">ESC-DTW</data>
+  <data key="d6">265.5</data>
+</edge>
+<edge source="DTW" target="SDF">
+  <data key="d5">SDF-DTW</data>
+  <data key="d6">265.9</data>
+</edge>
+<edge source="DTW" target="IMT">
+  <data key="d5">IMT-DTW</data>
+  <data key="d6">298.4</data>
+</edge>
+<edge source="DTW" target="PIA">
+  <data key="d5">PIA-DTW</data>
+  <data key="d6">300.0</data>
+</edge>
+<edge source="DTW" target="MQT">
+  <data key="d5">MQT-DTW</data>
+  <data key="d6">303.2</data>
+</edge>
+<edge source="DTW" target="ITH">
+  <data key="d5">ITH-DTW</data>
+  <data key="d6">306.3</data>
+</edge>
+<edge source="DTW" target="CWA">
+  <data key="d5">CWA-DTW</data>
+  <data key="d6">315.0</data>
+</edge>
+<edge source="DTW" target="EVV">
+  <data key="d5">EVV-DTW</data>
+  <data key="d6">315.5</data>
+</edge>
+<edge source="DTW" target="MLI">
+  <data key="d5">MLI-DTW</data>
+  <data key="d6">323.3</data>
+</edge>
+<edge source="DTW" target="SYR">
+  <data key="d5">SYR-DTW</data>
+  <data key="d6">324.4</data>
+</edge>
+<edge source="DTW" target="BGM">
+  <data key="d5">BGM-DTW</data>
+  <data key="d6">327.8</data>
+</edge>
+<edge source="DTW" target="IAD">
+  <data key="d5">IAD-DTW</data>
+  <data key="d6">332.5</data>
+</edge>
+<edge source="DTW" target="AVP">
+  <data key="d5">AVP-DTW</data>
+  <data key="d6">345.5</data>
+</edge>
+<edge source="DTW" target="ABE">
+  <data key="d5">ABE-DTW</data>
+  <data key="d6">368.2</data>
+</edge>
+<edge source="DTW" target="CID">
+  <data key="d5">CID-DTW</data>
+  <data key="d6">373.0</data>
+</edge>
+<edge source="DTW" target="TYS">
+  <data key="d5">TYS-DTW</data>
+  <data key="d6">385.5</data>
+</edge>
+<edge source="DTW" target="GSO">
+  <data key="d5">GSO-DTW</data>
+  <data key="d6">399.7</data>
+</edge>
+<edge source="DTW" target="SWF">
+  <data key="d5">SWF-DTW</data>
+  <data key="d6">415.6</data>
+</edge>
+<edge source="DTW" target="ALB">
+  <data key="d5">ALB-DTW</data>
+  <data key="d6">423.9</data>
+</edge>
+<edge source="DTW" target="BTV">
+  <data key="d5">BTV-DTW</data>
+  <data key="d6">465.2</data>
+</edge>
+<edge source="DTW" target="HSV">
+  <data key="d5">HSV-DTW</data>
+  <data key="d6">482.3</data>
+</edge>
+<edge source="DTW" target="CMH">
+  <data key="d5">CMH-DTW</data>
+  <data key="d6">134.6</data>
+</edge>
+<edge source="DTW" target="MDW">
+  <data key="d5">MDW-DTW</data>
+  <data key="d6">197.9</data>
+</edge>
+<edge source="DTW" target="ELM">
+  <data key="d5">ELM-DTW</data>
+  <data key="d6">287.4</data>
+</edge>
+<edge source="DTW" target="STL">
+  <data key="d5">STL-DTW</data>
+  <data key="d6">381.8</data>
+</edge>
+<edge source="DTW" target="MHT">
+  <data key="d5">MHT-DTW</data>
+  <data key="d6">528.3</data>
+</edge>
+<edge source="DTW" target="BHM">
+  <data key="d5">BHM-DTW</data>
+  <data key="d6">543.5</data>
+</edge>
+<edge source="DTW" target="CHS">
+  <data key="d5">CHS-DTW</data>
+  <data key="d6">580.9</data>
+</edge>
+<edge source="DTW" target="TUL">
+  <data key="d5">TUL-DTW</data>
+  <data key="d6">684.8</data>
+</edge>
+<edge source="DTW" target="OKC">
+  <data key="d5">OKC-DTW</data>
+  <data key="d6">780.8</data>
+</edge>
+<edge source="DTW" target="DSM">
+  <data key="d5">DSM-DTW</data>
+  <data key="d6">462.4</data>
+</edge>
+<edge source="DTW" target="PWM">
+  <data key="d5">PWM-DTW</data>
+  <data key="d6">579.2</data>
+</edge>
+<edge source="DTW" target="LIT">
+  <data key="d5">LIT-DTW</data>
+  <data key="d6">612.3</data>
+</edge>
+<edge source="DTW" target="JAX">
+  <data key="d5">JAX-DTW</data>
+  <data key="d6">708.1</data>
+</edge>
+<edge source="DTW" target="BDL">
+  <data key="d5">BDL-DTW</data>
+  <data key="d6">475.5</data>
+</edge>
+<edge source="DTW" target="PBI">
+  <data key="d5">PBI-DTW</data>
+  <data key="d6">946.0</data>
+</edge>
+<edge source="DTW" target="NGO">
+  <data key="d5">NGO-DTW</data>
+  <data key="d6">5680.8</data>
+</edge>
+<edge source="YUL" target="ATL">
+  <data key="d5">ATL-YUL</data>
+  <data key="d6">864.0</data>
+</edge>
+<edge source="ATL" target="YVR">
+  <data key="d5">ATL-YVR</data>
+  <data key="d6">1950.2</data>
+</edge>
+<edge source="ATL" target="YYZ">
+  <data key="d5">ATL-YYZ</data>
+  <data key="d6">643.1</data>
+</edge>
+<edge source="ATL" target="LOS">
+  <data key="d5">LOS-ATL</data>
+  <data key="d6">5073.1</data>
+</edge>
+<edge source="ATL" target="BRU">
+  <data key="d5">ATL-BRU</data>
+  <data key="d6">3837.0</data>
+</edge>
+<edge source="ATL" target="FRA">
+  <data key="d5">ATL-FRA</data>
+  <data key="d6">4000.1</data>
+</edge>
+<edge source="ATL" target="DUS">
+  <data key="d5">ATL-DUS</data>
+  <data key="d6">3907.3</data>
+</edge>
+<edge source="ATL" target="MUC">
+  <data key="d5">ATL-MUC</data>
+  <data key="d6">4158.7</data>
+</edge>
+<edge source="ATL" target="STR">
+  <data key="d5">ATL-STR</data>
+  <data key="d6">4058.7</data>
+</edge>
+<edge source="ATL" target="LHR">
+  <data key="d5">ATL-LHR</data>
+  <data key="d6">3650.4</data>
+</edge>
+<edge source="ATL" target="AMS">
+  <data key="d5">ATL-AMS</data>
+  <data key="d6">3815.2</data>
+</edge>
+<edge source="ATL" target="DUB">
+  <data key="d5">ATL-DUB</data>
+  <data key="d6">3414.1</data>
+</edge>
+<edge source="ATL" target="JNB">
+  <data key="d5">ATL-JNB</data>
+  <data key="d6">7334.0</data>
+</edge>
+<edge source="ATL" target="BCN">
+  <data key="d5">ATL-BCN</data>
+  <data key="d6">3974.2</data>
+</edge>
+<edge source="ATL" target="MAD">
+  <data key="d5">ATL-MAD</data>
+  <data key="d6">3758.3</data>
+</edge>
+<edge source="ATL" target="CDG">
+  <data key="d5">ATL-CDG</data>
+  <data key="d6">3809.8</data>
+</edge>
+<edge source="ATL" target="MXP">
+  <data key="d5">ATL-MXP</data>
+  <data key="d6">4122.3</data>
+</edge>
+<edge source="ATL" target="VCE">
+  <data key="d5">ATL-VCE</data>
+  <data key="d6">4260.4</data>
+</edge>
+<edge source="ATL" target="FCO">
+  <data key="d5">ATL-FCO</data>
+  <data key="d6">4366.1</data>
+</edge>
+<edge source="ATL" target="LIS">
+  <data key="d5">ATL-LIS</data>
+  <data key="d6">3555.6</data>
+</edge>
+<edge source="ATL" target="ZRH">
+  <data key="d5">ATL-ZRH</data>
+  <data key="d6">4066.7</data>
+</edge>
+<edge source="ATL" target="PLS">
+  <data key="d5">ATL-PLS</data>
+  <data key="d6">960.3</data>
+</edge>
+<edge source="ATL" target="PUJ">
+  <data key="d5">ATL-PUJ</data>
+  <data key="d6">1249.2</data>
+</edge>
+<edge source="ATL" target="SDQ">
+  <data key="d5">ATL-SDQ</data>
+  <data key="d6">1208.5</data>
+</edge>
+<edge source="ATL" target="GUA">
+  <data key="d5">ATL-GUA</data>
+  <data key="d6">1191.1</data>
+</edge>
+<edge source="ATL" target="SAP">
+  <data key="d5">ATL-SAP</data>
+  <data key="d6">1108.1</data>
+</edge>
+<edge source="ATL" target="TGU">
+  <data key="d5">ATL-TGU</data>
+  <data key="d6">1185.1</data>
+</edge>
+<edge source="ATL" target="KIN">
+  <data key="d5">ATL-KIN</data>
+  <data key="d6">1028.3</data>
+</edge>
+<edge source="ATL" target="MBJ">
+  <data key="d5">ATL-MBJ</data>
+  <data key="d6">973.5</data>
+</edge>
+<edge source="ATL" target="CZM">
+  <data key="d5">ATL-CZM</data>
+  <data key="d6">798.5</data>
+</edge>
+<edge source="ATL" target="GDL">
+  <data key="d5">ATL-GDL</data>
+  <data key="d6">1276.4</data>
+</edge>
+<edge source="ATL" target="MEX">
+  <data key="d5">ATL-MEX</data>
+  <data key="d6">1157.3</data>
+</edge>
+<edge source="ATL" target="MTY">
+  <data key="d5">ATL-MTY</data>
+  <data key="d6">942.4</data>
+</edge>
+<edge source="ATL" target="PVR">
+  <data key="d5">ATL-PVR</data>
+  <data key="d6">1353.0</data>
+</edge>
+<edge source="ATL" target="SJD">
+  <data key="d5">ATL-SJD</data>
+  <data key="d6">1471.4</data>
+</edge>
+<edge source="ATL" target="CUN">
+  <data key="d5">ATL-CUN</data>
+  <data key="d6">767.6</data>
+</edge>
+<edge source="ATL" target="MGA">
+  <data key="d5">ATL-MGA</data>
+  <data key="d6">1294.1</data>
+</edge>
+<edge source="ATL" target="PTY">
+  <data key="d5">ATL-PTY</data>
+  <data key="d6">1501.1</data>
+</edge>
+<edge source="ATL" target="LIR">
+  <data key="d5">ATL-LIR</data>
+  <data key="d6">1384.9</data>
+</edge>
+<edge source="ATL" target="SJO">
+  <data key="d5">ATL-SJO</data>
+  <data key="d6">1419.6</data>
+</edge>
+<edge source="ATL" target="SAL">
+  <data key="d5">ATL-SAL</data>
+  <data key="d6">1238.6</data>
+</edge>
+<edge source="ATL" target="PAP">
+  <data key="d5">ATL-PAP</data>
+  <data key="d6">1113.9</data>
+</edge>
+<edge source="ATL" target="HAV">
+  <data key="d5">ATL-HAV</data>
+  <data key="d6">648.1</data>
+</edge>
+<edge source="ATL" target="GCM">
+  <data key="d5">ATL-GCM</data>
+  <data key="d6">876.7</data>
+</edge>
+<edge source="ATL" target="MHH">
+  <data key="d5">ATL-MHH</data>
+  <data key="d6">572.9</data>
+</edge>
+<edge source="ATL" target="GGT">
+  <data key="d5">ATL-GGT</data>
+  <data key="d6">753.6</data>
+</edge>
+<edge source="ATL" target="ELH">
+  <data key="d5">ATL-ELH</data>
+  <data key="d6">635.0</data>
+</edge>
+<edge source="ATL" target="NAS">
+  <data key="d5">ATL-NAS</data>
+  <data key="d6">631.4</data>
+</edge>
+<edge source="ATL" target="BZE">
+  <data key="d5">ATL-BZE</data>
+  <data key="d6">988.8</data>
+</edge>
+<edge source="ATL" target="NRT">
+  <data key="d5">ATL-NRT</data>
+  <data key="d6">5940.7</data>
+</edge>
+<edge source="ATL" target="GIG">
+  <data key="d5">ATL-GIG</data>
+  <data key="d6">4126.3</data>
+</edge>
+<edge source="ATL" target="GRU">
+  <data key="d5">ATL-GRU</data>
+  <data key="d6">4055.2</data>
+</edge>
+<edge source="ATL" target="SCL">
+  <data key="d5">ATL-SCL</data>
+  <data key="d6">4097.5</data>
+</edge>
+<edge source="ATL" target="UIO">
+  <data key="d5">ATL-UIO</data>
+  <data key="d6">nan</data>
+</edge>
+<edge source="ATL" target="BOG">
+  <data key="d5">ATL-BOG</data>
+  <data key="d6">1829.8</data>
+</edge>
+<edge source="ATL" target="CTG">
+  <data key="d5">ATL-CTG</data>
+  <data key="d6">1476.6</data>
+</edge>
+<edge source="ATL" target="LIM">
+  <data key="d5">ATL-LIM</data>
+  <data key="d6">2773.1</data>
+</edge>
+<edge source="ATL" target="STT">
+  <data key="d5">ATL-STT</data>
+  <data key="d6">1390.3</data>
+</edge>
+<edge source="ATL" target="SJU">
+  <data key="d5">ATL-SJU</data>
+  <data key="d6">1345.0</data>
+</edge>
+<edge source="ATL" target="UVF">
+  <data key="d5">ATL-UVF</data>
+  <data key="d6">1750.3</data>
+</edge>
+<edge source="ATL" target="AUA">
+  <data key="d5">ATL-AUA</data>
+  <data key="d6">1494.1</data>
+</edge>
+<edge source="ATL" target="SXM">
+  <data key="d5">ATL-SXM</data>
+  <data key="d6">1478.9</data>
+</edge>
+<edge source="ATL" target="FSM">
+  <data key="d5">ATL-FSM</data>
+  <data key="d6">502.1</data>
+</edge>
+<edge source="ATL" target="BOS">
+  <data key="d5">ATL-BOS</data>
+  <data key="d6">821.5</data>
+</edge>
+<edge source="ATL" target="OAK">
+  <data key="d5">ATL-OAK</data>
+  <data key="d6">1846.8</data>
+</edge>
+<edge source="ATL" target="OMA">
+  <data key="d5">ATL-OMA</data>
+  <data key="d6">713.3</data>
+</edge>
+<edge source="ATL" target="ICT">
+  <data key="d5">ATL-ICT</data>
+  <data key="d6">678.0</data>
+</edge>
+<edge source="ATL" target="MCI">
+  <data key="d5">ATL-MCI</data>
+  <data key="d6">601.2</data>
+</edge>
+<edge source="ATL" target="MSN">
+  <data key="d5">ATL-MSN</data>
+  <data key="d6">615.3</data>
+</edge>
+<edge source="ATL" target="PHX">
+  <data key="d5">ATL-PHX</data>
+  <data key="d6">1376.4</data>
+</edge>
+<edge source="ATL" target="SFO">
+  <data key="d5">ATL-SFO</data>
+  <data key="d6">1854.6</data>
+</edge>
+<edge source="ATL" target="GNV">
+  <data key="d5">ATL-GNV</data>
+  <data key="d6">261.3</data>
+</edge>
+<edge source="ATL" target="MEM">
+  <data key="d5">ATL-MEM</data>
+  <data key="d6">287.7</data>
+</edge>
+<edge source="ATL" target="LAX">
+  <data key="d5">ATL-LAX</data>
+  <data key="d6">1687.7</data>
+</edge>
+<edge source="ATL" target="CLE">
+  <data key="d5">ATL-CLE</data>
+  <data key="d6">482.4</data>
+</edge>
+<edge source="ATL" target="CVG">
+  <data key="d5">ATL-CVG</data>
+  <data key="d6">325.2</data>
+</edge>
+<edge source="ATL" target="LFT">
+  <data key="d5">ATL-LFT</data>
+  <data key="d6">436.7</data>
+</edge>
+<edge source="ATL" target="EWR">
+  <data key="d5">ATL-EWR</data>
+  <data key="d6">647.6</data>
+</edge>
+<edge source="ATL" target="DAL">
+  <data key="d5">ATL-DAL</data>
+  <data key="d6">625.3</data>
+</edge>
+<edge source="ATL" target="MYR">
+  <data key="d5">ATL-MYR</data>
+  <data key="d6">274.8</data>
+</edge>
+<edge source="ATL" target="DCA">
+  <data key="d5">ATL-DCA</data>
+  <data key="d6">475.2</data>
+</edge>
+<edge source="ATL" target="FLL">
+  <data key="d5">ATL-FLL</data>
+  <data key="d6">505.6</data>
+</edge>
+<edge source="ATL" target="SLC">
+  <data key="d5">ATL-SLC</data>
+  <data key="d6">1378.8</data>
+</edge>
+<edge source="ATL" target="MDT">
+  <data key="d5">ATL-MDT</data>
+  <data key="d6">538.4</data>
+</edge>
+<edge source="ATL" target="IAH">
+  <data key="d5">ATL-IAH</data>
+  <data key="d6">598.0</data>
+</edge>
+<edge source="ATL" target="ELP">
+  <data key="d5">ATL-ELP</data>
+  <data key="d6">1112.1</data>
+</edge>
+<edge source="ATL" target="CAE">
+  <data key="d5">ATL-CAE</data>
+  <data key="d6">166.1</data>
+</edge>
+<edge source="ATL" target="PNS">
+  <data key="d5">ATL-PNS</data>
+  <data key="d6">236.1</data>
+</edge>
+<edge source="ATL" target="HOU">
+  <data key="d5">ATL-HOU</data>
+  <data key="d6">603.8</data>
+</edge>
+<edge source="ATL" target="PIT">
+  <data key="d5">ATL-PIT</data>
+  <data key="d6">457.9</data>
+</edge>
+<edge source="ATL" target="MIA">
+  <data key="d5">ATL-MIA</data>
+  <data key="d6">517.7</data>
+</edge>
+<edge source="ATL" target="CHA">
+  <data key="d5">ATL-CHA</data>
+  <data key="d6">92.3</data>
+</edge>
+<edge source="ATL" target="JAN">
+  <data key="d5">ATL-JAN</data>
+  <data key="d6">295.4</data>
+</edge>
+<edge source="ATL" target="IND">
+  <data key="d5">ATL-IND</data>
+  <data key="d6">376.0</data>
+</edge>
+<edge source="ATL" target="HPN">
+  <data key="d5">ATL-HPN</data>
+  <data key="d6">677.9</data>
+</edge>
+<edge source="ATL" target="RIC">
+  <data key="d5">ATL-RIC</data>
+  <data key="d6">417.5</data>
+</edge>
+<edge source="ATL" target="SHV">
+  <data key="d5">ATL-SHV</data>
+  <data key="d6">478.2</data>
+</edge>
+<edge source="ATL" target="ORF">
+  <data key="d5">ATL-ORF</data>
+  <data key="d6">448.0</data>
+</edge>
+<edge source="ATL" target="SAV">
+  <data key="d5">ATL-SAV</data>
+  <data key="d6">186.2</data>
+</edge>
+<edge source="ATL" target="SAT">
+  <data key="d5">ATL-SAT</data>
+  <data key="d6">758.5</data>
+</edge>
+<edge source="ATL" target="ROC">
+  <data key="d5">ATL-ROC</data>
+  <data key="d6">651.5</data>
+</edge>
+<edge source="ATL" target="RDU">
+  <data key="d5">ATL-RDU</data>
+  <data key="d6">309.0</data>
+</edge>
+<edge source="ATL" target="DAY">
+  <data key="d5">ATL-DAY</data>
+  <data key="d6">376.3</data>
+</edge>
+<edge source="ATL" target="PHF">
+  <data key="d5">ATL-PHF</data>
+  <data key="d6">441.3</data>
+</edge>
+<edge source="ATL" target="TUS">
+  <data key="d5">ATL-TUS</data>
+  <data key="d6">1336.4</data>
+</edge>
+<edge source="ATL" target="PVD">
+  <data key="d5">ATL-PVD</data>
+  <data key="d6">784.2</data>
+</edge>
+<edge source="ATL" target="TPA">
+  <data key="d5">ATL-TPA</data>
+  <data key="d6">353.6</data>
+</edge>
+<edge source="ATL" target="GRB">
+  <data key="d5">ATL-GRB</data>
+  <data key="d6">673.6</data>
+</edge>
+<edge source="ATL" target="AGS">
+  <data key="d5">ATL-AGS</data>
+  <data key="d6">124.4</data>
+</edge>
+<edge source="ATL" target="LIT">
+  <data key="d5">ATL-LIT</data>
+  <data key="d6">392.7</data>
+</edge>
+<edge source="ATL" target="DFW">
+  <data key="d5">ATL-DFW</data>
+  <data key="d6">634.2</data>
+</edge>
+<edge source="ATL" target="MLB">
+  <data key="d5">ATL-MLB</data>
+  <data key="d6">385.1</data>
+</edge>
+<edge source="ATL" target="AUS">
+  <data key="d5">ATL-AUS</data>
+  <data key="d6">705.2</data>
+</edge>
+<edge source="ATL" target="TYS">
+  <data key="d5">ATL-TYS</data>
+  <data key="d6">132.3</data>
+</edge>
+<edge source="ATL" target="STL">
+  <data key="d5">ATL-STL</data>
+  <data key="d6">420.6</data>
+</edge>
+<edge source="ATL" target="BHM">
+  <data key="d5">BHM-ATL</data>
+  <data key="d6">116.3</data>
+</edge>
+<edge source="ATL" target="MDW">
+  <data key="d5">MDW-ATL</data>
+  <data key="d6">514.0</data>
+</edge>
+<edge source="ATL" target="ECP">
+  <data key="d5">ECP-ATL</data>
+  <data key="d6">208.8</data>
+</edge>
+<edge source="ATL" target="ROA">
+  <data key="d5">ROA-ATL</data>
+  <data key="d6">310.5</data>
+</edge>
+<edge source="ATL" target="SRQ">
+  <data key="d5">SRQ-ATL</data>
+  <data key="d6">387.0</data>
+</edge>
+<edge source="ATL" target="COS">
+  <data key="d5">COS-ATL</data>
+  <data key="d6">1027.3</data>
+</edge>
+<edge source="ATL" target="JAX">
+  <data key="d5">JAX-ATL</data>
+  <data key="d6">234.6</data>
+</edge>
+<edge source="ATL" target="MCO">
+  <data key="d5">MCO-ATL</data>
+  <data key="d6">351.4</data>
+</edge>
+<edge source="ATL" target="MSY">
+  <data key="d5">MSY-ATL</data>
+  <data key="d6">369.1</data>
+</edge>
+<edge source="ATL" target="PBI">
+  <data key="d5">PBI-ATL</data>
+  <data key="d6">474.1</data>
+</edge>
+<edge source="ATL" target="LAS">
+  <data key="d5">LAS-ATL</data>
+  <data key="d6">1514.5</data>
+</edge>
+<edge source="ATL" target="SAN">
+  <data key="d5">SAN-ATL</data>
+  <data key="d6">1640.2</data>
+</edge>
+<edge source="ATL" target="EZE">
+  <data key="d5">EZE-ATL</data>
+  <data key="d6">4360.7</data>
+</edge>
+<edge source="ATL" target="ICN">
+  <data key="d5">ICN-ATL</data>
+  <data key="d6">6202.6</data>
+</edge>
+<edge source="ATL" target="HSV">
+  <data key="d5">HSV-ATL</data>
+  <data key="d6">131.2</data>
+</edge>
+<edge source="ATL" target="GSP">
+  <data key="d5">GSP-ATL</data>
+  <data key="d6">133.1</data>
+</edge>
+<edge source="ATL" target="AVL">
+  <data key="d5">AVL-ATL</data>
+  <data key="d6">142.7</data>
+</edge>
+<edge source="ATL" target="CLT">
+  <data key="d5">CLT-ATL</data>
+  <data key="d6">196.6</data>
+</edge>
+<edge source="ATL" target="VPS">
+  <data key="d5">VPS-ATL</data>
+  <data key="d6">217.3</data>
+</edge>
+<edge source="ATL" target="LEX">
+  <data key="d5">LEX-ATL</data>
+  <data key="d6">264.3</data>
+</edge>
+<edge source="ATL" target="GSO">
+  <data key="d5">GSO-ATL</data>
+  <data key="d6">265.9</data>
+</edge>
+<edge source="ATL" target="SDF">
+  <data key="d5">SDF-ATL</data>
+  <data key="d6">279.7</data>
+</edge>
+<edge source="ATL" target="EVV">
+  <data key="d5">EVV-ATL</data>
+  <data key="d6">304.3</data>
+</edge>
+<edge source="ATL" target="CRW">
+  <data key="d5">CRW-ATL</data>
+  <data key="d6">316.1</data>
+</edge>
+<edge source="ATL" target="CHO">
+  <data key="d5">CHO-ATL</data>
+  <data key="d6">396.7</data>
+</edge>
+<edge source="ATL" target="CAK">
+  <data key="d5">CAK-ATL</data>
+  <data key="d6">459.6</data>
+</edge>
+<edge source="ATL" target="ORD">
+  <data key="d5">ORD-ATL</data>
+  <data key="d6">527.4</data>
+</edge>
+<edge source="ATL" target="ABE">
+  <data key="d5">ABE-ATL</data>
+  <data key="d6">601.4</data>
+</edge>
+<edge source="ATL" target="CID">
+  <data key="d5">CID-ATL</data>
+  <data key="d6">603.4</data>
+</edge>
+<edge source="ATL" target="AVP">
+  <data key="d5">AVP-ATL</data>
+  <data key="d6">620.5</data>
+</edge>
+<edge source="ATL" target="ATW">
+  <data key="d5">ATW-ATL</data>
+  <data key="d6">665.5</data>
+</edge>
+<edge source="ATL" target="FSD">
+  <data key="d5">FSD-ATL</data>
+  <data key="d6">829.1</data>
+</edge>
+<edge source="ATL" target="EYW">
+  <data key="d5">EYW-ATL</data>
+  <data key="d6">562.8</data>
+</edge>
+<edge source="ATL" target="OKC">
+  <data key="d5">OKC-ATL</data>
+  <data key="d6">659.6</data>
+</edge>
+<edge source="ATL" target="BTV">
+  <data key="d5">BTV-ATL</data>
+  <data key="d6">834.7</data>
+</edge>
+<edge source="ATL" target="CMH">
+  <data key="d5">CMH-ATL</data>
+  <data key="d6">389.0</data>
+</edge>
+<edge source="ATL" target="BDL">
+  <data key="d5">BDL-ATL</data>
+  <data key="d6">746.4</data>
+</edge>
+<edge source="ATL" target="BDA">
+  <data key="d5">BDA-ATL</data>
+  <data key="d6">995.9</data>
+</edge>
+<edge source="ATL" target="DEN">
+  <data key="d5">DEN-ATL</data>
+  <data key="d6">1040.3</data>
+</edge>
+<edge source="ATL" target="SMF">
+  <data key="d5">SMF-ATL</data>
+  <data key="d6">1814.1</data>
+</edge>
+<edge source="ATL" target="SJC">
+  <data key="d5">SJC-ATL</data>
+  <data key="d6">1834.6</data>
+</edge>
+<edge source="ATL" target="RSW">
+  <data key="d5">RSW-ATL</data>
+  <data key="d6">448.3</data>
+</edge>
+<edge source="ATL" target="MKE">
+  <data key="d5">MKE-ATL</data>
+  <data key="d6">582.3</data>
+</edge>
+<edge source="ATL" target="ABQ">
+  <data key="d5">ABQ-ATL</data>
+  <data key="d6">1100.6</data>
+</edge>
+<edge source="ATL" target="PDX">
+  <data key="d5">PDX-ATL</data>
+  <data key="d6">1884.0</data>
+</edge>
+<edge source="ATL" target="BZN">
+  <data key="d5">BZN-ATL</data>
+  <data key="d6">1423.4</data>
+</edge>
+<edge source="ATL" target="SNA">
+  <data key="d5">SNA-ATL</data>
+  <data key="d6">1663.8</data>
+</edge>
+<edge source="ATL" target="ANC">
+  <data key="d5">ANC-ATL</data>
+  <data key="d6">2963.5</data>
+</edge>
+<edge source="ATL" target="HNL">
+  <data key="d5">HNL-ATL</data>
+  <data key="d6">3906.0</data>
+</edge>
+<edge source="ATL" target="CSG">
+  <data key="d5">CSG-ATL</data>
+  <data key="d6">72.0</data>
+</edge>
+<edge source="ATL" target="ABY">
+  <data key="d5">ABY-ATL</data>
+  <data key="d6">126.7</data>
+</edge>
+<edge source="ATL" target="MGM">
+  <data key="d5">MGM-ATL</data>
+  <data key="d6">127.4</data>
+</edge>
+<edge source="ATL" target="DHN">
+  <data key="d5">DHN-ATL</data>
+  <data key="d6">148.3</data>
+</edge>
+<edge source="ATL" target="VLD">
+  <data key="d5">VLD-ATL</data>
+  <data key="d6">181.1</data>
+</edge>
+<edge source="ATL" target="TRI">
+  <data key="d5">TRI-ATL</data>
+  <data key="d6">197.2</data>
+</edge>
+<edge source="ATL" target="BQK">
+  <data key="d5">BQK-ATL</data>
+  <data key="d6">207.1</data>
+</edge>
+<edge source="ATL" target="GTR">
+  <data key="d5">GTR-ATL</data>
+  <data key="d6">208.6</data>
+</edge>
+<edge source="ATL" target="MOB">
+  <data key="d5">MOB-ATL</data>
+  <data key="d6">262.4</data>
+</edge>
+<edge source="ATL" target="FAY">
+  <data key="d5">FAY-ATL</data>
+  <data key="d6">286.8</data>
+</edge>
+<edge source="ATL" target="ILM">
+  <data key="d5">ILM-ATL</data>
+  <data key="d6">327.2</data>
+</edge>
+<edge source="ATL" target="OAJ">
+  <data key="d5">OAJ-ATL</data>
+  <data key="d6">345.8</data>
+</edge>
+<edge source="ATL" target="EWN">
+  <data key="d5">EWN-ATL</data>
+  <data key="d6">376.0</data>
+</edge>
+<edge source="ATL" target="MLU">
+  <data key="d5">MLU-ATL</data>
+  <data key="d6">388.7</data>
+</edge>
+<edge source="ATL" target="BTR">
+  <data key="d5">BTR-ATL</data>
+  <data key="d6">389.3</data>
+</edge>
+<edge source="ATL" target="AEX">
+  <data key="d5">AEX-ATL</data>
+  <data key="d6">433.9</data>
+</edge>
+<edge source="ATL" target="FWA">
+  <data key="d5">FWA-ATL</data>
+  <data key="d6">442.3</data>
+</edge>
+<edge source="ATL" target="PIA">
+  <data key="d5">PIA-ATL</data>
+  <data key="d6">491.2</data>
+</edge>
+<edge source="ATL" target="SBN">
+  <data key="d5">SBN-ATL</data>
+  <data key="d6">492.8</data>
+</edge>
+<edge source="ATL" target="TLH">
+  <data key="d5">TLH-ATL</data>
+  <data key="d6">194.6</data>
+</edge>
+<edge source="ATL" target="GPT">
+  <data key="d5">GPT-ATL</data>
+  <data key="d6">305.6</data>
+</edge>
+<edge source="ATL" target="BMI">
+  <data key="d5">BMI-ATL</data>
+  <data key="d6">463.4</data>
+</edge>
+<edge source="ATL" target="SGF">
+  <data key="d5">SGF-ATL</data>
+  <data key="d6">488.6</data>
+</edge>
+<edge source="ATL" target="XNA">
+  <data key="d5">XNA-ATL</data>
+  <data key="d6">511.1</data>
+</edge>
+<edge source="ATL" target="MLI">
+  <data key="d5">MLI-ATL</data>
+  <data key="d6">550.8</data>
+</edge>
+<edge source="ATL" target="TUL">
+  <data key="d5">TUL-ATL</data>
+  <data key="d6">584.4</data>
+</edge>
+<edge source="ATL" target="RST">
+  <data key="d5">RST-ATL</data>
+  <data key="d6">722.4</data>
+</edge>
+<edge source="ATL" target="FNT">
+  <data key="d5">FNT-ATL</data>
+  <data key="d6">561.0</data>
+</edge>
+<edge source="ATL" target="LNK">
+  <data key="d5">ATL-LNK</data>
+  <data key="d6">730.2</data>
+</edge>
+<edge source="ATL" target="BNA">
+  <data key="d5">BNA-ATL</data>
+  <data key="d6">186.0</data>
+</edge>
+<edge source="ATL" target="CHS">
+  <data key="d5">CHS-ATL</data>
+  <data key="d6">224.7</data>
+</edge>
+<edge source="ATL" target="DAB">
+  <data key="d5">DAB-ATL</data>
+  <data key="d6">318.4</data>
+</edge>
+<edge source="ATL" target="IAD">
+  <data key="d5">IAD-ATL</data>
+  <data key="d6">463.8</data>
+</edge>
+<edge source="ATL" target="BWI">
+  <data key="d5">BWI-ATL</data>
+  <data key="d6">500.8</data>
+</edge>
+<edge source="ATL" target="GRR">
+  <data key="d5">GRR-ATL</data>
+  <data key="d6">557.4</data>
+</edge>
+<edge source="ATL" target="PHL">
+  <data key="d5">PHL-ATL</data>
+  <data key="d6">578.6</data>
+</edge>
+<edge source="ATL" target="BUF">
+  <data key="d5">BUF-ATL</data>
+  <data key="d6">619.4</data>
+</edge>
+<edge source="ATL" target="DSM">
+  <data key="d5">DSM-ATL</data>
+  <data key="d6">645.7</data>
+</edge>
+<edge source="ATL" target="SYR">
+  <data key="d5">SYR-ATL</data>
+  <data key="d6">689.9</data>
+</edge>
+<edge source="ATL" target="ALB">
+  <data key="d5">ALB-ATL</data>
+  <data key="d6">740.9</data>
+</edge>
+<edge source="ATL" target="MHT">
+  <data key="d5">MHT-ATL</data>
+  <data key="d6">826.7</data>
+</edge>
+<edge source="ATL" target="PWM">
+  <data key="d5">PWM-ATL</data>
+  <data key="d6">891.9</data>
+</edge>
+<edge source="ATL" target="JAC">
+  <data key="d5">JAC-ATL</data>
+  <data key="d6">1363.7</data>
+</edge>
+<edge source="YVR" target="SLC">
+  <data key="d5">SLC-YVR</data>
+  <data key="d6">692.2</data>
+</edge>
+<edge source="SLC" target="YYC">
+  <data key="d5">SLC-YYC</data>
+  <data key="d6">625.7</data>
+</edge>
+<edge source="SLC" target="YYZ">
+  <data key="d5">SLC-YYZ</data>
+  <data key="d6">1439.2</data>
+</edge>
+<edge source="SLC" target="LHR">
+  <data key="d5">SLC-LHR</data>
+  <data key="d6">4217.0</data>
+</edge>
+<edge source="SLC" target="AMS">
+  <data key="d5">SLC-AMS</data>
+  <data key="d6">4324.3</data>
+</edge>
+<edge source="SLC" target="CDG">
+  <data key="d5">SLC-CDG</data>
+  <data key="d6">4402.4</data>
+</edge>
+<edge source="SLC" target="MEX">
+  <data key="d5">SLC-MEX</data>
+  <data key="d6">1442.8</data>
+</edge>
+<edge source="SLC" target="CUN">
+  <data key="d5">SLC-CUN</data>
+  <data key="d6">1742.5</data>
+</edge>
+<edge source="SLC" target="BOS">
+  <data key="d5">SLC-BOS</data>
+  <data key="d6">1824.8</data>
+</edge>
+<edge source="SLC" target="OAK">
+  <data key="d5">SLC-OAK</data>
+  <data key="d6">510.2</data>
+</edge>
+<edge source="SLC" target="OMA">
+  <data key="d5">SLC-OMA</data>
+  <data key="d6">727.9</data>
+</edge>
+<edge source="SLC" target="MCI">
+  <data key="d5">SLC-MCI</data>
+  <data key="d6">797.3</data>
+</edge>
+<edge source="SLC" target="MSN">
+  <data key="d5">SLC-MSN</data>
+  <data key="d6">1017.4</data>
+</edge>
+<edge source="SLC" target="PHX">
+  <data key="d5">SLC-PHX</data>
+  <data key="d6">441.5</data>
+</edge>
+<edge source="SLC" target="GEG">
+  <data key="d5">SLC-GEG</data>
+  <data key="d6">474.5</data>
+</edge>
+<edge source="SLC" target="SFO">
+  <data key="d5">SLC-SFO</data>
+  <data key="d6">519.4</data>
+</edge>
+<edge source="SLC" target="LAX">
+  <data key="d5">SLC-LAX</data>
+  <data key="d6">512.6</data>
+</edge>
+<edge source="SLC" target="CVG">
+  <data key="d5">SLC-CVG</data>
+  <data key="d6">1256.8</data>
+</edge>
+<edge source="SLC" target="EWR">
+  <data key="d5">SLC-EWR</data>
+  <data key="d6">1706.4</data>
+</edge>
+<edge source="SLC" target="BOI">
+  <data key="d5">SLC-BOI</data>
+  <data key="d6">251.8</data>
+</edge>
+<edge source="SLC" target="HLN">
+  <data key="d5">SLC-HLN</data>
+  <data key="d6">349.3</data>
+</edge>
+<edge source="SLC" target="DCA">
+  <data key="d5">SLC-DCA</data>
+  <data key="d6">1604.8</data>
+</edge>
+<edge source="SLC" target="FLL">
+  <data key="d5">SLC-FLL</data>
+  <data key="d6">1808.6</data>
+</edge>
+<edge source="SLC" target="JAC">
+  <data key="d5">JAC-SLC</data>
+  <data key="d6">178.0</data>
+</edge>
+<edge source="SLC" target="DEN">
+  <data key="d5">DEN-SLC</data>
+  <data key="d6">338.9</data>
+</edge>
+<edge source="SLC" target="RNO">
+  <data key="d5">RNO-SLC</data>
+  <data key="d6">365.7</data>
+</edge>
+<edge source="SLC" target="PSC">
+  <data key="d5">PSC-SLC</data>
+  <data key="d6">452.1</data>
+</edge>
+<edge source="SLC" target="SJC">
+  <data key="d5">SJC-SLC</data>
+  <data key="d6">507.0</data>
+</edge>
+<edge source="SLC" target="AUS">
+  <data key="d5">AUS-SLC</data>
+  <data key="d6">943.1</data>
+</edge>
+<edge source="SLC" target="ORD">
+  <data key="d5">ORD-SLC</data>
+  <data key="d6">1083.1</data>
+</edge>
+<edge source="SLC" target="IND">
+  <data key="d5">IND-SLC</data>
+  <data key="d6">1174.4</data>
+</edge>
+<edge source="SLC" target="FCA">
+  <data key="d5">FCA-SLC</data>
+  <data key="d6">462.0</data>
+</edge>
+<edge source="SLC" target="SAN">
+  <data key="d5">SAN-SLC</data>
+  <data key="d6">544.5</data>
+</edge>
+<edge source="SLC" target="PDX">
+  <data key="d5">PDX-SLC</data>
+  <data key="d6">546.3</data>
+</edge>
+<edge source="SLC" target="LAS">
+  <data key="d5">LAS-SLC</data>
+  <data key="d6">319.6</data>
+</edge>
+<edge source="SLC" target="RDU">
+  <data key="d5">RDU-SLC</data>
+  <data key="d6">1580.9</data>
+</edge>
+<edge source="SLC" target="PHL">
+  <data key="d5">PHL-SLC</data>
+  <data key="d6">1670.0</data>
+</edge>
+<edge source="SLC" target="SNA">
+  <data key="d5">SNA-SLC</data>
+  <data key="d6">511.2</data>
+</edge>
+<edge source="SLC" target="DFW">
+  <data key="d5">DFW-SLC</data>
+  <data key="d6">858.2</data>
+</edge>
+<edge source="SLC" target="IAH">
+  <data key="d5">IAH-SLC</data>
+  <data key="d6">1038.0</data>
+</edge>
+<edge source="SLC" target="BIL">
+  <data key="d5">BIL-SLC</data>
+  <data key="d6">336.6</data>
+</edge>
+<edge source="SLC" target="MSO">
+  <data key="d5">MSO-SLC</data>
+  <data key="d6">379.1</data>
+</edge>
+<edge source="SLC" target="SMF">
+  <data key="d5">SMF-SLC</data>
+  <data key="d6">461.0</data>
+</edge>
+<edge source="SLC" target="BNA">
+  <data key="d5">BNA-SLC</data>
+  <data key="d6">1217.4</data>
+</edge>
+<edge source="SLC" target="MSY">
+  <data key="d5">MSY-SLC</data>
+  <data key="d6">1239.9</data>
+</edge>
+<edge source="SLC" target="CLT">
+  <data key="d5">CLT-SLC</data>
+  <data key="d6">1497.3</data>
+</edge>
+<edge source="SLC" target="IAD">
+  <data key="d5">IAD-SLC</data>
+  <data key="d6">1584.2</data>
+</edge>
+<edge source="SLC" target="BWI">
+  <data key="d5">BWI-SLC</data>
+  <data key="d6">1616.3</data>
+</edge>
+<edge source="SLC" target="TPA">
+  <data key="d5">SLC-TPA</data>
+  <data key="d6">1638.3</data>
+</edge>
+<edge source="SLC" target="BZN">
+  <data key="d5">BZN-SLC</data>
+  <data key="d6">301.7</data>
+</edge>
+<edge source="SLC" target="MCO">
+  <data key="d5">MCO-SLC</data>
+  <data key="d6">1675.6</data>
+</edge>
+<edge source="SLC" target="HNL">
+  <data key="d5">HNL-SLC</data>
+  <data key="d6">2598.9</data>
+</edge>
+<edge source="SLC" target="PIH">
+  <data key="d5">PIH-SLC</data>
+  <data key="d6">130.3</data>
+</edge>
+<edge source="SLC" target="TWF">
+  <data key="d5">TWF-SLC</data>
+  <data key="d6">151.7</data>
+</edge>
+<edge source="SLC" target="IDA">
+  <data key="d5">IDA-SLC</data>
+  <data key="d6">163.7</data>
+</edge>
+<edge source="SLC" target="EKO">
+  <data key="d5">EKO-SLC</data>
+  <data key="d6">173.3</data>
+</edge>
+<edge source="SLC" target="GJT">
+  <data key="d5">GJT-SLC</data>
+  <data key="d6">187.7</data>
+</edge>
+<edge source="SLC" target="CDC">
+  <data key="d5">CDC-SLC</data>
+  <data key="d6">192.6</data>
+</edge>
+<edge source="SLC" target="SGU">
+  <data key="d5">SGU-SLC</data>
+  <data key="d6">234.4</data>
+</edge>
+<edge source="SLC" target="WYS">
+  <data key="d5">WYS-SLC</data>
+  <data key="d6">237.2</data>
+</edge>
+<edge source="SLC" target="COD">
+  <data key="d5">COD-SLC</data>
+  <data key="d6">259.2</data>
+</edge>
+<edge source="SLC" target="CPR">
+  <data key="d5">CPR-SLC</data>
+  <data key="d6">277.4</data>
+</edge>
+<edge source="SLC" target="BTM">
+  <data key="d5">BTM-SLC</data>
+  <data key="d6">311.0</data>
+</edge>
+<edge source="SLC" target="COS">
+  <data key="d5">COS-SLC</data>
+  <data key="d6">356.0</data>
+</edge>
+<edge source="SLC" target="LWS">
+  <data key="d5">LWS-SLC</data>
+  <data key="d6">400.4</data>
+</edge>
+<edge source="SLC" target="GTF">
+  <data key="d5">GTF-SLC</data>
+  <data key="d6">402.8</data>
+</edge>
+<edge source="SLC" target="FAT">
+  <data key="d5">FAT-SLC</data>
+  <data key="d6">434.8</data>
+</edge>
+<edge source="SLC" target="RAP">
+  <data key="d5">RAP-SLC</data>
+  <data key="d6">440.8</data>
+</edge>
+<edge source="SLC" target="SUN">
+  <data key="d5">SUN-SLC</data>
+  <data key="d6">192.9</data>
+</edge>
+<edge source="SLC" target="ASE">
+  <data key="d5">ASE-SLC</data>
+  <data key="d6">253.0</data>
+</edge>
+<edge source="SLC" target="PSP">
+  <data key="d5">PSP-SLC</data>
+  <data key="d6">470.3</data>
+</edge>
+<edge source="SLC" target="ONT">
+  <data key="d5">ONT-SLC</data>
+  <data key="d6">484.8</data>
+</edge>
+<edge source="SLC" target="TUS">
+  <data key="d5">TUS-SLC</data>
+  <data key="d6">523.1</data>
+</edge>
+<edge source="SLC" target="OKC">
+  <data key="d5">OKC-SLC</data>
+  <data key="d6">751.4</data>
+</edge>
+<edge source="SLC" target="MFR">
+  <data key="d5">MFR-SLC</data>
+  <data key="d6">498.1</data>
+</edge>
+<edge source="SLC" target="TUL">
+  <data key="d5">TUL-SLC</data>
+  <data key="d6">803.3</data>
+</edge>
+<edge source="SLC" target="SAT">
+  <data key="d5">SAT-SLC</data>
+  <data key="d6">944.5</data>
+</edge>
+<edge source="SLC" target="ABQ">
+  <data key="d5">ABQ-SLC</data>
+  <data key="d6">428.5</data>
+</edge>
+<edge source="SLC" target="RDM">
+  <data key="d5">RDM-SLC</data>
+  <data key="d6">455.7</data>
+</edge>
+<edge source="SLC" target="LGB">
+  <data key="d5">LGB-SLC</data>
+  <data key="d6">511.6</data>
+</edge>
+<edge source="SLC" target="EUG">
+  <data key="d5">EUG-SLC</data>
+  <data key="d6">535.9</data>
+</edge>
+<edge source="SLC" target="DSM">
+  <data key="d5">DSM-SLC</data>
+  <data key="d6">827.5</data>
+</edge>
+<edge source="SLC" target="STL">
+  <data key="d5">STL-SLC</data>
+  <data key="d6">1002.1</data>
+</edge>
+<edge source="SLC" target="MKE">
+  <data key="d5">MKE-SLC</data>
+  <data key="d6">1080.7</data>
+</edge>
+<edge source="SLC" target="BUR">
+  <data key="d5">BUR-SLC</data>
+  <data key="d6">498.5</data>
+</edge>
+<edge source="YYZ" target="CVG">
+  <data key="d5">CVG-YYZ</data>
+  <data key="d6">358.7</data>
+</edge>
+<edge source="CVG" target="CDG">
+  <data key="d5">CVG-CDG</data>
+  <data key="d6">3601.4</data>
+</edge>
+<edge source="CVG" target="BOS">
+  <data key="d5">CVG-BOS</data>
+  <data key="d6">652.0</data>
+</edge>
+<edge source="CVG" target="MCI">
+  <data key="d5">CVG-MCI</data>
+  <data key="d6">467.6</data>
+</edge>
+<edge source="CVG" target="SFO">
+  <data key="d5">CVG-SFO</data>
+  <data key="d6">1765.2</data>
+</edge>
+<edge source="CVG" target="LAX">
+  <data key="d5">CVG-LAX</data>
+  <data key="d6">1647.3</data>
+</edge>
+<edge source="CVG" target="TPA">
+  <data key="d5">TPA-CVG</data>
+  <data key="d6">673.3</data>
+</edge>
+<edge source="CVG" target="RSW">
+  <data key="d5">RSW-CVG</data>
+  <data key="d6">765.4</data>
+</edge>
+<edge source="CVG" target="MCO">
+  <data key="d5">MCO-CVG</data>
+  <data key="d6">659.1</data>
+</edge>
+<edge source="CVG" target="FLL">
+  <data key="d5">FLL-CVG</data>
+  <data key="d6">811.6</data>
+</edge>
+<edge source="CVG" target="LAS">
+  <data key="d5">LAS-CVG</data>
+  <data key="d6">1454.9</data>
+</edge>
+<edge source="CVG" target="ORD">
+  <data key="d5">ORD-CVG</data>
+  <data key="d6">229.9</data>
+</edge>
+<edge source="CVG" target="STL">
+  <data key="d5">STL-CVG</data>
+  <data key="d6">267.0</data>
+</edge>
+<edge source="CVG" target="MKE">
+  <data key="d5">MKE-CVG</data>
+  <data key="d6">276.0</data>
+</edge>
+<edge source="CVG" target="CLT">
+  <data key="d5">CLT-CVG</data>
+  <data key="d6">291.0</data>
+</edge>
+<edge source="CVG" target="RDU">
+  <data key="d5">RDU-CVG</data>
+  <data key="d6">338.7</data>
+</edge>
+<edge source="CVG" target="BWI">
+  <data key="d5">BWI-CVG</data>
+  <data key="d6">372.6</data>
+</edge>
+<edge source="CVG" target="PHL">
+  <data key="d5">PHL-CVG</data>
+  <data key="d6">439.6</data>
+</edge>
+<edge source="CVG" target="XNA">
+  <data key="d5">XNA-CVG</data>
+  <data key="d6">487.1</data>
+</edge>
+<edge source="CVG" target="DCA">
+  <data key="d5">DCA-CVG</data>
+  <data key="d6">356.4</data>
+</edge>
+<edge source="CVG" target="DFW">
+  <data key="d5">DFW-CVG</data>
+  <data key="d6">704.5</data>
+</edge>
+<edge source="CVG" target="BNA">
+  <data key="d5">BNA-CVG</data>
+  <data key="d6">199.9</data>
+</edge>
+<edge source="CVG" target="EWR">
+  <data key="d5">EWR-CVG</data>
+  <data key="d6">493.4</data>
+</edge>
+<edge source="CVG" target="BDL">
+  <data key="d5">BDL-CVG</data>
+  <data key="d6">573.5</data>
+</edge>
+<edge source="CVG" target="IAH">
+  <data key="d5">IAH-CVG</data>
+  <data key="d6">757.2</data>
+</edge>
+<edge source="CVG" target="AUS">
+  <data key="d5">AUS-CVG</data>
+  <data key="d6">832.3</data>
+</edge>
+<edge source="CVG" target="DEN">
+  <data key="d5">DEN-CVG</data>
+  <data key="d6">926.8</data>
+</edge>
+<edge source="LHR" target="BOS">
+  <data key="d5">BOS-LHR</data>
+  <data key="d6">2829.2</data>
+</edge>
+<edge source="LHR" target="PDX">
+  <data key="d5">PDX-LHR</data>
+  <data key="d6">4257.6</data>
+</edge>
+<edge source="BOS" target="AMS">
+  <data key="d5">BOS-AMS</data>
+  <data key="d6">2995.4</data>
+</edge>
+<edge source="BOS" target="DUB">
+  <data key="d5">BOS-DUB</data>
+  <data key="d6">2593.4</data>
+</edge>
+<edge source="BOS" target="CDG">
+  <data key="d5">BOS-CDG</data>
+  <data key="d6">2988.4</data>
+</edge>
+<edge source="BOS" target="BDA">
+  <data key="d5">BDA-BOS</data>
+  <data key="d6">671.5</data>
+</edge>
+<edge source="BOS" target="MCO">
+  <data key="d5">MCO-BOS</data>
+  <data key="d6">975.1</data>
+</edge>
+<edge source="BOS" target="TPA">
+  <data key="d5">TPA-BOS</data>
+  <data key="d6">1030.4</data>
+</edge>
+<edge source="BOS" target="AUS">
+  <data key="d5">AUS-BOS</data>
+  <data key="d6">1473.8</data>
+</edge>
+<edge source="BOS" target="RDU">
+  <data key="d5">RDU-BOS</data>
+  <data key="d6">531.5</data>
+</edge>
+<edge source="BOS" target="FLL">
+  <data key="d5">FLL-BOS</data>
+  <data key="d6">1076.7</data>
+</edge>
+<edge source="BOS" target="LAX">
+  <data key="d5">LAX-BOS</data>
+  <data key="d6">2264.0</data>
+</edge>
+<edge source="BOS" target="SFO">
+  <data key="d5">SFO-BOS</data>
+  <data key="d6">2344.0</data>
+</edge>
+<edge source="BOS" target="BUF">
+  <data key="d5">BUF-BOS</data>
+  <data key="d6">342.8</data>
+</edge>
+<edge source="BOS" target="RIC">
+  <data key="d5">RIC-BOS</data>
+  <data key="d6">411.5</data>
+</edge>
+<edge source="BOS" target="ORF">
+  <data key="d5">ORF-BOS</data>
+  <data key="d6">406.6</data>
+</edge>
+<edge source="BOS" target="PIT">
+  <data key="d5">PIT-BOS</data>
+  <data key="d6">430.0</data>
+</edge>
+<edge source="BOS" target="MKE">
+  <data key="d5">MKE-BOS</data>
+  <data key="d6">745.4</data>
+</edge>
+<edge source="BOS" target="BNA">
+  <data key="d5">BNA-BOS</data>
+  <data key="d6">817.6</data>
+</edge>
+<edge source="BOS" target="JAX">
+  <data key="d5">JAX-BOS</data>
+  <data key="d6">878.2</data>
+</edge>
+<edge source="BOS" target="MCI">
+  <data key="d5">MCI-BOS</data>
+  <data key="d6">1089.0</data>
+</edge>
+<edge source="BOS" target="CMH">
+  <data key="d5">CMH-BOS</data>
+  <data key="d6">555.0</data>
+</edge>
+<edge source="BOS" target="IND">
+  <data key="d5">IND-BOS</data>
+  <data key="d6">709.3</data>
+</edge>
+<edge source="BOS" target="CHS">
+  <data key="d5">CHS-BOS</data>
+  <data key="d6">711.4</data>
+</edge>
+<edge source="PDX" target="AMS">
+  <data key="d5">PDX-AMS</data>
+  <data key="d6">4335.2</data>
+</edge>
+<edge source="PDX" target="NRT">
+  <data key="d5">PDX-NRT</data>
+  <data key="d6">4180.4</data>
+</edge>
+<edge source="PDX" target="LAX">
+  <data key="d5">PDX-LAX</data>
+  <data key="d6">725.2</data>
+</edge>
+<edge source="AMS" target="MCO">
+  <data key="d5">MCO-AMS</data>
+  <data key="d6">3937.0</data>
+</edge>
+<edge source="AMS" target="LAX">
+  <data key="d5">LAX-AMS</data>
+  <data key="d6">4835.8</data>
+</edge>
+<edge source="MCO" target="GRU">
+  <data key="d5">MCO-GRU</data>
+  <data key="d6">3709.0</data>
+</edge>
+<edge source="MCO" target="LAX">
+  <data key="d5">MCO-LAX</data>
+  <data key="d6">1923.5</data>
+</edge>
+<edge source="MCO" target="MIA">
+  <data key="d5">MCO-MIA</data>
+  <data key="d6">167.3</data>
+</edge>
+<edge source="MCO" target="IND">
+  <data key="d5">MCO-IND</data>
+  <data key="d6">721.3</data>
+</edge>
+<edge source="MCO" target="RDU">
+  <data key="d5">MCO-RDU</data>
+  <data key="d6">465.1</data>
+</edge>
+<edge source="CDG" target="LAX">
+  <data key="d5">CDG-LAX</data>
+  <data key="d6">4914.9</data>
+</edge>
+<edge source="CDG" target="EWR">
+  <data key="d5">EWR-CDG</data>
+  <data key="d6">3162.3</data>
+</edge>
+<edge source="CDG" target="PIT">
+  <data key="d5">PIT-CDG</data>
+  <data key="d6">3388.6</data>
+</edge>
+<edge source="CDG" target="RDU">
+  <data key="d5">RDU-CDG</data>
+  <data key="d6">3512.6</data>
+</edge>
+<edge source="CDG" target="IND">
+  <data key="d5">IND-CDG</data>
+  <data key="d6">3632.1</data>
+</edge>
+<edge source="LAX" target="GUA">
+  <data key="d5">LAX-GUA</data>
+  <data key="d6">1906.8</data>
+</edge>
+<edge source="LAX" target="MEX">
+  <data key="d5">LAX-MEX</data>
+  <data key="d6">1349.9</data>
+</edge>
+<edge source="LAX" target="PVR">
+  <data key="d5">LAX-PVR</data>
+  <data key="d6">1059.2</data>
+</edge>
+<edge source="LAX" target="SJD">
+  <data key="d5">LAX-SJD</data>
+  <data key="d6">792.7</data>
+</edge>
+<edge source="LAX" target="CUN">
+  <data key="d5">LAX-CUN</data>
+  <data key="d6">1839.4</data>
+</edge>
+<edge source="LAX" target="SJO">
+  <data key="d5">LAX-SJO</data>
+  <data key="d6">2366.1</data>
+</edge>
+<edge source="LAX" target="SAL">
+  <data key="d5">SAL-LAX</data>
+  <data key="d6">2016.4</data>
+</edge>
+<edge source="LAX" target="HND">
+  <data key="d5">LAX-HND</data>
+  <data key="d6">4758.4</data>
+</edge>
+<edge source="LAX" target="SYD">
+  <data key="d5">LAX-SYD</data>
+  <data key="d6">6512.5</data>
+</edge>
+<edge source="LAX" target="PVG">
+  <data key="d5">LAX-PVG</data>
+  <data key="d6">5623.8</data>
+</edge>
+<edge source="LAX" target="OAK">
+  <data key="d5">LAX-OAK</data>
+  <data key="d6">293.1</data>
+</edge>
+<edge source="LAX" target="OGG">
+  <data key="d5">LAX-OGG</data>
+  <data key="d6">2157.4</data>
+</edge>
+<edge source="LAX" target="MCI">
+  <data key="d5">LAX-MCI</data>
+  <data key="d6">1182.3</data>
+</edge>
+<edge source="LAX" target="PHX">
+  <data key="d5">LAX-PHX</data>
+  <data key="d6">320.9</data>
+</edge>
+<edge source="LAX" target="GEG">
+  <data key="d5">LAX-GEG</data>
+  <data key="d6">822.1</data>
+</edge>
+<edge source="LAX" target="SFO">
+  <data key="d5">LAX-SFO</data>
+  <data key="d6">293.3</data>
+</edge>
+<edge source="LAX" target="MEM">
+  <data key="d5">LAX-MEM</data>
+  <data key="d6">1403.7</data>
+</edge>
+<edge source="LAX" target="DEN">
+  <data key="d5">DEN-LAX</data>
+  <data key="d6">747.9</data>
+</edge>
+<edge source="LAX" target="DFW">
+  <data key="d5">DFW-LAX</data>
+  <data key="d6">1070.8</data>
+</edge>
+<edge source="LAX" target="AUS">
+  <data key="d5">AUS-LAX</data>
+  <data key="d6">1076.8</data>
+</edge>
+<edge source="LAX" target="IND">
+  <data key="d5">IND-LAX</data>
+  <data key="d6">1572.8</data>
+</edge>
+<edge source="LAX" target="SAN">
+  <data key="d5">SAN-LAX</data>
+  <data key="d6">94.9</data>
+</edge>
+<edge source="LAX" target="LAS">
+  <data key="d5">LAS-LAX</data>
+  <data key="d6">205.1</data>
+</edge>
+<edge source="LAX" target="MSY">
+  <data key="d5">MSY-LAX</data>
+  <data key="d6">1448.6</data>
+</edge>
+<edge source="LAX" target="BNA">
+  <data key="d5">BNA-LAX</data>
+  <data key="d6">1558.4</data>
+</edge>
+<edge source="LAX" target="CMH">
+  <data key="d5">CMH-LAX</data>
+  <data key="d6">1730.0</data>
+</edge>
+<edge source="LAX" target="TPA">
+  <data key="d5">TPA-LAX</data>
+  <data key="d6">1871.7</data>
+</edge>
+<edge source="LAX" target="RDU">
+  <data key="d5">RDU-LAX</data>
+  <data key="d6">1940.9</data>
+</edge>
+<edge source="LAX" target="MIA">
+  <data key="d5">MIA-LAX</data>
+  <data key="d6">2031.6</data>
+</edge>
+<edge source="LAX" target="LIR">
+  <data key="d5">LAX-LIR</data>
+  <data key="d6">2283.8</data>
+</edge>
+<edge source="LAX" target="DCA">
+  <data key="d5">DCA-LAX</data>
+  <data key="d6">2003.7</data>
+</edge>
+<edge source="LAX" target="HNL">
+  <data key="d5">HNL-LAX</data>
+  <data key="d6">2218.3</data>
+</edge>
+<edge source="LAX" target="LIH">
+  <data key="d5">LIH-LAX</data>
+  <data key="d6">2269.5</data>
+</edge>
+<edge source="LAX" target="KOA">
+  <data key="d5">KOA-LAX</data>
+  <data key="d6">2173.7</data>
+</edge>
+<edge source="LAX" target="TUS">
+  <data key="d5">TUS-LAX</data>
+  <data key="d6">391.4</data>
+</edge>
+<edge source="LAX" target="ASE">
+  <data key="d5">ASE-LAX</data>
+  <data key="d6">639.6</data>
+</edge>
+<edge source="LAX" target="BOI">
+  <data key="d5">BOI-LAX</data>
+  <data key="d6">586.6</data>
+</edge>
+<edge source="LAX" target="SJC">
+  <data key="d5">SJC-LAX</data>
+  <data key="d6">267.7</data>
+</edge>
+<edge source="LAX" target="SMF">
+  <data key="d5">SMF-LAX</data>
+  <data key="d6">324.2</data>
+</edge>
+<edge source="LAX" target="ABQ">
+  <data key="d5">ABQ-LAX</data>
+  <data key="d6">587.2</data>
+</edge>
+<edge source="LAX" target="SAT">
+  <data key="d5">SAT-LAX</data>
+  <data key="d6">1050.0</data>
+</edge>
+<edge source="EWR" target="RDU">
+  <data key="d5">RDU-EWR</data>
+  <data key="d6">361.8</data>
+</edge>
+<edge source="RDU" target="CLE">
+  <data key="d5">RDU-CLE</data>
+  <data key="d6">361.9</data>
+</edge>
+<edge source="RDU" target="DCA">
+  <data key="d5">RDU-DCA</data>
+  <data key="d6">276.2</data>
+</edge>
+<edge source="RDU" target="FLL">
+  <data key="d5">RDU-FLL</data>
+  <data key="d6">592.9</data>
+</edge>
+<edge source="RDU" target="IND">
+  <data key="d5">RDU-IND</data>
+  <data key="d6">424.0</data>
+</edge>
+<edge source="RDU" target="BWI">
+  <data key="d5">BWI-RDU</data>
+  <data key="d6">222.2</data>
+</edge>
+<edge source="RDU" target="PHL">
+  <data key="d5">PHL-RDU</data>
+  <data key="d6">292.8</data>
+</edge>
+<edge source="RDU" target="CMH">
+  <data key="d5">CMH-RDU</data>
+  <data key="d6">314.5</data>
+</edge>
+<edge source="RDU" target="BNA">
+  <data key="d5">BNA-RDU</data>
+  <data key="d6">383.5</data>
+</edge>
+<edge source="RDU" target="BDL">
+  <data key="d5">BDL-RDU</data>
+  <data key="d6">462.1</data>
+</edge>
+<edge source="RDU" target="TPA">
+  <data key="d5">TPA-RDU</data>
+  <data key="d6">511.3</data>
+</edge>
+<edge source="RDU" target="AUS">
+  <data key="d5">AUS-RDU</data>
+  <data key="d6">1007.8</data>
+</edge>
+<edge source="HAV" target="MIA">
+  <data key="d5">MIA-HAV</data>
+  <data key="d6">204.5</data>
+</edge>
+<edge source="NRT" target="PVG">
+  <data key="d5">PVG-NRT</data>
+  <data key="d6">969.5</data>
+</edge>
+<edge source="NRT" target="MNL">
+  <data key="d5">MNL-NRT</data>
+  <data key="d6">1647.3</data>
+</edge>
+<edge source="NRT" target="SIN">
+  <data key="d5">SIN-NRT</data>
+  <data key="d6">2892.9</data>
+</edge>
+<edge source="NRT" target="HNL">
+  <data key="d5">HNL-NRT</data>
+  <data key="d6">3313.3</data>
+</edge>
+<edge source="HNL" target="FUK">
+  <data key="d5">HNL-FUK</data>
+  <data key="d6">3814.4</data>
+</edge>
+<edge source="HNL" target="NGO">
+  <data key="d5">NGO-HNL</data>
+  <data key="d6">3491.9</data>
+</edge>
+<edge source="HNL" target="KIX">
+  <data key="d5">KIX-HNL</data>
+  <data key="d6">3571.2</data>
+</edge>
+<edge source="OMA" target="DCA">
+  <data key="d5">DCA-OMA</data>
+  <data key="d6">876.9</data>
+</edge>
+<edge source="DCA" target="MSN">
+  <data key="d5">DCA-MSN</data>
+  <data key="d6">613.2</data>
+</edge>
+<edge source="DCA" target="LEX">
+  <data key="d5">LEX-DCA</data>
+  <data key="d6">359.3</data>
+</edge>
+<edge source="SAN" target="LAS">
+  <data key="d5">LAS-SAN</data>
+  <data key="d6">224.8</data>
+</edge>
+<edge source="LAS" target="SJC">
+  <data key="d5">LAS-SJC</data>
+  <data key="d6">335.0</data>
+</edge>
+<edge source="LAS" target="SNA">
+  <data key="d5">LAS-SNA</data>
+  <data key="d6">196.8</data>
+</edge>
+<edge source="CLE" target="BDL">
+  <data key="d5">BDL-CLE</data>
+  <data key="d6">412.4</data>
+</edge>
+<edge source="APN" target="PLN">
+  <data key="d5">PLN-APN</data>
+  <data key="d6">60.0</data>
+</edge>
+</graph></graphml>

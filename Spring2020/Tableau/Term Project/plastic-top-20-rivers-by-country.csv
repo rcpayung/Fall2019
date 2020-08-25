@@ -1,0 +1,27 @@
+Entity,Country,Year,Plastic mass input from rivers (tonnes),River
+Brantas (Indonesia),Indonesia,2015,38900,Brantas
+"Cross (Nigeria, Cameroon)",Nigeria,2015,40300,Cross
+Dong (China),China,2015,19100,Dong
+"Ganges (India, Bangladesh)",India,2015,115000,Ganges
+Hanjiang (China),China,2015,12900,Hanjiang
+Huangpu (China),China,2015,40800,Huangpu
+Imo (Nigeria),Nigeria,2015,21500,Imo
+Irrawaddy (Myanmar),Myanmar,2015,35300,Irrawaddy
+Kwa Ibo (Nigeria),Ibo,2015,11900,Kwa Ibo
+Magdalena (Colombia),Colombia,2015,16700,Magdalena
+"Mekong (Thailand, Cambodia, Laos, China, Myanmar, Vietnam)",Thailand,2015,22800,Mekong
+Pasig (Philippines),Philippines,2015,38800,Pasig
+Progo (Indonesia),Indonesia,2015,12800,Progo
+Serayu (Indonesia),Indonesia,2015,17100,Serayu
+Solo (Indonesia),Indonesia,2015,32500,Solo
+Tamsui (Taiwan),Taiwan,2015,14700,Tamsui
+Xi (China),China,2015,73900,Xi
+Yangtze (China),China,2015,333000,Yangtze
+Zhujiang (China),China,2015,13600,Zhujiang
+Africa,,2015,109200,
+Asia,,2015,1210000,
+Australia,,2015,300,
+Europe,,2015,3900,
+North America,,2015,13400,
+South America,,2015,67400,
+"Amazon (Brazil, Peru, Colombia, Ecuador)",Brazil,2015,38900,Amazon

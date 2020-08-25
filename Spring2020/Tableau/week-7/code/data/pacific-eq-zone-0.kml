@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>japan-0</name>
+	<gx:CascadingStyle kml:id="__managed_style_189F6BF97B1219F4A1C4">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2B1C4F8F131219F4A1C4">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0D79DBF60B1219F4A1C4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_189F6BF97B1219F4A1C4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2B1C4F8F131219F4A1C4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0552FABCE21219F4A1C4">
+		<name>pacific-eq-zone-0</name>
+		<LookAt>
+			<longitude>131.6697208765368</longitude>
+			<latitude>30.8042337829558</latitude>
+			<altitude>-3485.754208631239</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>11357198.15390468</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0D79DBF60B1219F4A1C4</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						121.9012846665862,24.97529917103804,-3446.358586134334 139.7423405501456,9.939909522713036,-5108.967817073097 148.6093932872918,12.28044207600026,-5778.256836455028 148.5293482851509,21.41250137563532,-7404.126419742234 144.806701847349,25.01385967350711,-7134.416697504942 142.8768683961456,34.42460959466016,-3393.376170299586 145.6856108961606,40.58956636047362,-4306.641708802139 155.0088663602783,45.6382955360437,-6184.350732514458 140.3488204714608,45.78568517847652,-4679.22281418399 121.9012846665862,24.97529917103804,-3446.358586134334 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

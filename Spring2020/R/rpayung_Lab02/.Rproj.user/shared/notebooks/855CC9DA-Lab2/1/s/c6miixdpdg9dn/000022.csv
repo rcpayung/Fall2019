@@ -1,0 +1,6 @@
+"0","numNA <-  sum(is.na(data$year))"
+"0","head(numNA)"
+"1","[1]"
+"1"," 371"
+"1","
+"

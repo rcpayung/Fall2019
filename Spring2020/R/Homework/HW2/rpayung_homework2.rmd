@@ -1,0 +1,115 @@
+---
+title: "Homework 2"
+author: "Riley Payung"
+date: "4/14/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(stringr)
+```
+
+### Excercise 2.1
+
+- The Online Shop/Amazon could be modeled with the frequent itemsets being a part of the same category. Say we were to buy a computer, we would likely also want to buy software or bundles that go along with the computer; both of these are part of a similar or the same category, but part of separate sub-categories, conveniently named 'Computers'. Say we were to buy a software for drawing/painting/editing, we would likely want to be able to draw directly onto the computer monitor we have or on a tablet, and would likely find ourselves getting recommendations for drawing tablets with pressure-based styluses or computer monitors with touch screen and stylus integration. Our transaction would be simply buying the items on this online shop. Our rules would be associating buying a certain computer software with a piece of computer hardware; displaying that these products are frequently bought together or frequently recommended to a user.
+
+- A Univeristy Library could be modeled based on the genre of books that a student is checking out. We can associate that the student will check out more action books simply because they have chose action frequently in the past. Our frequent itemset would in fact be the genre of the book and we could find association rules based on that frequent check out. Books with multiple genres could also be associated with a certain genre, say {action,horror} or {action,romance}, etc. The transaction would be when a student checks out the book.
+
+- A restaurant could be modeled based on which appetizers that customers choose and which entree they choose because of the appetizer; it is worth noting here that many of the transactions in this could just be coincidence, or there may not be any association at all. The transactions would be customers choosing certain foods and recieving such foods. A common association could be that the customer ordered an appetizer of 'Bang Bang Shrimp,' a spicy, savory appetizer, and then later order an entry that is either not spicy or is spicy, similar to the 'Bang Bang Shrimp,' simply because they liked the appetizer or did not. Another association could be that a certain entrees cause customers to want certain deserts.
+
+- Twitter could be modeled based on the following of hashtags or users, or the type of tweet that a user creates based on worldly events happening at the time. An example would be COVID-19; we can associate that since there is a large coverage of news on the pandemic, that many tweets are going to be associated with COVID-19. Another association is if a celebrity tweets with a certain hashtag, we may see that others will follow and share a tweet with the same hashtag; this leads us to believe that many of the posts that contain the hashtag will be grouped (itemsets), and can be associated with each other. The transaction in this case would be tweeting.
+
+### Exercise 2.2
+
+1. The naïve approach loops through all possible itemsets any time we want information from it, making it completely inefficient; therefore we needed a much quicker alternative, which APRIORI provides. APRIORI is tree-based so we only need to go through the entire database once to add the 1-itemsets, and then the tree gets pruned when the support for the itemsets drops below the min_support threshold. After the tree is pruned, the algorithm becomes far more efficient in determining the association rules.
+
+2. Keeping items in a lexicographical order allows us to lower the number of times that we go through a tree and allows us to maintain organization in our apriori tree. Keeping things in order makes it much easier to read.
+
+3. Apriori scans the database initially once, and multiple scans must be made in order to generate k-itemsets.
+
+4. Closed Frequent Itemsets are itemsets whose support does not equal any of the supersets, as in there is no superset that matches the exact support of the itemset.
+
+5. Maximal Frequent Itemsets have no superset. A good example of this would be all of the 1-itemsets, since they are essentially the roots of the tree.
+
+### Exercise 3.2
+
+#### DATA CLEANUP
+```{r}
+  # load the transaction data.
+  transactions <- read.csv(file='transactiondatabase.csv');
+  
+  # select just the itemsets for mining.
+  itemsets <- transactions %>%
+    select(items);
+  # split itemsets into individual items for the apriori algorithm. Only consider distinct (letters in this case) items.
+  items <- data.frame(item = as.character())
+  for (i in itemsets$items) {
+    curitemset <- as.data.frame(strsplit(i,""), col.names = c('item'));
+    items <- rbind(curitemset, items);
+    
+  }
+
+  frequency <- items %>% group_by(item) %>% count(item);
+  frequency <- frequency %>% summarise(count = n,support = (n / nrow(transactions)))
+
+  # sort items lexicographically and select distinct values
+  items <- items %>% distinct(item)
+  items <- arrange(items, as.character(item))
+  frequency <- arrange(frequency, as.character(item))
+```
+
+#### Metrics
+```{r}
+  ntransactions = nrow(transactions);
+  min_support <- .30;
+  min_records <- ceiling(min_support * ntransactions);
+  # since support is 30%, we want the minimum number of records to be a set number greater than 30%. In this case the minimum records needed is 4.
+  k = nrow(items);
+  # number of items for size k-itemsets.
+
+
+```
+
+#### Frequency tree creation
+
+```{r}
+  # since we know that the min_support is 0.30, we need to prune the initial data set.
+  frequency <- frequency %>% filter(support > 0.30);
+  print(frequency)
+```
+
+
+This was pruned with the database support count.
+
+```{r}
+  frequencyDoubleCandidates = data.frame(item = as.character(), count = as.numeric());
+  for (i in frequency$item) {
+    for (j in frequency$item) {
+      if (i != j && !(paste(j,i,sep="") %in% frequencyDoubleCandidates$item)) {
+        ite <- data.frame(item = paste(i,j,sep=""), c = 0);
+        frequencyDoubleCandidates <- rbind(frequencyDoubleCandidates,ite);
+      }
+    }
+  }
+  q <- 0;
+  vec <- c();
+  for (i in frequencyDoubleCandidates$item) {
+    for (j in transactions$items) {
+      if (str_detect(j,i,negate=FALSE)) {
+        q = q + 1;
+      }
+    }
+    vec <- c(vec,q);
+    q = 0;
+  }
+
+  frequencyDoubleCandidates$c = vec;
+  frequencyDoubleCandidates <- frequencyDoubleCandidates %>% mutate(support = (c / nrow(transactions)))
+  # prune data set.
+  frequencyDouble <- frequencyDoubleCandidates %>% filter(support > min_support);
+  print(frequencyDouble);
+```

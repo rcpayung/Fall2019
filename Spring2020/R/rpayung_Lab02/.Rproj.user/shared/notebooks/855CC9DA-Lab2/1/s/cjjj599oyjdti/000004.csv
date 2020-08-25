@@ -1,0 +1,3 @@
+"0","filteredData <- data %>%"
+"0","  filter(year != is.na(1),year != 1059)"
+"0","head(filteredData)"

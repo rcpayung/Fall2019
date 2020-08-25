@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586221369039.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "FC4DAC89",
+    "lastKnownWriteTime" : 12948342856941678,
+    "last_content_update" : 1586221369039,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "be6f412990d24c3f8d8b8f64f29288c7",
+        "name" : "Groceries",
+        "title" : "Groceries"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

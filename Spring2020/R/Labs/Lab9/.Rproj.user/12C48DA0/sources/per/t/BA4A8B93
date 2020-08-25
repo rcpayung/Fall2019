@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586220980048.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1957393561",
+    "id" : "BA4A8B93",
+    "lastKnownWriteTime" : 1586223987,
+    "last_content_update" : 1586223987273,
+    "path" : "~/College/Spring 2020/CDS 303/Labs/Lab9/Lab9 (1).R",
+    "project_path" : "Lab9 (1).R",
+    "properties" : {
+        "cursorPosition" : "15,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
