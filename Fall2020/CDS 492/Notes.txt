@@ -1,0 +1,18 @@
+API's for possible use with prices and language:
+
+
+EOD Historical Data (Currently the winner) -
+	Uses Python - Uses Pandas and can easily be implemented with DASH.
+	$15/month
+	100k api calls per day.
+	Access to 40 years of historical data
+MarketStack -
+	Uses Python
+	FREE
+	1000 calls per month.
+Finnhub -
+	Uses Python
+	FREE
+	60 api calls per day.
+
+Going to use Python - DASH, PANDAS, API Calls from EOD Historical data. Going to use AWS for the full finished product.
